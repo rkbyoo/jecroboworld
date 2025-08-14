@@ -31,7 +31,7 @@ const Header = () => {
               <Bot className="h-6 w-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-bold text-secondary-foreground">
-              JEC RoboWorld
+              JEC ROBOWORLD
             </span>
           </Link>
 

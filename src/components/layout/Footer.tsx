@@ -27,12 +27,12 @@ const Footer = () => {
               <span className="text-xl font-bold">JEC RoboWorld</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
-              Pioneering the future of robotics through innovation, education, and competitive excellence at Jalpaiguri Government Engineering College.
+              Pioneering the future of robotics through innovation, education, and competitive excellence at Jorhat Engineering College.
             </p>
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span>Jalpaiguri Government Engineering College</span>
+                <span>Jorhat Engineering College</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
