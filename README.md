@@ -78,7 +78,7 @@ src/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd jec-roboworld
+   cd jecroboworld
    ```
 
 2. **Install dependencies**
@@ -92,7 +92,7 @@ src/
    ```
 
 4. **Open your browser**
-   Navigate to `http://localhost:5173` to view the website
+   Navigate to `http://localhost:8080/` to view the website
 
 ### Available Scripts
 
