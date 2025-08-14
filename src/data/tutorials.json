@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "topic": "Introduction to Arduino Programming",
+    "description": "Learn the basics of Arduino programming for robotics applications with step-by-step tutorials.",
+    "readMoreLink": "https://docs.arduino.cc/tutorials/"
+  },
+  {
+    "id": 2,
+    "topic": "Robot Kinematics and Control",
+    "description": "Understanding forward and inverse kinematics for robotic arm control and navigation systems.",
+    "readMoreLink": "https://robotics.org/kinematics-guide"
+  },
+  {
+    "id": 3,
+    "topic": "Computer Vision for Robotics",
+    "description": "Implementing object detection and tracking using OpenCV and machine learning algorithms.",
+    "readMoreLink": "https://opencv.org/robotics-tutorials"
+  }
+]

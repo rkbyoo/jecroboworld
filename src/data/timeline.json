@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "year": "2024",
+    "eventName": "RoboSoccer Championship",
+    "description": "Launched our biggest robotics soccer tournament with 50+ teams participating from across the country.",
+    "photo": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=400&fit=crop"
+  },
+  {
+    "id": 2,
+    "year": "2023",
+    "eventName": "Innovation Showcase",
+    "description": "Annual exhibition showcasing breakthrough student projects in AI and autonomous robotics.",
+    "photo": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop"
+  },
+  {
+    "id": 3,
+    "year": "2022",
+    "eventName": "RoboRace Grand Prix",
+    "description": "High-speed autonomous vehicle racing competition with complex obstacle navigation challenges.",
+    "photo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+  },
+  {
+    "id": 4,
+    "year": "2021",
+    "eventName": "Tech Workshop Series",
+    "description": "Comprehensive robotics education program covering embedded systems and AI programming.",
+    "photo": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop"
+  }
+]

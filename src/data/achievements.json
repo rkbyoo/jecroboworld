@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "eventName": "National Robotics Championship",
+    "location": "IIT Delhi, New Delhi",
+    "position": "1st",
+    "year": "2023",
+    "description": "Winner of the autonomous navigation challenge"
+  },
+  {
+    "id": 2,
+    "eventName": "Techfest Robot Wars",
+    "location": "IIT Bombay, Mumbai",
+    "position": "2nd",
+    "year": "2023",
+    "description": "Runner-up in combat robotics category"
+  },
+  {
+    "id": 3,
+    "eventName": "RoboSoccer International",
+    "location": "NIT Warangal, Telangana",
+    "position": "3rd",
+    "year": "2022",
+    "description": "Bronze medal in autonomous soccer tournament"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "teamName": "Alpha Bots",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=300&fit=crop&crop=center",
+    "description": "Specializing in autonomous navigation and AI-powered robotics solutions for complex environments."
+  },
+  {
+    "id": 2,
+    "teamName": "Mecha Titans",
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=300&fit=crop&crop=center",
+    "description": "Expert builders of heavy-duty robots for industrial applications and competitive robotics."
+  },
+  {
+    "id": 3,
+    "teamName": "Circuit Wizards",
+    "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=400&h=300&fit=crop&crop=center",
+    "description": "Masters of embedded systems and electronic circuit design for next-generation robots."
+  }
+]

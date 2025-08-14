@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "TechCorp Industries",
+    "logo": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=100&fit=crop&crop=center",
+    "website": "https://techcorp.com"
+  },
+  {
+    "id": 2,
+    "name": "RoboTech Solutions",
+    "logo": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=200&h=100&fit=crop&crop=center",
+    "website": "https://robotech.com"
+  },
+  {
+    "id": 3,
+    "name": "Innovation Labs",
+    "logo": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=200&h=100&fit=crop&crop=center",
+    "website": "https://innovationlabs.com"
+  },
+  {
+    "id": 4,
+    "name": "Future Dynamics",
+    "logo": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=200&h=100&fit=crop&crop=center",
+    "website": "https://futuredynamics.com"
+  }
+]

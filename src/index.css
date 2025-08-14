@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* RoboWorld Design System - Yellow, Black, Grey, White Theme */
+
+@layer base {
+  :root {
+    /* Primary brand colors */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 8%;
+    
+    /* Robotics yellow accent */
+    --primary: 48 100% 50%;
+    --primary-foreground: 0 0% 8%;
+    --primary-glow: 48 100% 65%;
+    
+    /* Secondary dark theme */
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 95%;
+    
+    /* Grey variations */
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 40%;
+    --muted-dark: 0 0% 25%;
+    
+    /* Tech accent colors */
+    --accent: 48 100% 50%;
+    --accent-foreground: 0 0% 8%;
+    --accent-dark: 48 90% 45%;
+    
+    /* Card backgrounds */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 8%;
+    --card-dark: 0 0% 12%;
+    --card-dark-foreground: 0 0% 95%;
+    
+    /* Interactive elements */
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 8%;
+    
+    --border: 0 0% 88%;
+    --border-dark: 0 0% 20%;
+    --input: 0 0% 94%;
+    --input-dark: 0 0% 18%;
+    --ring: 48 100% 50%;
+    
+    /* Status colors */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(48 100% 50%), hsl(48 100% 65%));
+    --gradient-dark: linear-gradient(135deg, hsl(0 0% 8%), hsl(0 0% 15%));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 8%) 0%, hsl(0 0% 15%) 50%, hsl(48 100% 50% / 0.1) 100%);
+    
+    /* Shadows */
+    --shadow-glow: 0 0 40px hsl(48 100% 50% / 0.3);
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.1);
+    --shadow-dark: 0 4px 20px hsl(0 0% 0% / 0.3);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+/* Custom animations for robotics theme */
+@layer utilities {
+  .glow-yellow {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-dark {
+    background: var(--gradient-dark);
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-slide-right {
+    animation: slideRight 20s linear infinite;
+  }
+  
+  .hover-glow {
+    transition: all 0.3s ease;
+  }
+  
+  .hover-glow:hover {
+    transform: scale(1.02);
+    background-color: hsl(var(--primary) / 0.05);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes slideRight {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100vw); }
+}

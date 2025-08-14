@@ -1,0 +1,18 @@
+{
+  "design": [
+    { "name": "CATIA", "description": "Advanced 3D CAD design software" },
+    { "name": "AutoCAD", "description": "Professional 2D and 3D CAD software" },
+    { "name": "SolidWorks", "description": "3D mechanical design and simulation" },
+    { "name": "Fritzing", "description": "Electronic circuit design and prototyping" },
+    { "name": "Fusion 360", "description": "Cloud-based 3D CAD and CAM software" }
+  ],
+  "simulation": [
+    { "name": "Ansys", "description": "Engineering simulation software" },
+    { "name": "Creo", "description": "3D CAD software with simulation capabilities" },
+    { "name": "COMSOL Multiphysics", "description": "Advanced numerical simulation software" }
+  ],
+  "advanced": [
+    { "name": "MATLAB", "description": "Technical computing and algorithm development" },
+    { "name": "ROS", "description": "Robot Operating System framework" }
+  ]
+}

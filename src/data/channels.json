@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "channelName": "RoboticsWorld",
+    "ownerName": "Prof. John Smith",
+    "embedLink": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "channelLink": "https://youtube.com/@roboticsworld"
+  },
+  {
+    "id": 2,
+    "channelName": "TechRobotics",
+    "ownerName": "Dr. Sarah Johnson",
+    "embedLink": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "channelLink": "https://youtube.com/@techrobotics"
+  }
+]
