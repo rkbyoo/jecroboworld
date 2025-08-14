@@ -26,12 +26,12 @@ const Hero = () => {
               <Cog className="h-16 w-16 text-primary-foreground animate-spin" style={{ animationDuration: '8s' }} />
             </div>
           </div>
-          
+
           <h1 className="text-6xl md:text-8xl font-bold mb-6">
             <span className="text-secondary-foreground">JEC</span>
-            <span className="text-primary ml-4">RoboWorld</span>
+            <span className="text-primary ml-4">ROBOWORLD</span>
           </h1>
-          
+
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
             Pioneering the future of robotics through innovation, education, and competitive excellence.
           </p>
@@ -44,7 +44,7 @@ const Hero = () => {
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
-              <Link to="/team">
+              <Link to="/team" className='text-black'>
                 Meet Our Team
               </Link>
             </Button>
