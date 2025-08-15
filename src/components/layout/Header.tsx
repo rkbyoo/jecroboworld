@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Bot } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import logoMini from '@/assets/logo/logo_mini.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,8 +28,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover-glow">
-            <div className="p-2 rounded-lg gradient-primary">
-              <Bot className="h-6 w-6 text-primary-foreground" />
+            <div className="p-2">
+              <img src={logoMini} alt="RoboWorld Club" className="h-10 w-10" />
             </div>
             <span className="text-xl font-bold text-secondary-foreground">
               JEC ROBOWORLD
@@ -41,11 +42,10 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                  isActive(item.path)
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive(item.path)
                     ? 'bg-primary text-primary-foreground'
                     : 'text-secondary-foreground hover:bg-primary/10 hover:text-primary'
-                }`}
+                  }`}
               >
                 {item.name}
               </Link>
@@ -71,11 +71,10 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.path}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${
-                    isActive(item.path)
+                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${isActive(item.path)
                       ? 'bg-primary text-primary-foreground'
                       : 'text-secondary-foreground hover:bg-primary/10 hover:text-primary'
-                  }`}
+                    }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
