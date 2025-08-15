@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Bot, Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import logoMini from '../../assets/logo/logo_mini.png';
 
 const Footer = () => {
   const navItems = [
@@ -21,13 +22,13 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="p-2 rounded-lg gradient-primary">
-                <Bot className="h-6 w-6 text-primary-foreground" />
+              <div className="p-2 rounded-lg bg-background/10">
+                <img src={logoMini} alt="JEC RoboWorld Logo" className="h-10 w-10" />
               </div>
               <span className="text-xl font-bold">JEC RoboWorld</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
-              Pioneering the future of robotics through innovation, education, and competitive excellence at Jorhat Engineering College.
+              Pioneering the future of robotics through innovation, education, and competitive excellence.
             </p>
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center">

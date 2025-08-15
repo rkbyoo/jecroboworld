@@ -1,22 +1,11 @@
-import { ArrowRight, Cog, Zap, Settings } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-hero">
-      {/* Animated background elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-10 animate-float">
-          <Cog className="h-8 w-8 text-primary/30" />
-        </div>
-        <div className="absolute top-40 right-20 animate-float" style={{ animationDelay: '1s' }}>
-          <Zap className="h-6 w-6 text-primary/20" />
-        </div>
-        <div className="absolute bottom-40 left-20 animate-float" style={{ animationDelay: '2s' }}>
-          <Settings className="h-10 w-10 text-primary/25" />
-        </div>
-      </div>
+
 
       {/* Split Layout: Text on Left, Organic-Shaped 3D Model on Right */}
       <div className="relative z-10 w-full h-screen flex items-center">
