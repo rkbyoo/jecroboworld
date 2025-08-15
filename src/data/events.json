@@ -6,7 +6,7 @@
     "description": "Annual robotics soccer tournament featuring autonomous robots competing in strategic gameplay.",
     "joiningUrl": "https://forms.google.com/robotsoccer2024",
     "date": "2024-03-15",
-    "status": "upcoming"
+    "status": "ongoing"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "High-speed racing competition for autonomous vehicles navigating complex obstacle courses.",
     "joiningUrl": "https://forms.google.com/roborace2024",
     "date": "2024-04-20",
-    "status": "upcoming"
+    "status": "ongoing"
   },
   {
     "id": 3,
@@ -25,5 +25,15 @@
     "joiningUrl": "#",
     "date": "2023-11-10",
     "status": "completed"
+  },
+  {
+    "id": 3,
+    "eventName": "Innovation Showcase 2023",
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=300&fit=crop&crop=center",
+    "description": "Annual exhibition showcasing student robotics projects and breakthrough innovations.",
+    "joiningUrl": "#",
+    "date": "2023-11-10",
+    "status": "ongoing"
   }
+  
 ]

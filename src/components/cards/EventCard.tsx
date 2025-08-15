@@ -21,11 +21,11 @@ const EventCard = ({ eventName, image, description, joiningUrl, date, status }: 
         />
         {status && (
           <div className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-medium ${
-            status === 'upcoming' 
+            status === 'ongoing' 
               ? 'bg-primary text-primary-foreground' 
               : 'bg-muted text-muted-foreground'
           }`}>
-            {status === 'upcoming' ? 'Upcoming' : 'Completed'}
+            {status === 'ongoing' ? 'Ongoing' : 'Completed'}
           </div>
         )}
       </div>
