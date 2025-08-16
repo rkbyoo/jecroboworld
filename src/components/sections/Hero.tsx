@@ -7,37 +7,36 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-hero">
 
 
-      {/* Split Layout: Text on Left, Organic-Shaped 3D Model on Right */}
+      {/* Centered Content Layout */}
       <div className="relative z-10 w-full h-screen flex items-center">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center h-full">
+          <div className="flex flex-col items-center justify-center text-center space-y-8 max-w-4xl mx-auto">
 
-            {/* Text Content - Left Side */}
-            <div className="text-left space-y-8 lg:pr-8">
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                <span className="text-secondary-foreground">JEC</span>
-                <span className="text-primary ml-4 block lg:inline">ROBOWORLD</span>
-              </h1>
+            {/* Main Heading */}
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
+              <span className="text-secondary-foreground">JEC</span>
+              <span className="text-primary ml-4">ROBOWORLD</span>
+            </h1>
 
-              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-lg">
-                Pioneering the future of robotics through innovation, education, and competitive excellence. Join us in building tomorrow's technology today.
-              </p>
+            {/* Description */}
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
+              Pioneering the future of robotics through innovation, education, and competitive excellence. Join us in building tomorrow's technology today.
+            </p>
 
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-all duration-300">
-                  <Link to="/events" className="flex items-center">
-                    Explore Events
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
-                <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 hover:scale-105 transition-all duration-300">
-                  <Link to="/team" className='text-black'>
-                    Meet Our Team
-                  </Link>
-                </Button>
-              </div>
+            {/* Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-all duration-300">
+                <Link to="/events" className="flex items-center">
+                  Explore Events
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
+              </Button>
+              <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 hover:scale-105 transition-all duration-300">
+                <Link to="/team" className='text-black'>
+                  Meet Our Team
+                </Link>
+              </Button>
             </div>
-
 
           </div>
         </div>

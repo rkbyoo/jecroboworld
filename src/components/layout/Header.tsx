@@ -43,8 +43,8 @@ const Header = () => {
                 key={item.name}
                 to={item.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive(item.path)
-                    ? 'bg-primary text-primary-foreground'
-                    : 'text-secondary-foreground hover:bg-primary/10 hover:text-primary'
+                  ? 'bg-primary text-primary-foreground'
+                  : 'text-secondary-foreground hover:bg-primary/10 hover:text-primary'
                   }`}
               >
                 {item.name}
@@ -72,8 +72,8 @@ const Header = () => {
                   key={item.name}
                   to={item.path}
                   className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${isActive(item.path)
-                      ? 'bg-primary text-primary-foreground'
-                      : 'text-secondary-foreground hover:bg-primary/10 hover:text-primary'
+                    ? 'bg-primary text-primary-foreground'
+                    : 'text-secondary-foreground hover:bg-primary/10 hover:text-primary'
                     }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
