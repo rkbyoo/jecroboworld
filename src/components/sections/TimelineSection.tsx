@@ -95,8 +95,8 @@ const TimelineSection = ({
                     {index % 2 === 0 && (
                       <>
                         {/* Date badge */}
-                        <div className="mb-6">
-                          <div className={`${getDateColor(index)} text-white px-10 py-5 rounded-full text-center font-bold relative shadow-lg`}>
+                        <div className="mb-6 w-full max-w-lg">
+                          <div className={`${getDateColor(index)} text-white px-6 py-5 rounded-full text-center font-bold relative shadow-lg w-full`}>
                             <div className="text-xl font-semibold whitespace-nowrap">
                               {getDateMonth(index)} {event.year}
                             </div>
@@ -139,8 +139,8 @@ const TimelineSection = ({
                     {index % 2 === 1 && (
                       <>
                         {/* Date badge */}
-                        <div className="mb-6">
-                          <div className={`${getDateColor(index)} text-white px-10 py-5 rounded-full text-center font-bold relative shadow-lg`}>
+                        <div className="mb-6 w-full max-w-lg">
+                          <div className={`${getDateColor(index)} text-white px-6 py-5 rounded-full text-center font-bold relative shadow-lg w-full`}>
                             <div className="text-xl font-semibold whitespace-nowrap">
                               {getDateMonth(index)} {event.year}
                             </div>
@@ -186,7 +186,7 @@ const TimelineSection = ({
           {events.map((event, index) => (
             <div key={`mobile-${event.id}`} className="relative mb-6 md:hidden">
               <div className="mb-6 text-center">
-                <div className={`${getDateColor(index)} text-white px-8 py-4 rounded-full inline-block font-bold shadow-lg`}>
+                <div className={`${getDateColor(index)} text-white px-12 py-4 rounded-full inline-block font-bold shadow-lg`}>
                   <div className="text-xl font-semibold">
                     {getDateMonth(index)} {event.year}
                   </div>
