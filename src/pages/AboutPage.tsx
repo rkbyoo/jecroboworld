@@ -33,33 +33,38 @@ const AboutPage = () => {
         </div>
 
         {/* History Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="space-y-6">
+        <div className="mb-16">
+          <div className="max-w-4xl mx-auto space-y-8">
             {aboutData.history.map((paragraph, index) => (
-              <p key={index} className="text-lg leading-relaxed text-foreground">
+              <p key={index} className="text-lg leading-relaxed text-foreground text-center">
                 {paragraph}
               </p>
             ))}
           </div>
-          <div className="space-y-6">
+        </div>
+
+        {/* Images Gallery */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-center text-foreground mb-12">Our Journey</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {aboutData.images.map((image, index) => (
               <div
                 key={index}
-                className="group relative overflow-hidden rounded-xl bg-card border border-border hover-glow transition-all duration-300"
+                className="group relative overflow-hidden rounded-2xl bg-card border border-border hover-glow transition-all duration-300 shadow-lg hover:shadow-2xl"
               >
-                <div className="aspect-video overflow-hidden">
+                <div className="aspect-[4/3] overflow-hidden">
                   <img
                     src={image.url}
                     alt={image.caption}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
-                <div className="p-4">
-                  <p className="text-card-foreground font-medium text-center">
+                <div className="p-6">
+                  <p className="text-card-foreground font-medium text-center text-lg">
                     {image.caption}
                   </p>
                 </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
             ))}
           </div>
