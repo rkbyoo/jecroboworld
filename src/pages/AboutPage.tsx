@@ -36,7 +36,7 @@ const AboutPage = () => {
         <div className="mb-16">
           <div className="max-w-4xl mx-auto space-y-8">
             {aboutData.history.map((paragraph, index) => (
-              <p key={index} className="text-lg leading-relaxed text-foreground text-center">
+              <p key={index} className="text-lg leading-relaxed text-foreground text-justify">
                 {paragraph}
               </p>
             ))}
