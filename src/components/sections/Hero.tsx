@@ -25,14 +25,14 @@ const Hero = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground hover:scale-105 transition-all duration-300">
-                <Link to="/events" className="flex items-center">
+              <Button asChild size="lg" className="bg-black/40 hover:bg-black/60 text-white hover:scale-105 transition-all duration-300">
+                <Link to="/events" className="flex items-center cursor-pointer">
                   Explore Events
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10 hover:scale-105 transition-all duration-300">
-                <Link to="/team" className='text-black'>
+              <Button asChild size="lg" className="bg-black/40 hover:bg-black/60 text-white hover:scale-105 transition-all duration-300">
+                <Link to="/team" className="cursor-pointer">
                   Meet Our Team
                 </Link>
               </Button>

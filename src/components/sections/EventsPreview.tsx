@@ -33,8 +33,8 @@ const EventsPreview = () => {
           <p className="text-xl text-secondary-foreground/80 max-w-2xl mx-auto mb-8">
             Experience the thrill of competitive robotics through our exciting events
           </p>
-          <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            <Link to="/events" className="flex items-center">
+          <Button asChild>
+            <Link to="/events" className="flex items-center cursor-pointer">
               View All Events
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
