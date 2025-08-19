@@ -41,10 +41,10 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive(item.path)
-                  ? 'bg-primary text-primary-foreground'
-                  : 'text-secondary-foreground hover:bg-primary/10 hover:text-primary'
-                  }`}
+                className={`px-3 py-2 text-sm font-medium transition-all duration-300 relative will-change-transform backface-visibility-hidden transform-gpu ${isActive(item.path)
+                  ? 'text-secondary-foreground scale-110'
+                  : 'text-secondary-foreground/80 hover:text-secondary-foreground hover:scale-105'
+                  } ${isActive(item.path) ? 'after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary after:rounded-full' : ''}`}
               >
                 {item.name}
               </Link>
@@ -70,9 +70,9 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.path}
-                  className={`block px-3 py-2 rounded-md text-base font-medium transition-colors ${isActive(item.path)
-                    ? 'bg-primary text-primary-foreground'
-                    : 'text-secondary-foreground hover:bg-primary/10 hover:text-primary'
+                  className={`block px-3 py-2 text-base font-medium transition-all duration-300 relative will-change-transform backface-visibility-hidden transform-gpu ${isActive(item.path)
+                    ? 'text-secondary-foreground scale-105 after:absolute after:bottom-0 after:left-3 after:right-3 after:h-0.5 after:bg-primary after:rounded-full'
+                    : 'text-secondary-foreground/80 hover:text-secondary-foreground hover:scale-105'
                     }`}
                   onClick={() => setIsMenuOpen(false)}
                 >
