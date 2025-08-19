@@ -7,11 +7,11 @@
   ],
   "images": [
     {
-      "url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop",
+      "url": "/assets/timeline/hobby_center.jpg",
       "caption": "RoboWorld lab and workspace"
     },
     {
-      "url": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop",
+      "url": "/assets/timeline/engineers_day.jpg",
       "caption": "Annual club gathering and project showcase"
     }
   ]

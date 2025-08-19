@@ -4,27 +4,27 @@
     "year": "2019",
     "eventName": "Technovus",
     "description": "Technovus is the technical fest competition of Jorhat Engineering college. It is Organised for the first time in the college. Jec Roboworld organised 10 competitions in this technical fest",
-    "photo": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&h=400&fit=crop"
+    "photo": "/assets/timeline/techfest.jpg"
   },
   {
     "id": 2,
     "year": "2019",
     "eventName": "Phoenix",
     "description": "Jec Roboworld, along with Phoenix coordinators, organised technosphere'19. This year, students from all over NE participated in 6 different events",
-    "photo": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop"
+    "photo": "/assets/timeline/technosphere_19.jpg"
   },
   {
     "id": 3,
     "year": "2019",
     "eventName": "Smart India Hackathon",
     "description": "JEC Roboworld participated in Smart India Hackathon 2019, showcasing innovative solutions and technical expertise in national level competition.",
-    "photo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop"
+    "photo": "/assets/timeline/sih.jpg"
   },
   {
     "id": 4,
     "year": "2020",
     "eventName": "Tech Workshop Series",
     "description": "Comprehensive robotics education program covering embedded systems and AI programming during the pandemic period.",
-    "photo": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop"
+    "photo": "/assets/timeline/drone_workshop.jpg"
   }
 ]

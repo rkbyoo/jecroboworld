@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import logoMini from '@/assets/logo/logo_mini.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -29,7 +28,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover-glow">
             <div className="p-2">
-              <img src={logoMini} alt="RoboWorld Club" className="h-10 w-10" />
+              <img src="/assets/logo/logo_mini.png" alt="RoboWorld Club" className="h-10 w-10" />
             </div>
             <span className="text-xl font-bold text-secondary-foreground">
               JEC ROBOWORLD

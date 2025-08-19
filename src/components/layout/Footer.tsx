@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import logoMini from '../../assets/logo/logo_mini.png';
 
 const Footer = () => {
   const navItems = [
@@ -23,7 +22,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="p-2 rounded-lg bg-background/10">
-                <img src={logoMini} alt="JEC RoboWorld Logo" className="h-10 w-10" />
+                <img src="/assets/logo/logo_mini.png" alt="JEC RoboWorld Logo" className="h-10 w-10" />
               </div>
               <span className="text-xl font-bold">JEC RoboWorld</span>
             </div>

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "eventName": "RoboSoccer Championship",
-    "image": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=300&fit=crop&crop=center",
+    "image": "/assets/event/techno.jpg",
     "description": "Annual robotics soccer tournament featuring autonomous robots competing in strategic gameplay.",
     "joiningUrl": "https://forms.google.com/robotsoccer2024",
     "date": "2024-03-15",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "eventName": "RoboRace Grand Prix",
-    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&crop=center",
+    "image": "/assets/event/Aero work (1).jpg",
     "description": "High-speed racing competition for autonomous vehicles navigating complex obstacle courses.",
     "joiningUrl": "https://forms.google.com/roborace2024",
     "date": "2024-04-20",
@@ -20,16 +20,16 @@
   {
     "id": 3,
     "eventName": "Innovation Showcase 2023",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=300&fit=crop&crop=center",
+    "image": "/assets/event/wp3174289.webp",
     "description": "Annual exhibition showcasing student robotics projects and breakthrough innovations.",
     "joiningUrl": "#",
     "date": "2023-11-10",
     "status": "completed"
   },
   {
-    "id": 3,
-    "eventName": "Innovation Showcase 2023",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=300&fit=crop&crop=center",
+    "id": 4,
+    "eventName": "Innovation Showcase 2024",
+    "image": "/assets/event/wp3174289.webp",
     "description": "Annual exhibition showcasing student robotics projects and breakthrough innovations.",
     "joiningUrl": "#",
     "date": "2023-11-10",

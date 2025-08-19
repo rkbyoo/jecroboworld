@@ -4,7 +4,7 @@
     "name": "Dr. Anil Sharma",
     "phone": "+91-9876543210",
     "email": "anil.sharma@techcorp.com",
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+    "image": "/assets/alumni/abdul_mazid.jpg",
     "batch": "2018",
     "currentPosition": "Senior Robotics Engineer at TechCorp"
   },
@@ -13,7 +13,7 @@
     "name": "Priya Verma",
     "phone": "+91-9876543211",
     "email": "priya.verma@innovationlabs.com",
-    "image": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
+    "image": "/assets/alumni/Dipti Paul.jpg",
     "batch": "2019",
     "currentPosition": "AI Research Lead at Innovation Labs"
   },
@@ -22,7 +22,7 @@
     "name": "Rahul Gupta",
     "phone": "+91-9876543212",
     "email": "rahul.gupta@robotech.com",
-    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+    "image": "/assets/alumni/ANJAN BORA.jpg",
     "batch": "2020",
     "currentPosition": "Founder & CEO at RoboTech Solutions"
   },
@@ -31,7 +31,7 @@
     "name": "Sneha Patel",
     "phone": "+91-9876543213",
     "email": "sneha.patel@futuredynamics.com",
-    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
+    "image": "/assets/alumni/namrata.jpg",
     "batch": "2021",
     "currentPosition": "Autonomous Systems Engineer"
   }
