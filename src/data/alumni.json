@@ -1,38 +1,299 @@
 [
   {
     "id": 1,
-    "name": "Dr. Anil Sharma",
-    "phone": "+91-9876543210",
-    "email": "anil.sharma@techcorp.com",
-    "image": "/assets/alumni/abdul_mazid.jpg",
-    "batch": "2018",
-    "currentPosition": "Senior Robotics Engineer at TechCorp"
+    "name": "Priyam Pratim Das",
+    "phone": "+91-9435716827",
+    "email": "das_priyam@ongc.co.in",
+    "image": "/assets/alumni/pinku das.jpeg",
+    "batch": "2007-2011",
+    "currentPosition": "Superintending Engineer (Production) at ONGC Ltd"
   },
   {
     "id": 2,
-    "name": "Priya Verma",
-    "phone": "+91-9876543211",
-    "email": "priya.verma@innovationlabs.com",
-    "image": "/assets/alumni/Dipti Paul.jpg",
-    "batch": "2019",
-    "currentPosition": "AI Research Lead at Innovation Labs"
+    "name": "Rubul Kalita",
+    "phone": "+91-9707413739",
+    "email": "rubulkjec07@gmail.com",
+    "image": "/assets/alumni/RUBUL KALITA.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Air Field Ground Lightning Specialist at Tata Power Strategic Engineering Division"
   },
   {
     "id": 3,
-    "name": "Rahul Gupta",
-    "phone": "+91-9876543212",
-    "email": "rahul.gupta@robotech.com",
-    "image": "/assets/alumni/ANJAN BORA.jpg",
-    "batch": "2020",
-    "currentPosition": "Founder & CEO at RoboTech Solutions"
+    "name": "Mohi Uddin Tapadar",
+    "phone": "+91-9101128077",
+    "email": "mohiuddin06@gmail.com",
+    "image": "/assets/alumni/Mohi Uddin.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Worked in the Hydro Power Generation"
   },
   {
     "id": 4,
-    "name": "Sneha Patel",
-    "phone": "+91-9876543213",
-    "email": "sneha.patel@futuredynamics.com",
+    "name": "Samarjyoti Deka",
+    "phone": "+91-9706088909",
+    "email": "sammech41@gmail.com",
+    "image": "/assets/alumni/Samarjyoti Deka.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Deputy Manager at Ashok Leyland Ltd"
+  },
+  {
+    "id": 5,
+    "name": "Dipti Paul",
+    "phone": "+91-9437157041",
+    "email": "diptipaul25@gmail.com",
+    "image": "/assets/alumni/Dipti Paul.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Manager at Hindustan Petroleum Corporation Ltd"
+  },
+  {
+    "id": 6,
+    "name": "Sevika Sarmah",
+    "phone": "+91-9435716807",
+    "email": "sevika.sarmah@gmail.com",
+    "image": "/assets/alumni/Sevika Sarmah.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Superintending Engineer (Production) at ONGC Ltd"
+  },
+  {
+    "id": 7,
+    "name": "Kausalayan Mutsuddi",
+    "phone": "+91-9954772233",
+    "email": "kausalayan@gmail.com",
+    "image": "/assets/alumni/Kausalayan Mutsuddi.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Superintending Engineer (Drilling) at ONGC Ltd"
+  },
+  {
+    "id": 8,
+    "name": "Monojit Goswami",
+    "phone": "",
+    "email": "coolmonjit@gmail.com",
+    "image": "/assets/alumni/Monjit.JPG",
+    "batch": "2007-2011",
+    "currentPosition": "Working in BMS System (Battery Management System) and CAN Communication (Intra Vehicle Community)"
+  },
+  {
+    "id": 9,
+    "name": "Zeenat Hazarika",
+    "phone": "+91-8867172976",
+    "email": "zeenathazarika@outlook.com",
+    "image": "/assets/alumni/Zeenat Hazarika.jpeg",
+    "batch": "2007-2011",
+    "currentPosition": "Software Developer/Assistant Manager in Genpact Digital-Analytics and Research"
+  },
+  {
+    "id": 10,
+    "name": "Shekhar Limbu",
+    "phone": "",
+    "email": "",
+    "image": "/assets/alumni/SHEKHAR LIMBU.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Currently Working in TCS"
+  },
+  {
+    "id": 11,
+    "name": "Rupam Sarmah",
+    "phone": "",
+    "email": "",
+    "image": "/assets/alumni/rupam_sarmah_2011.jpeg",
+    "batch": "2007-2011",
+    "currentPosition": "Currently Working in Capgemini"
+  },
+  {
+    "id": 12,
+    "name": "Abdul Mazid",
+    "phone": "",
+    "email": "",
+    "image": "/assets/alumni/abdul_mazid.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Operation Manager at iQuippo Services Ltd"
+  },
+  {
+    "id": 13,
+    "name": "Maharnab Bhattacharjya",
+    "phone": "+91-8879735864",
+    "email": "maharnabmaikon@gmail.com",
+    "image": "/assets/alumni/Maharnab Bhattacharjya.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Manager at Kotak Mahindra Bank"
+  },
+  {
+    "id": 14,
+    "name": "Wasim Kadrud Zaman",
+    "phone": "+91-9435716049",
+    "email": "wasimzaman.jec@gmail.com",
+    "image": "/assets/alumni/Wasim Kadrud Zaman.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Superintending Engineer (Drilling) at ONGC Ltd"
+  },
+  {
+    "id": 15,
+    "name": "Chintu Sharma",
+    "phone": "",
+    "email": "chintujec07@gmail.com",
+    "image": "/assets/alumni/Chintu_Sharma.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Student, Seeker and Learner"
+  },
+  {
+    "id": 16,
+    "name": "Bijumani Pathak",
+    "phone": "+91-8095445812",
+    "email": "bijumpathk@yahoo.co.in",
+    "image": "/assets/alumni/Bijumani Pathak.jpg",
+    "batch": "2008-2011",
+    "currentPosition": "Software Engineer at Flipkart Pvt Ltd"
+  },
+  {
+    "id": 17,
+    "name": "Jitu Talukdar",
+    "phone": "+91-8149231158",
+    "email": "jitutalukdar88@gmail.com",
+    "image": "/assets/alumni/jitu.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Data Specialist in Brillio Technologies Pvt Ltd"
+  },
+  {
+    "id": 18,
+    "name": "Paragjyoti Kalita",
+    "phone": "+91-9706979183",
+    "email": "paragjyotikalita@gmail.com",
+    "image": "/assets/alumni/para.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Deputy Manager at ADPCL"
+  },
+  {
+    "id": 19,
+    "name": "Pranjal Chakraborty",
+    "phone": "+91-7002614168",
+    "email": "pranjalchakra@gmail.com",
+    "image": "/assets/alumni/pranjal.jpg",
+    "batch": "2007-2011",
+    "currentPosition": "Superintending Engineer (Production) at ONGC Ltd"
+  },
+  {
+    "id": 20,
+    "name": "Tirthankar Kharghoria",
+    "phone": "",
+    "email": "",
+    "image": "/assets/alumni/tirthankar_kharghoria.jpg",
+    "batch": "2010-2014",
+    "currentPosition": "Executive Engineer (Production) at ONGC Ltd"
+  },
+  {
+    "id": 21,
+    "name": "Anjan Bora",
+    "phone": "+91-9706384599",
+    "email": "anjanbora99@yahoo.com",
+    "image": "/assets/alumni/ANJAN BORA.jpg",
+    "batch": "2013-2017",
+    "currentPosition": "Service Delivery Executive in Godrej and Boyce Mfg Co Ltd"
+  },
+  {
+    "id": 22,
+    "name": "Ankit Khound",
+    "phone": "",
+    "email": "",
+    "image": "/assets/alumni/ankit.jpg",
+    "batch": "2013-2017",
+    "currentPosition": ""
+  },
+  {
+    "id": 23,
+    "name": "Late Arnab Kishor Bordoloi",
+    "phone": "",
+    "email": "",
+    "image": "/assets/alumni/Arnab Bordoloi.jpeg",
+    "batch": "2014-2018",
+    "currentPosition": "Senior Electrical Engineer at OIL"
+  },
+  {
+    "id": 24,
+    "name": "Md Faheemul Islam",
+    "phone": "+91-9859312394",
+    "email": "faheemulofficial1995@gmail.com",
+    "image": "/assets/alumni/Faheemul Islam.jpg",
+    "batch": "2014-2018",
+    "currentPosition": "Technical Development Engineer at Aero360 Dronix Technologies Pvt Ltd"
+  },
+  {
+    "id": 25,
+    "name": "Dibyajyoti Chatterjee",
+    "phone": "+91-9957298640",
+    "email": "dibyajyoti.dc@gmail.com",
+    "image": "/assets/alumni/dibyajyoti.jpg",
+    "batch": "2016-2020",
+    "currentPosition": ""
+  },
+  {
+    "id": 26,
+    "name": "Digboloy Borah",
+    "phone": "+91-6002121008",
+    "email": "borahdigboloy@gmail.com",
+    "image": "/assets/alumni/digboloy.jpg",
+    "batch": "2016-2020",
+    "currentPosition": ""
+  },
+  {
+    "id": 27,
+    "name": "Pooja Rani Borah",
+    "phone": "+91-8812058804",
+    "email": "poojaraniborah@gmail.com",
+    "image": "/assets/alumni/pooja.jpg",
+    "batch": "2016-2020",
+    "currentPosition": ""
+  },
+  {
+    "id": 28,
+    "name": "Mayurdeep Pathak",
+    "phone": "+91-8812073271",
+    "email": "mayurdeeppathak@gmail.com",
+    "image": "/assets/alumni/mayurdeep.jpg",
+    "batch": "2016-2020",
+    "currentPosition": ""
+  },
+  {
+    "id": 29,
+    "name": "Rose Bori",
+    "phone": "+91-8753939711",
+    "email": "rossbori.jec@gmail.com",
+    "image": "/assets/alumni/ross.jpg",
+    "batch": "2016-2020",
+    "currentPosition": ""
+  },
+  {
+    "id": 30,
+    "name": "Anshuman Baruah",
+    "phone": "+91-8753994280",
+    "email": "anshumandadly@gmail.com",
+    "image": "/assets/alumni/anshuman.jpeg",
+    "batch": "2016-2020",
+    "currentPosition": ""
+  },
+  {
+    "id": 31,
+    "name": "Prastuti Deka",
+    "phone": "+91-8811900411",
+    "email": "prastutideka1997@gmail.com",
+    "image": "/assets/alumni/prastuti.jpg",
+    "batch": "2016-2020",
+    "currentPosition": ""
+  },
+  {
+    "id": 32,
+    "name": "Namrata Nayana Borah",
+    "phone": "+91-7086128873",
+    "email": "namratattb@gmail.com",
     "image": "/assets/alumni/namrata.jpg",
-    "batch": "2021",
-    "currentPosition": "Autonomous Systems Engineer"
+    "batch": "2016-2020",
+    "currentPosition": ""
+  },
+  {
+    "id": 33,
+    "name": "Priyanka Devi",
+    "phone": "+91-7086572951",
+    "email": "devipriyanka685@gmail.com",
+    "image": "/assets/alumni/preeyanka.jpg",
+    "batch": "2016-2020",
+    "currentPosition": ""
   }
 ]

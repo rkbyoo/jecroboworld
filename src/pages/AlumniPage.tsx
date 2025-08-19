@@ -7,6 +7,8 @@ interface Alumni {
   phone: string;
   email: string;
   image: string;
+  batch: string;
+  currentPosition: string;
 }
 
 const AlumniPage = () => {
@@ -38,6 +40,8 @@ const AlumniPage = () => {
               phone={person.phone}
               email={person.email}
               image={person.image}
+              batch={person.batch}
+              currentPosition={person.currentPosition}
             />
           ))}
         </div>

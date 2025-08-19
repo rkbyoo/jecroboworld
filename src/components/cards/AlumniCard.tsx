@@ -1,13 +1,15 @@
-import { Phone, Mail } from 'lucide-react';
+import { Phone, Mail, GraduationCap, Briefcase } from 'lucide-react';
 
 interface AlumniCardProps {
   name: string;
   phone: string;
   email: string;
   image: string;
+  batch: string;
+  currentPosition: string;
 }
 
-const AlumniCard = ({ name, phone, email, image }: AlumniCardProps) => {
+const AlumniCard = ({ name, phone, email, image, batch, currentPosition }: AlumniCardProps) => {
   return (
     <div className="group relative overflow-hidden rounded-xl bg-card border border-border hover:border-foreground/20 hover:shadow-lg transition-all duration-300">
       <div className="p-6 text-center">
@@ -18,23 +20,41 @@ const AlumniCard = ({ name, phone, email, image }: AlumniCardProps) => {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         </div>
-        <h3 className="text-xl font-bold text-card-foreground mb-4 group-hover:text-foreground transition-colors">
+        <h3 className="text-xl font-bold text-card-foreground mb-2 group-hover:text-foreground transition-colors">
           {name}
         </h3>
 
+        {/* Batch */}
+        <div className="flex items-center justify-center text-muted-foreground mb-3">
+          <GraduationCap className="h-4 w-4 mr-2 flex-shrink-0" />
+          <span className="text-sm font-medium">{batch}</span>
+        </div>
+
+        {/* Current Position */}
+        {currentPosition && (
+          <div className="flex items-start justify-center text-muted-foreground mb-4">
+            <Briefcase className="h-4 w-4 mr-2 flex-shrink-0 mt-0.5" />
+            <span className="text-sm text-center leading-relaxed">{currentPosition}</span>
+          </div>
+        )}
+
         <div className="space-y-2">
-          <div className="flex items-center text-muted-foreground group-hover:text-foreground/70 justify-center transition-colors">
-            <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
-            <a href={`tel:${phone}`} className="text-sm hover:text-foreground transition-colors">
-              {phone}
-            </a>
-          </div>
-          <div className="flex items-center text-muted-foreground group-hover:text-foreground/70 justify-center transition-colors">
-            <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
-            <a href={`mailto:${email}`} className="text-sm hover:text-foreground transition-colors truncate">
-              {email}
-            </a>
-          </div>
+          {phone && (
+            <div className="flex items-center text-muted-foreground group-hover:text-foreground/70 justify-center transition-colors">
+              <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
+              <a href={`tel:${phone}`} className="text-sm hover:text-foreground transition-colors">
+                {phone}
+              </a>
+            </div>
+          )}
+          {email && (
+            <div className="flex items-center text-muted-foreground group-hover:text-foreground/70 justify-center transition-colors">
+              <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
+              <a href={`mailto:${email}`} className="text-sm hover:text-foreground transition-colors truncate">
+                {email}
+              </a>
+            </div>
+          )}
         </div>
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-foreground/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
