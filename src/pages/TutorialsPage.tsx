@@ -66,23 +66,25 @@ const TutorialsPage = () => {
                 key={tutorial.id}
                 className="group bg-card border border-border rounded-xl p-6 hover-glow transition-all duration-300"
               >
-                <h3 className="text-xl font-bold text-card-foreground mb-3 group-hover:text-primary transition-colors">
+                <h3 className="text-xl font-bold text-card-foreground mb-3 group-hover:text-foreground transition-colors">
                   {tutorial.topic}
                 </h3>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
+                <p className="text-muted-foreground group-hover:text-foreground/80 mb-4 leading-relaxed transition-colors">
                   {tutorial.description}
                 </p>
-                <Button asChild variant="outline" className="w-full">
-                  <a
-                    href={tutorial.readMoreLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center justify-center"
-                  >
-                    Read More
-                    <ChevronRight className="ml-2 h-4 w-4" />
-                  </a>
-                </Button>
+                <div className="flex justify-start">
+                  <Button asChild variant="outline">
+                    <a
+                      href={tutorial.readMoreLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-center cursor-pointer"
+                    >
+                      Read More
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </a>
+                  </Button>
+                </div>
               </div>
             ))}
           </div>
@@ -115,17 +117,19 @@ const TutorialsPage = () => {
                     </div>
                     <Youtube className="h-6 w-6 text-red-500" />
                   </div>
-                  <Button asChild className="w-full bg-primary hover:bg-primary/90">
-                    <a
-                      href={channel.channelLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center"
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Go to Channel
-                    </a>
-                  </Button>
+                  <div className="flex justify-start">
+                    <Button asChild>
+                      <a
+                        href={channel.channelLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center cursor-pointer"
+                      >
+                        <ExternalLink className="mr-2 h-4 w-4" />
+                        Go to Channel
+                      </a>
+                    </Button>
+                  </div>
                 </div>
               </div>
             ))}
