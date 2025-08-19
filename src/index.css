@@ -157,6 +157,12 @@
     animation: scrollLeft 12s linear infinite;
   }
   
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  
   .hover-glow {
     transition: all 0.3s ease;
   }
@@ -164,6 +170,10 @@
   .hover-glow:hover {
     transform: scale(1.02);
     background-color: hsl(var(--primary) / 0.05);
+  }
+  
+  .scale-102 {
+    transform: scale(1.02);
   }
 
   /* Fix for crisp text rendering during transforms */
@@ -194,4 +204,15 @@
 @keyframes scrollLeft {
   0% { transform: translateX(0); }
   100% { transform: translateX(-33.333%); }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

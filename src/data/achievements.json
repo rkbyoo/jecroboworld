@@ -1,26 +1,146 @@
 [
   {
     "id": 1,
-    "eventName": "National Robotics Championship",
-    "location": "IIT Delhi, New Delhi",
-    "position": "1st",
-    "year": "2023",
-    "description": "Winner of the autonomous navigation challenge"
+    "eventName": "Roboteaser - Pyrokinesis '20",
+    "location": "Assam Engineering College (AEC)",
+    "position": "2nd",
+    "year": "2020",
+    "description": "Runner-up in Roboteaser event"
   },
   {
     "id": 2,
-    "eventName": "Techfest Robot Wars",
-    "location": "IIT Bombay, Mumbai",
+    "eventName": "Robosoccer - Technosis '20",
+    "location": "NIT Silchar, Assam",
     "position": "2nd",
-    "year": "2023",
-    "description": "Runner-up in combat robotics category"
+    "year": "2020",
+    "description": "Second prize in Robosoccer competition"
   },
   {
     "id": 3,
-    "eventName": "RoboSoccer International",
-    "location": "NIT Warangal, Telangana",
-    "position": "3rd",
-    "year": "2022",
-    "description": "Bronze medal in autonomous soccer tournament"
+    "eventName": "B-plan Idea - Meity Tide 2.0",
+    "location": "Tezpur University, Assam",
+    "position": "2nd",
+    "year": "2020",
+    "description": "Secured 2nd prize in B-plan idea competition"
+  },
+  {
+    "id": 4,
+    "eventName": "Smart India Hackathon - Software Edition",
+    "location": "MHRD, India",
+    "position": "Top 4",
+    "year": "2019",
+    "description": "Developed a real-time power outage detection and analysis system under Ministry of Power"
+  },
+  {
+    "id": 5,
+    "eventName": "Robowar - SUPERNERDS '19",
+    "location": "Guwahati University with CIT",
+    "position": "2nd",
+    "year": "2019",
+    "description": "Runner-up in Robowar competition"
+  },
+  {
+    "id": 6,
+    "eventName": "Robowar - Technovus '19",
+    "location": "Jorhat Engineering College (JEC)",
+    "position": "2nd",
+    "year": "2019",
+    "description": "Second prize in Robowar competition"
+  },
+  {
+    "id": 7,
+    "eventName": "Techkriti '19",
+    "location": "IIT Kanpur, Uttar Pradesh",
+    "position": "Showcased",
+    "year": "2019",
+    "description": "Presented a gesture-based bomb defusing UAV model"
+  },
+  {
+    "id": 8,
+    "eventName": "BEL - Ideate to Innovate",
+    "location": "IIT Bombay, Mumbai",
+    "position": "2nd",
+    "year": "2018",
+    "description": "Secured 2nd prize among top 10 teams in Inter Asia competition"
+  },
+  {
+    "id": 9,
+    "eventName": "Human Powered Vehicle Competition",
+    "location": "VIT, Asia-Pacific Zone",
+    "position": "Best Perseverance Award",
+    "year": "2018",
+    "description": "Awarded for perseverance at ASME Human Powered Vehicle Competition"
+  },
+  {
+    "id": 10,
+    "eventName": "Robosoccer - Pyrokinesis '18",
+    "location": "Assam Engineering College (AEC)",
+    "position": "1st",
+    "year": "2018",
+    "description": "Winner in Robosoccer event at Pyrokinesis"
+  },
+  {
+    "id": 11,
+    "eventName": "DRDO Robotics and Unmanned Systems Exposition",
+    "location": "North East Zonal, India",
+    "position": "1st",
+    "year": "2018",
+    "description": "Winner at North East Zonal Qualifiers for National Level DRDO Exposition"
+  },
+  {
+    "id": 12,
+    "eventName": "Tata Power Future Think",
+    "location": "IIT Bombay, Mumbai",
+    "position": "2nd",
+    "year": "2018",
+    "description": "Secured 2nd prize in problem statement competition"
+  },
+  {
+    "id": 13,
+    "eventName": "Robosoccer - Abeyantrix '18",
+    "location": "Jorhat Institute of Science & Technology (JIST)",
+    "position": "1st",
+    "year": "2018",
+    "description": "Winner in Robosoccer competition"
+  },
+  {
+    "id": 14,
+    "eventName": "Robowar - Pyrokinesis '18",
+    "location": "Assam Engineering College (AEC)",
+    "position": "2nd",
+    "year": "2018",
+    "description": "Runner-up in Robowar competition"
+  },
+  {
+    "id": 15,
+    "eventName": "Death race (Rally Competition) - Techxetra '16",
+    "location": "Tezpur University, Assam",
+    "position": "1st",
+    "year": "2016",
+    "description": "Winner in robotics rally competition at Techxetra 2016"
+  },
+  {
+    "id": 16,
+    "eventName": "Survival Bot - Auxesis '16",
+    "location": "Dibrugarh University, Assam",
+    "position": "1st",
+    "year": "2016",
+    "description": "Winner in Survival Bot robotics competition"
+  },
+  {
+    "id": 17,
+    "eventName": "Robosoccer - Techxetra '16",
+    "location": "Tezpur University, Assam",
+    "position": "2nd",
+    "year": "2016",
+    "description": "Runner-up in Robosoccer event at Techxetra"
+  },
+  {
+    "id": 18,
+    "eventName": "Amphibian Bot - Auxesis '16",
+    "location": "Dibrugarh University, Assam",
+    "position": "2nd",
+    "year": "2016",
+    "description": "Second prize in Amphibian Bot robotics event"
   }
 ]
