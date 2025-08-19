@@ -161,6 +161,20 @@
     transform: scale(1.02);
     background-color: hsl(var(--primary) / 0.05);
   }
+
+  /* Fix for crisp text rendering during transforms */
+  .backface-visibility-hidden {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .transform-gpu {
+    transform: translateZ(0);
+  }
+  
+  .will-change-transform {
+    will-change: transform;
+  }
 }
 
 @keyframes float {
