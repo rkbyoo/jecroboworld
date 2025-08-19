@@ -29,10 +29,10 @@ const SponsorsSection = () => {
         </div>
 
         {/* Animated sponsor logos */}
-        <div className="relative">
-          <div className="flex animate-slide-right space-x-16">
-            {/* Duplicate sponsors for seamless loop */}
-            {[...sponsors, ...sponsors].map((sponsor, index) => (
+        <div className="relative overflow-hidden">
+          <div className="flex animate-scroll-left space-x-16 w-max">
+            {/* Triple sponsors for seamless infinite loop */}
+            {[...sponsors, ...sponsors, ...sponsors].map((sponsor, index) => (
               <a
                 key={`${sponsor.id}-${index}`}
                 href={sponsor.website}

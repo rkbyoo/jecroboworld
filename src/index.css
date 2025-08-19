@@ -153,6 +153,10 @@
     animation: slideRight 20s linear infinite;
   }
   
+  .animate-scroll-left {
+    animation: scrollLeft 12s linear infinite;
+  }
+  
   .hover-glow {
     transition: all 0.3s ease;
   }
@@ -185,4 +189,9 @@
 @keyframes slideRight {
   0% { transform: translateX(-100%); }
   100% { transform: translateX(100vw); }
+}
+
+@keyframes scrollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
 }
