@@ -15,6 +15,7 @@ import AlumniPage from "./pages/AlumniPage";
 import TutorialsPage from "./pages/TutorialsPage";
 import AboutPage from "./pages/AboutPage";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 import { useLenis } from "./hooks/useLenis";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ const App = () => {
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <ScrollToTop />
           <div className="min-h-screen bg-background flex flex-col">
             <Header />
             <main className="flex-1">
