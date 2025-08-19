@@ -31,7 +31,7 @@ const TeamPage = () => {
             Our Team
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Meet the brilliant minds driving innovation in robotics
+           Meet the amazing team behind jec roboworld !
           </p>
         </div>
 
@@ -46,8 +46,7 @@ const TeamPage = () => {
                   name={member.name}
                   role={member.role}
                   photo={member.photo}
-                  year={member.year}
-                  department={member.department}
+                  isCurrent={true}
                 />
               ))}
             </div>
@@ -65,8 +64,6 @@ const TeamPage = () => {
                   name={member.name}
                   role={member.role}
                   photo={member.photo}
-                  year={member.year}
-                  department={member.department}
                 />
               ))}
             </div>
