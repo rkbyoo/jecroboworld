@@ -168,8 +168,9 @@
   }
   
   .hover-glow:hover {
-    transform: scale(1.02);
-    background-color: hsl(var(--primary) / 0.05);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px hsl(0 0% 0% / 0.15);
+    border-color: hsl(0 0% 70%);
   }
   
   .scale-102 {

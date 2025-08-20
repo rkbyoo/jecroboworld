@@ -1,20 +1,50 @@
 [
   {
     "id": 1,
-    "topic": "Introduction to Arduino Programming",
-    "description": "Learn the basics of Arduino programming for robotics applications with step-by-step tutorials.",
-    "readMoreLink": "https://docs.arduino.cc/tutorials/"
+    "topic": "Arduino Programming",
+    "description": "The Arduino language is a set of C/C++ functions compiled with avr-g++ for robotics applications.",
+    "readMoreLink": "https://www.arduino.cc/en/Tutorial/HomePage"
   },
   {
     "id": 2,
-    "topic": "Robot Kinematics and Control",
-    "description": "Understanding forward and inverse kinematics for robotic arm control and navigation systems.",
-    "readMoreLink": "https://robotics.org/kinematics-guide"
+    "topic": "Chassis",
+    "description": "The chassis provides the frame and structural integrity for attaching all vehicle parts in robotics projects.",
+    "readMoreLink": "https://randomnerdtutorials.com/build-robot-car-chassis-kit-arduino/"
   },
   {
     "id": 3,
-    "topic": "Computer Vision for Robotics",
-    "description": "Implementing object detection and tracking using OpenCV and machine learning algorithms.",
-    "readMoreLink": "https://opencv.org/robotics-tutorials"
+    "topic": "Batteries",
+    "description": "Choosing the right battery is essential in robotics projects as different types of batteries serve different needs.",
+    "readMoreLink": "https://medium.com/husarion-blog/batteries-choose-the-right-power-source-for-your-robot-5417a3ec19ca"
+  },
+  {
+    "id": 4,
+    "topic": "Gears",
+    "description": "Gears transmit and modify force and motion, enabling speed and direction changes in robotics applications.",
+    "readMoreLink": "https://khkgears.net/new/gear_knowledge/introduction_to_gears/types_of_gears.html"
+  },
+  {
+    "id": 5,
+    "topic": "Basic Electronics Skills for Robotics",
+    "description": "Covers the foundational electronics knowledge needed for developing robotics systems.",
+    "readMoreLink": "https://www.instructables.com/lesson/Basic-Electronics-Skills-for-Robotics/"
+  },
+  {
+    "id": 6,
+    "topic": "Motors",
+    "description": "An overview of motors used in robotics including DC, stepper, servo, and linear motors for various applications.",
+    "readMoreLink": "https://www.electrocraft.com/motors-for/robotics/"
+  },
+  {
+    "id": 7,
+    "topic": "Raspberry Pi Programming",
+    "description": "Leverage the Raspberry Pi’s hardware abstraction and Python programming for robotics projects.",
+    "readMoreLink": "https://www.raspberrypi.org/documentation/usage/python/"
+  },
+  {
+    "id": 8,
+    "topic": "AVR Programming",
+    "description": "Learn to program AVR microcontrollers in C using WinAVR compiler with Atmel Studio integration.",
+    "readMoreLink": "https://microcontrollerslab.com/avr-microcontroller-tutorials/"
   }
 ]
