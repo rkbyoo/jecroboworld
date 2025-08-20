@@ -23,7 +23,7 @@
   {
     "id": 4,
     "name": "Sreeya Dutta",
-    "role": "Reearch & Development Head",
+    "role": "Research & Development Head",
     "photo": "assets/members/Sreeya Dutta.jpg",
     "status": "alumni"
   },
@@ -86,7 +86,7 @@
   {
     "id": 13,
     "name": "Bilton Narzary",
-    "role": "Event Manager",
+    "role": "Advisor",
     "photo": "assets/members/Bilton N.jpg",
     "status": "alumni"
   },
@@ -121,21 +121,21 @@
   {
     "id": 18,
     "name": "Kritartha Gautam",
-    "role": "Representatives",
+    "role": "Robotics & Automation Head",
     "photo": "assets/members/Kritartha Gautam.jpg",
     "status": "alumni"
   },
   {
     "id": 19,
     "name": "Tejas Arandhara",
-    "role": "Representatives",
+    "role": "Technical & Club Head",
     "photo": "assets/members/Tejas Arandhara.jpg",
     "status": "alumni"
   },
   {
     "id": 20,
     "name": "Arantara Choudhury",
-    "role": "Representatives",
+    "role": "PR & Management Head",
     "photo": "assets/members/Arantara Choudhury.jpg",
     "status": "alumni"
   },
@@ -198,42 +198,42 @@
   {
     "id": 29,
     "name": "Ankit Nath",
-    "role": "Senior member",
+    "role": "Research & Development Head",
     "photo": "assets/members/Ankit - Ankit Nath.jpg",
     "status": "alumni"
   },
   {
     "id": 30,
     "name": "Ankur Talukder",
-    "role": "Senior member",
+    "role": "Research & Development Head",
     "photo": "assets/members/Ankur Talukder.jpeg",
     "status": "alumni"
   },
   {
     "id": 31,
     "name": "Banchita Baruah",
-    "role": "Senior member",
+    "role": "Executive Member",
     "photo": "assets/members/Banchita Baruah.jpg",
     "status": "alumni"
   },
   {
     "id": 32,
     "name": "Jahnabi Sarma",
-    "role": "Senior member",
+    "role": "PR & Management Head",
     "photo": "assets/members/Jahnabi Sarma.jpg",
     "status": "alumni"
   },
   {
     "id": 33,
     "name": "Kobal Dip Das",
-    "role": "Senior member",
+    "role": "Workshop In-Charge",
     "photo": "assets/members/Kobal Dip Das.jpg",
     "status": "alumni"
   },
   {
     "id": 34,
     "name": "Manish Tapan Deka",
-    "role": "Senior member",
+    "role": "Research & Development Head",
     "photo": "assets/members/Manish Tapan Deka.png",
     "status": "alumni"
   },
@@ -247,14 +247,14 @@
   {
     "id": 36,
     "name": "Siddhart Sonowal",
-    "role": "Senior member",
+    "role": "Treasurer And Finance Head",
     "photo": "assets/members/Siddhart Sonowal.jpg",
     "status": "alumni"
   },
   {
     "id": 37,
     "name": "Tanmoy Sarma",
-    "role": "Senior member",
+    "role": "Robotics & Automation Head",
     "photo": "assets/members/Tanmoy Sarma.jpg",
     "status": "alumni"
   }
