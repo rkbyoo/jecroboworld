@@ -17,6 +17,8 @@ import AboutPage from "./pages/AboutPage";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import { useLenis } from "./hooks/useLenis";
+import { useEffect, useState } from "react";
+import Loader from "./components/ui/Loader";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +32,47 @@ const App = () => {
     touchMultiplier: 2,
   });
 
+  // loader lifecycle: mounted -> visible -> fade-out -> unmount
+  const [loaderMounted, setLoaderMounted] = useState(true); // controls render
+  const [loaderVisible, setLoaderVisible] = useState(true); // controls CSS visibility
+
+  useEffect(() => {
+    const minVisible = 3000; // visible for at least 3s
+    const fadeDuration = 500;
+    const mountTime = Date.now();
+    let cleared = false;
+
+    const hideLoaderSequence = () => {
+      const elapsed = Date.now() - mountTime;
+      const wait = Math.max(0, minVisible - elapsed);
+      setTimeout(() => {
+        setLoaderVisible(false);
+        setTimeout(() => setLoaderMounted(false), fadeDuration);
+      }, wait);
+    };
+
+    const onLoad = () => {
+      if (cleared) return;
+      cleared = true;
+      hideLoaderSequence();
+    };
+
+    window.addEventListener("load", onLoad);
+
+    // fallback
+    const fallback = setTimeout(() => {
+      if (!cleared) {
+        cleared = true;
+        hideLoaderSequence();
+      }
+    }, 6000);
+
+    return () => {
+      window.removeEventListener("load", onLoad);
+      clearTimeout(fallback);
+    };
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
@@ -38,6 +81,7 @@ const App = () => {
         <BrowserRouter>
           <ScrollToTop />
           <div className="min-h-screen bg-background flex flex-col">
+            {loaderMounted && <Loader visible={loaderVisible} />}
             <Header />
             <main className="flex-1">
               <Routes>
