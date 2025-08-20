@@ -4,6 +4,7 @@ import TeamCard from '@/components/cards/TeamCard';
 interface Team {
   id: number;
   teamName: string;
+  logo?: string;
   image: string;
   description: string;
 }
@@ -34,6 +35,7 @@ const TeamsSection = () => {
             <TeamCard
               key={team.id}
               teamName={team.teamName}
+              logo={team.logo}
               image={team.image}
               description={team.description}
             />

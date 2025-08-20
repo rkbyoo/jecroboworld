@@ -1,20 +1,16 @@
 [
   {
     "id": 1,
-    "teamName": "Alpha Bots",
-    "image": "/assets/projects/rsz_techniche_18.jpg",
-    "description": "Specializing in autonomous navigation and AI-powered robotics solutions for complex environments."
+    "teamName": "Team Arcelor",
+    "logo": "/assets/logo/team logo/team arcelor logo.png",
+    "image": "/assets/teams/team arcelor.jpg",
+    "description": "Team Arcelor is a passionate robotics team competing in RoboSoccer, RoboRace, Amphibian Bots and more, driving innovation, creativity and excellence in every challenge. The team has won multiple tournaments and prizes across Assam and at the national level."
   },
   {
     "id": 2,
-    "teamName": "Mecha Titans",
-    "image": "/assets/projects/rsz_techniche_19.jpg",
-    "description": "Expert builders of heavy-duty robots for industrial applications and competitive robotics."
-  },
-  {
-    "id": 3,
-    "teamName": "Circuit Wizards",
-    "image": "/assets/projects/techkriti.png",
-    "description": "Masters of embedded systems and electronic circuit design for next-generation robots."
+    "teamName": "Team Zenith",
+    "logo": "/assets/logo/team logo/team_zenith_logo.png",
+    "image": "/assets/teams/team_zenith.jpg",
+    "description": "Striving for peak performance in robotics competitions and technological advancement."
   }
 ]
