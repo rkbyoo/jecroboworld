@@ -55,7 +55,7 @@ const Hero = () => {
                 style={{
                   fontFamily: "Montserrat, sans-serif",
                   fontWeight: "800",
-                  textShadow: "0 4px 24px rgba(0,0,0,0.85), 0 1.5px 0 #000"
+                  textShadow: "0 4px 24px rgba(0,0,0,0.95), 0 1.5px 0 #000"
                 }}
               >
                 ROBOWORLD
