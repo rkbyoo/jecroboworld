@@ -7,7 +7,7 @@ import EventCard from '@/components/cards/EventCard';
 interface Event {
   id: number;
   eventName: string;
-  image: string;
+  image?: string;
   description: string;
   joiningUrl?: string;
   date?: string;
@@ -19,7 +19,16 @@ const EventsPreview = () => {
 
   useEffect(() => {
     import('@/data/events.json').then((module) => {
-      setEvents(module.default.slice(0, 3)); // Show only first 3 events
+      // Prioritize upcoming and ongoing events for preview
+      const allEvents = module.default;
+      const upcomingAndOngoing = allEvents.filter(event => 
+        event.status === 'upcoming' || event.status === 'ongoing'
+      );
+      const displayEvents = upcomingAndOngoing.length >= 3 
+        ? upcomingAndOngoing.slice(0, 3)
+        : [...upcomingAndOngoing, ...allEvents.filter(event => event.status === 'completed')].slice(0, 3);
+      
+      setEvents(displayEvents);
     });
   }, []);
 

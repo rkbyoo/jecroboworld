@@ -4,7 +4,7 @@ import EventCard from '@/components/cards/EventCard';
 interface Event {
   id: number;
   eventName: string;
-  image: string;
+  image?: string;
   description: string;
   joiningUrl?: string;
   date?: string;
@@ -20,6 +20,7 @@ const EventsPage = () => {
     });
   }, []);
 
+  const upcomingEvents = events.filter(event => event.status === 'upcoming');
   const ongoingEvents = events.filter(event => event.status === 'ongoing');
   const pastEvents = events.filter(event => event.status === 'completed');
 
@@ -35,12 +36,32 @@ const EventsPage = () => {
           </p>
         </div>
 
-        {/* ongoing Events */}
+        {/* Ongoing Events */}
         {ongoingEvents.length > 0 && (
           <div className="mb-16">
-            <h2 className="text-3xl font-bold text-foreground mb-8">ongoing Events</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-8">Ongoing Events</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {ongoingEvents.map((event) => (
+                <EventCard
+                  key={event.id}
+                  eventName={event.eventName}
+                  image={event.image}
+                  description={event.description}
+                  joiningUrl={event.joiningUrl}
+                  date={event.date}
+                  status={event.status}
+                />
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Upcoming Events */}
+        {upcomingEvents.length > 0 && (
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-foreground mb-8">Upcoming Events</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {upcomingEvents.map((event) => (
                 <EventCard
                   key={event.id}
                   eventName={event.eventName}
