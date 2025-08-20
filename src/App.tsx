@@ -37,7 +37,7 @@ const App = () => {
   const [loaderVisible, setLoaderVisible] = useState(true); // controls CSS visibility
 
   useEffect(() => {
-    const minVisible = 3000; // visible for at least 3s
+    const minVisible = 2000; // visible for at least 3s
     const fadeDuration = 500;
     const mountTime = Date.now();
     let cleared = false;
