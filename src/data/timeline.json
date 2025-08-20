@@ -1,30 +1,86 @@
 [
   {
     "id": 1,
-    "year": "2019",
+    "year": "NOV 2019",
     "eventName": "Technovus",
-    "description": "Technovus is the technical fest competition of Jorhat Engineering college. It is Organised for the first time in the college. Jec Roboworld organised 10 competitions in this technical fest",
-    "photo": "/assets/timeline/techfest.jpg"
+    "description": "Technovus is the technical fest competition of Jorhat Engineering College. It was organised for the first time in the college. JEC Roboworld organised 10 competitions in this technical fest.",
+    "photo": "assets/timeline/technovus.jpg"
   },
   {
     "id": 2,
-    "year": "2019",
+    "year": "MAR 2019",
     "eventName": "Phoenix",
-    "description": "Jec Roboworld, along with Phoenix coordinators, organised technosphere'19. This year, students from all over NE participated in 6 different events",
+    "description": "JEC Roboworld, along with Phoenix coordinators, organised Technosphere '19. Students from all over North East participated in 8 different events.",
     "photo": "/assets/timeline/technosphere_19.jpg"
   },
   {
     "id": 3,
-    "year": "2019",
+    "year": "APR 2019",
     "eventName": "Smart India Hackathon",
-    "description": "JEC Roboworld participated in Smart India Hackathon 2019, showcasing innovative solutions and technical expertise in national level competition.",
+    "description": "A team of 8 (6 students + 2 mentors) went to Smart India Hackathon 2019 (Software edition) at Jaipur Nodal Centre organised by MHRD. The team developed a 'Realtime power outage detection and analysis' system and were among the top 4 teams under Ministry of Power.",
     "photo": "/assets/timeline/sih.jpg"
   },
   {
     "id": 4,
-    "year": "2020",
-    "eventName": "Tech Workshop Series",
-    "description": "Comprehensive robotics education program covering embedded systems and AI programming during the pandemic period.",
+    "year": "JAN 2019",
+    "eventName": "Techfest IIT Bombay",
+    "description": "The Roboworld team of 3 members went to Techfest IIT Bombay and secured 2nd place in both 'BEL - Ideate to Innovate' and 'Tata Power Future Think'.",
+    "photo": "/assets/timeline/techfest.jpg"
+  },
+  {
+    "id": 5,
+    "year": "2019",
+    "eventName": "ASME HPV",
+    "description": "Three members of JEC Roboworld — Digboloy Borah, Ashutosh Das, and Bhrigu Ranjan Phukon — won the Best Perseverance Award in the Human Powered Vehicle Competition in the Asia-Pacific zone organised by ASME at VIT. This was the first team from JEC Roboworld and one of only two teams from Assam selected in the top 40 for participation.",
+    "photo": "/assets/timeline/asme.jpg"
+  },
+  {
+    "id": 6,
+    "year": "2018",
+    "eventName": "Farewell",
+    "description": "Roboworld bid farewell to Arnab Bordoloi and Faheemul Islam, two talented leaders who guided the club. Though graduated, they continue to be part of Roboworld as alumni members.",
+    "photo": "/assets/timeline/parting-2018.jpg"
+  },
+  {
+    "id": 7,
+    "year": "2018",
+    "eventName": "Technosphere",
+    "description": "As part of Technosphere under Phoenix, Roboworld organised several robotics competitions every year under AUTOMATA. Participants from across the North East competed for glory.",
+    "photo": "/assets/timeline/automata.jpg"
+  },
+  {
+    "id": 8,
+    "year": "SEP 2017",
+    "eventName": "Webinar",
+    "description": "On Engineers' Day, a Webinar Series was organised at Jorhat Engineering College in association with Roboworld. The speakers were Dr. Nayan Moni Kakoty and Eashan Saikia.",
+    "photo": "/assets/timeline/engineers_day.jpg"
+  },
+  {
+    "id": 9,
+    "year": "MAR 2017",
+    "eventName": "Drone Workshop",
+    "description": "In collaboration with Edurade, Roboworld organised a workshop on Delivery Drones and Embedded Systems & Robotics.",
     "photo": "/assets/timeline/drone_workshop.jpg"
+  },
+  {
+    "id": 10,
+    "year": "FEB 2017",
+    "eventName": "Inauguration",
+    "description": "After much effort by Anjan Bora (Technical Secretary) and with support from Prof. Diganta Kalita, the Hobby Centre was inaugurated. Later in May 2018, it was renamed as Robo Centre and managed by senior members of the club.",
+    "photo": "/assets/timeline/hobby_center.jpg"
+  },
+  {
+    "id": 11,
+    "year": "2016",
+    "eventName": "Revive of Club",
+    "description": "It was the year of 2016 when Roboclub was resurrected by the whole hearted effort of Ankit Khound and his team. He along with his teammates went to JIST (Jorhat Institute of Science and technology) to participate in robotic competitions held there. this was one of the first steps towards making the club, as back then there was no club and the team had to make their bots in rooms. Mr. Ankit khound’s team got inspired by robotics clubs of other colleges and the work they were involved in. And this was when the foundation of the club was laid again. The name ‘ROBOCLUB’ was picked as a souvenir to the seniors who first initiated the club in 2010. Two teachers who helped the most during establishment of the club were Dhrupad Sarma sir and Dharindam Sonowal sir. The whole plans, procedure, rules of the club was the brain child of this team. Later in 2016, two teams from the club went to IIT, GHY to participate after the club was resurrected again. And was followed by participations in AUXESIS and TECHXETRA that very year.",
+    "photo": "#"
+  },
+  {
+    "id": 12,
+    "year": "2010",
+    "eventName": "Foundation",
+    "description": "Till PHOENIX 2010, JEC had no official club for robotics. On 31st March 2011, the club 'JEC Roboworld' was officially formed by the Team of Talented Individuals (TTI). It was a dream turned into reality.",
+    "photo": "/assets/timeline/foundation.jpg"
   }
 ]
