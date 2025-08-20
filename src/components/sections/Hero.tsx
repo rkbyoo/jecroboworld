@@ -13,15 +13,12 @@ const Hero = () => {
           <div className="flex flex-col items-center justify-center text-center space-y-8 max-w-4xl mx-auto">
 
             {/* Main Heading */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              <span className="text-secondary-foreground">JEC</span>
-              <span className="text-primary ml-4">ROBOWORLD</span>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
+              <div className="text-primary" style={{ fontFamily: 'Orbitron, monospace', fontWeight: '900' }}>ROBOWORLD</div>
+              <div className="text-2xl md:text-3xl lg:text-4xl text-secondary-foreground mt-2 hover:text-primary transition-colors duration-300 cursor-default">
+                The Robotics Club of JEC
+              </div>
             </h1>
-
-            {/* Description */}
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              Pioneering the future of robotics through innovation, education, and competitive excellence. Join us in building tomorrow's technology today.
-            </p>
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
@@ -33,7 +30,7 @@ const Hero = () => {
               </Button>
               <Button asChild size="lg" className="bg-black/40 hover:bg-black/60 text-white hover:scale-105 transition-all duration-300">
                 <Link to="/team" className="cursor-pointer">
-                  Meet Our Team
+                  Join Roboworld
                 </Link>
               </Button>
             </div>
