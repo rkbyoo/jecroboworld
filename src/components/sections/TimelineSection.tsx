@@ -8,6 +8,7 @@ interface TimelineEvent {
   eventName: string;
   description: string;
   photo: string;
+  date?: string; // Add optional date field for full date info
 }
 
 interface TimelineSectionProps {
@@ -51,10 +52,7 @@ const TimelineSection = ({
     return colors[index % colors.length];
   };
 
-  const getDateMonth = (index: number) => {
-    const months = ['NOV', 'MAR', 'APR', 'JUN', 'AUG', 'SEP', 'OCT', 'DEC'];
-    return months[index % months.length];
-  };
+
 
   const getCheckpointIcon = (index: number) => {
     const icons = [Calendar, Trophy, Lightbulb, Star, Award, Zap, Target, Rocket];
@@ -78,6 +76,7 @@ const TimelineSection = ({
 
           {events.map((event, index) => {
             const CheckpointIcon = getCheckpointIcon(index);
+            
             return (
               <div key={event.id} className="relative -mb-8 hidden md:block">
                 {/* Checkpoint icon on central timeline */}
@@ -99,7 +98,7 @@ const TimelineSection = ({
                         <div className="mb-6 w-full max-w-lg">
                           <div className={`${getDateColor(index)} text-white px-6 py-5 rounded-full text-center font-bold relative shadow-lg w-full`}>
                             <div className="text-xl font-semibold whitespace-nowrap">
-                              {getDateMonth(index)} {event.year}
+                              {event.year}
                             </div>
                             {/* Speech bubble arrow pointing right */}
                             <div
@@ -145,7 +144,7 @@ const TimelineSection = ({
                         <div className="mb-6 w-full max-w-lg">
                           <div className={`${getDateColor(index)} text-white px-6 py-5 rounded-full text-center font-bold relative shadow-lg w-full`}>
                             <div className="text-xl font-semibold whitespace-nowrap">
-                              {getDateMonth(index)} {event.year}
+                              {event.year}
                             </div>
                             {/* Speech bubble arrow pointing left */}
                             <div
@@ -188,37 +187,40 @@ const TimelineSection = ({
           })}
 
           {/* Mobile layout */}
-          {events.map((event, index) => (
-            <div key={`mobile-${event.id}`} className="relative mb-6 md:hidden">
-              <div className="mb-6 text-center">
-                <div className={`${getDateColor(index)} text-white px-12 py-4 rounded-full inline-block font-bold shadow-lg`}>
-                  <div className="text-xl font-semibold">
-                    {getDateMonth(index)} {event.year}
+          {events.map((event, index) => {
+            
+            return (
+              <div key={`mobile-${event.id}`} className="relative mb-6 md:hidden">
+                <div className="mb-6 text-center">
+                  <div className={`${getDateColor(index)} text-white px-12 py-4 rounded-full inline-block font-bold shadow-lg`}>
+                    <div className="text-xl font-semibold">
+                      {event.year}
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                  <div className="p-8">
+                    <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
+                      {event.eventName}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed text-base">
+                      {event.description}
+                    </p>
+                    {event.photo !== "#" && (
+                      <div className="w-full h-64 overflow-hidden rounded-lg mt-6">
+                        <img
+                          src={event.photo}
+                          alt={event.eventName}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
-
-              <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
-                    {event.eventName}
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed text-base">
-                    {event.description}
-                  </p>
-                  {event.photo !== "#" && (
-                    <div className="w-full h-64 overflow-hidden rounded-lg mt-6">
-                      <img
-                        src={event.photo}
-                        alt={event.eventName}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* View Full Timeline Button - Only show when maxEvents is specified */}
