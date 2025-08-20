@@ -118,16 +118,18 @@ const TimelineSection = ({
                             <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
                               {event.eventName}
                             </h3>
-                            <p className="text-gray-600 leading-relaxed mb-6 text-base">
+                            <p className="text-gray-600 leading-relaxed text-base">
                               {event.description}
                             </p>
-                            <div className="w-full h-64 overflow-hidden rounded-lg">
-                              <img
-                                src={event.photo}
-                                alt={event.eventName}
-                                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                              />
-                            </div>
+                            {event.photo !== "#" && (
+                              <div className="w-full h-64 overflow-hidden rounded-lg mt-6">
+                                <img
+                                  src={event.photo}
+                                  alt={event.eventName}
+                                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                                />
+                              </div>
+                            )}
                           </div>
                         </div>
                       </>
@@ -162,16 +164,18 @@ const TimelineSection = ({
                             <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
                               {event.eventName}
                             </h3>
-                            <p className="text-gray-600 leading-relaxed mb-6 text-base">
+                            <p className="text-gray-600 leading-relaxed text-base">
                               {event.description}
                             </p>
-                            <div className="w-full h-64 overflow-hidden rounded-lg">
-                              <img
-                                src={event.photo}
-                                alt={event.eventName}
-                                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                              />
-                            </div>
+                            {event.photo !== "#" && (
+                              <div className="w-full h-64 overflow-hidden rounded-lg mt-6">
+                                <img
+                                  src={event.photo}
+                                  alt={event.eventName}
+                                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                                />
+                              </div>
+                            )}
                           </div>
                         </div>
                       </>
@@ -198,16 +202,18 @@ const TimelineSection = ({
                   <h3 className="text-2xl font-bold text-gray-800 mb-4 text-center">
                     {event.eventName}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed mb-6 text-base">
+                  <p className="text-gray-600 leading-relaxed text-base">
                     {event.description}
                   </p>
-                  <div className="w-full h-64 overflow-hidden rounded-lg">
-                    <img
-                      src={event.photo}
-                      alt={event.eventName}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
+                  {event.photo !== "#" && (
+                    <div className="w-full h-64 overflow-hidden rounded-lg mt-6">
+                      <img
+                        src={event.photo}
+                        alt={event.eventName}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
