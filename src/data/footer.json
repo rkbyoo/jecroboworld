@@ -1,0 +1,33 @@
+{
+  "logo": {
+    "image": "/assets/logo/logo_mini.png",
+    "alt": "JEC RoboWorld Logo",
+    "title": "JEC ROBOWORLD"
+  },
+  "description": "Robotics through innovation, education, and competitive excellence.",
+  "contact": {
+    "address": "Jorhat Engineering College, Assam",
+    "email": "robowjec@gmail.com",
+    "phone": "+91-8133970362"
+  },
+  "navigation": [
+    { "name": "About", "path": "/about" },
+    { "name": "Events", "path": "/events" },
+    { "name": "Teams", "path": "/team" },
+    { "name": "Achievements", "path": "/achievements" },
+    { "name": "Gallery", "path": "/gallery" },
+    { "name": "Alumni", "path": "/alumni" },
+    { "name": "Tutorials", "path": "/tutorials" },
+    { "name": "Timeline", "path": "/timeline" }
+  ],
+  "socialLinks": [
+    { "name": "Facebook", "url": "https://www.facebook.com/jecroboworld/", "icon": "facebook" },
+    { "name": "Instagram", "url": "https://www.instagram.com/roboworld_jec/", "icon": "instagram" },
+    { "name": "LinkedIn", "url": "https://www.linkedin.com/company/jec-roboworld/posts/?feedView=all", "icon": "linkedin" },
+    { "name": "Email", "url": "mailto:robowjec@gmail.com", "icon": "email" }
+  ],
+  "copyright": {
+    "text": "JEC RoboWorld. All rights reserved.",
+    "showYear": true
+  }
+}

@@ -1,18 +1,14 @@
 import { Link } from 'react-router-dom';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react';
+import footerData from '../../data/footer.json';
 
 const Footer = () => {
-  const navItems = [
-    { name: 'Home', path: '/' },
-    { name: 'Events', path: '/events' },
-    { name: 'Team', path: '/team' },
-    { name: 'Achievements', path: '/achievements' },
-    { name: 'Timeline', path: '/timeline' },
-    { name: 'Gallery', path: '/gallery' },
-    { name: 'Alumni', path: '/alumni' },
-    { name: 'Tutorials', path: '/tutorials' },
-    { name: 'About', path: '/about' },
-  ];
+  const iconMap = {
+    facebook: Facebook,
+    instagram: Instagram,
+    linkedin: Linkedin,
+    email: Mail,
+  };
 
   return (
     <footer className="bg-secondary text-secondary-foreground">
@@ -22,30 +18,47 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
               <div className="p-2 rounded-lg bg-background/10">
-                <img src="/assets/logo/logo_mini.png" alt="JEC RoboWorld Logo" className="h-10 w-10" />
+                <img src={footerData.logo.image} alt={footerData.logo.alt} className="h-10 w-10" />
               </div>
-              <span className="text-xl font-bold">JEC RoboWorld</span>
+              <span className="text-xl font-bold">{footerData.logo.title}</span>
             </div>
             <p className="text-muted-foreground mb-4 max-w-md">
-              Pioneering the future of robotics through innovation, education, and competitive excellence.
+              {footerData.description}
             </p>
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
-                <span>Jorhat Engineering College</span>
+                <span>{footerData.contact.address}</span>
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                <a href="mailto:roboworld@jgec.ac.in" className="hover:text-primary transition-colors">
-                  roboworld@jgec.ac.in
+                <a href={`mailto:${footerData.contact.email}`} className="hover:text-primary transition-colors">
+                  {footerData.contact.email}
                 </a>
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
-                <a href="tel:+91-1234567890" className="hover:text-primary transition-colors">
-                  +91-1234567890
+                <a href={`tel:${footerData.contact.phone}`} className="hover:text-primary transition-colors">
+                  {footerData.contact.phone}
                 </a>
               </div>
+            </div>
+
+            {/* Social Links */}
+            <div className="flex space-x-4 mt-6">
+              {footerData.socialLinks.map((social) => {
+                const IconComponent = iconMap[social.icon as keyof typeof iconMap];
+                return (
+                  <a
+                    key={social.name}
+                    href={social.url}
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                    aria-label={social.name}
+                  >
+                    <IconComponent className="h-5 w-5" />
+                  </a>
+                );
+              })}
             </div>
           </div>
 
@@ -53,7 +66,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              {navItems.slice(0, 5).map((item) => (
+              {footerData.navigation.slice(0, 4).map((item) => (
                 <li key={item.name}>
                   <Link
                     to={item.path}
@@ -70,7 +83,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">More</h3>
             <ul className="space-y-2">
-              {navItems.slice(5).map((item) => (
+              {footerData.navigation.slice(4).map((item) => (
                 <li key={item.name}>
                   <Link
                     to={item.path}
@@ -86,7 +99,7 @@ const Footer = () => {
 
         <div className="border-t border-primary/20 mt-8 pt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} JEC RoboWorld. All rights reserved.
+            © {footerData.copyright.showYear ? new Date().getFullYear() : ''} {footerData.copyright.text}
           </p>
         </div>
       </div>
