@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Calendar, Trophy, Lightbulb, Star, Award, Zap, Target, Rocket } from 'lucide-react';
+import { Calendar, Trophy, Lightbulb, Star, Award, Zap, Target, Rocket, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface TimelineEvent {
   id: number;
@@ -219,6 +220,19 @@ const TimelineSection = ({
             </div>
           ))}
         </div>
+
+        {/* View Full Timeline Button - Only show when maxEvents is specified */}
+        {maxEvents && (
+          <div className="text-center mt-14">
+            <Link
+              to="/timeline"
+              className="inline-flex items-center gap-3 bg-black/90 hover:bg-gray-800 text-white py-4 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            >
+              <span className="text-md">View Full Timeline</span>
+              <ArrowRight className="w-5 h-5" />
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );
