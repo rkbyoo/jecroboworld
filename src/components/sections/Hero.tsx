@@ -29,7 +29,7 @@ const Hero = () => {
                 </Link>
               </Button>
               <Button asChild size="lg" className="bg-black/40 hover:bg-black/60 text-white hover:scale-105 transition-all duration-300">
-                <Link to="/team" className="cursor-pointer">
+                <Link to="https://docs.google.com/forms/d/e/1FAIpQLScAB45gIWtHeZaKy_arQZqQkrJCdUAhNUwyaSBClkNyEnPgKw/viewform?usp=header" className="cursor-pointer">
                   Join Roboworld
                 </Link>
               </Button>
