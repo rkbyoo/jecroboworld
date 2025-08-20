@@ -85,6 +85,8 @@ const Hero = () => {
                 <Link
                   to="https://docs.google.com/forms/d/e/1FAIpQLScAB45gIWtHeZaKy_arQZqQkrJCdUAhNUwyaSBClkNyEnPgKw/viewform?usp=header"
                   className="cursor-pointer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Join Roboworld
                 </Link>
