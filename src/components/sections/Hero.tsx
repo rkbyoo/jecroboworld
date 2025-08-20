@@ -14,8 +14,8 @@ const Hero = () => {
 
             {/* Main Heading */}
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
-              <div className="text-primary" style={{ fontFamily: 'Orbitron, monospace', fontWeight: '900' }}>ROBOWORLD</div>
-              <div className="text-2xl md:text-3xl lg:text-4xl text-secondary-foreground mt-2 hover:text-primary transition-colors duration-300 cursor-default">
+              <div className="text-primary" style={{ fontFamily: 'Montserrat, sans-serif', fontWeight: '700' }}>ROBOWORLD</div>
+              <div className="text-2xl md:text-3xl lg:text-4xl text-secondary-foreground mt-2 cursor-default">
                 The Robotics Club of JEC
               </div>
             </h1>
