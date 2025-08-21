@@ -59,13 +59,13 @@ const App = () => {
 
     window.addEventListener("load", onLoad);
 
-    // fallback
+    // fallback: ensure loader never shows for more than 2 seconds
     const fallback = setTimeout(() => {
       if (!cleared) {
         cleared = true;
         hideLoaderSequence();
       }
-    }, 6000);
+    }, 4000);
 
     return () => {
       window.removeEventListener("load", onLoad);
