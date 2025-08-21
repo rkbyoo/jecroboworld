@@ -140,7 +140,7 @@ The website uses JSON files in the `src/data/` directory for content management.
   "description": "Event description here",
   "joiningUrl": "https://forms.google.com/your-form",
   "date": "2025-09-01",
-  "status": "upcoming" // or "completed"
+  "status": "upcoming"  or "completed" or "ongoing"
 }
 ```
 
@@ -151,7 +151,7 @@ The website uses JSON files in the `src/data/` directory for content management.
   "name": "Member Name",
   "role": "Position/Role",
   "photo": "assets/members/member-photo.jpg",
-  "status": "current" // or "alumni"
+  "status": "current" or "alumni" 
 }
 ```
 
@@ -172,7 +172,7 @@ The website uses JSON files in the `src/data/` directory for content management.
 ```json
 {
   "id": 99,
-  "year": "2025",
+  "year": "month and year",
   "eventName": "Event Name",
   "description": "Detailed description of the event",
   "photo": "/assets/timeline/event-photo.jpg"
