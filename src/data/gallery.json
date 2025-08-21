@@ -1,26 +1,24 @@
 [
-  {
-    "id": 1,
-    "image": "/assets/projects/IMG_20180317_175919.jpg"
-  },
-  {
-    "id": 2,
-    "image": "/assets/projects/IMG_20190202_084048.jpg"
-  },
-  {
-    "id": 3,
-    "image": "/assets/projects/IMG_20191025_191403.jpg"
-  },
-  {
-    "id": 4,
-    "image": "/assets/projects/IMG_20200130_000124.jpg"
-  },
-  {
-    "id": 5,
-    "image": "/assets/projects/rsz_techfest.jpg"
-  },
-  {
-    "id": 6,
-    "image": "/assets/projects/technosphere_19.jpg"
-  }
+  { "id": 1, "image": "/assets/projects/IMG_20180317_175919.jpg" },
+  { "id": 2, "image": "/assets/projects/IMG_20190202_084048.jpg" },
+  { "id": 3, "image": "/assets/projects/IMG_20191025_191403.jpg" },
+  { "id": 4, "image": "/assets/projects/IMG_20191025_191403 (1).jpg" },
+  { "id": 5, "image": "/assets/projects/IMG_20200130_000124.jpg" },
+  { "id": 6, "image": "/assets/projects/IMG-20191102-WA0009.jpg" },
+  { "id": 7, "image": "/assets/projects/IMG-20191108-WA0002.jpg" },
+  { "id": 8, "image": "/assets/projects/IMG20191102212234.jpg" },
+  { "id": 9, "image": "/assets/projects/Robosepians.jpeg" },
+  { "id": 10, "image": "/assets/projects/Robospeians.jpeg" },
+  { "id": 11, "image": "/assets/projects/rsz_techfest.jpg" },
+  { "id": 12, "image": "/assets/projects/rsz_techniche_18.jpg" },
+  { "id": 13, "image": "/assets/projects/rsz_techniche_19.jpg" },
+  { "id": 14, "image": "/assets/projects/sih.jpg" },
+  { "id": 15, "image": "/assets/projects/sih - Copy.jpg" },
+  { "id": 16, "image": "/assets/projects/supernerd.jpeg" },
+  { "id": 17, "image": "/assets/projects/techkriti.png" },
+  { "id": 19, "image": "/assets/projects/hacking.jpeg" },
+  { "id": 20, "image": "/assets/projects/HACKINGWRKSHP02.JPG" },
+  { "id": 21, "image": "/assets/projects/astu hackathon.jpg" },
+  { "id": 21, "image": "/assets/teams/team arcelor.jpg" },
+  { "id": 21, "image": "/assets/teams/team ZenNos.jpg" }
 ]
