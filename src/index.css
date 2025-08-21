@@ -1,10 +1,91 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+/* SVG Artista fill animations for Loader SVG */
+@-webkit-keyframes animate-svg-fill-1 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+@keyframes animate-svg-fill-1 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+.svg-elem-1 {
+  -webkit-animation: animate-svg-fill-1 2.1s cubic-bezier(1, 0, 0, 1) 0.1s both;
+          animation: animate-svg-fill-1 2.1s cubic-bezier(1, 0, 0, 1) 0.1s both;
+}
+@-webkit-keyframes animate-svg-fill-2 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+@keyframes animate-svg-fill-2 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+.svg-elem-2 {
+  -webkit-animation: animate-svg-fill-2 2.1s cubic-bezier(1, 0, 0, 1) 0.2s both;
+          animation: animate-svg-fill-2 2.1s cubic-bezier(1, 0, 0, 1) 0.2s both;
+}
+@-webkit-keyframes animate-svg-fill-3 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+@keyframes animate-svg-fill-3 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+.svg-elem-3 {
+  -webkit-animation: animate-svg-fill-3 2.1s cubic-bezier(1, 0, 0, 1) 0.3s both;
+          animation: animate-svg-fill-3 2.1s cubic-bezier(1, 0, 0, 1) 0.3s both;
+}
+@-webkit-keyframes animate-svg-fill-4 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+@keyframes animate-svg-fill-4 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+.svg-elem-4 {
+  -webkit-animation: animate-svg-fill-4 2.1s cubic-bezier(1, 0, 0, 1) 0.4s both;
+          animation: animate-svg-fill-4 2.1s cubic-bezier(1, 0, 0, 1) 0.4s both;
+}
+@-webkit-keyframes animate-svg-fill-5 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+@keyframes animate-svg-fill-5 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+.svg-elem-5 {
+  -webkit-animation: animate-svg-fill-5 2.1s cubic-bezier(1, 0, 0, 1) 0.5s both;
+          animation: animate-svg-fill-5 2.1s cubic-bezier(1, 0, 0, 1) 0.5s both;
+}
+@-webkit-keyframes animate-svg-fill-6 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+@keyframes animate-svg-fill-6 {
+  0% { fill: transparent; }
+  100% { fill: rgb(0, 0, 0); }
+}
+.svg-elem-6 {
+  -webkit-animation: animate-svg-fill-6 2.1s cubic-bezier(1, 0, 0, 1) 0.6s both;
+          animation: animate-svg-fill-6 2.1s cubic-bezier(1, 0, 0, 1) 0.6s both;
+}
+
+
+
+
 /* RoboWorld Design System - Yellow, Black, Grey, White Theme */
+
+
 
 @layer base {
   :root {
