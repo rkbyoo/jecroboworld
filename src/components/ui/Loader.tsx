@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useMemo } from "react";
 
-
-import { useMemo } from "react";
+interface LoaderProps {
+  visible: boolean;
+}
 
 // Helper to force remount on refresh (animation restart)
 const getRandomKey = () => Math.random().toString(36).slice(2);
 
-const Loader = () => {
+const Loader: React.FC<LoaderProps> = ({ visible }) => {
   // This key will change on every refresh, remounting the SVG and restarting the animation
   const svgKey = useMemo(() => getRandomKey(), []);
+  if (!visible) return null;
   return (
-  <div className="loader-overlay" style={{ width: '100vw', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff' }}>
+    <div className="loader-overlay" style={{ width: '100vw', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff' }}>
       <svg
         key={svgKey}
         fill="#000000"
