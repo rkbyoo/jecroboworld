@@ -22,10 +22,10 @@ const Footer = () => {
               </div>
               <span className="text-xl font-bold">{footerData.logo.title}</span>
             </div>
-            <p className="text-muted-foreground mb-4 max-w-md">
+            <p className=" mb-4 max-w-md">
               {footerData.description}
             </p>
-            <div className="space-y-2 text-sm text-muted-foreground">
+            <div className="space-y-2 text-sm">
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
                 <span>{footerData.contact.address}</span>
@@ -52,7 +52,7 @@ const Footer = () => {
                   <a
                     key={social.name}
                     href={social.url}
-                    className="text-muted-foreground hover:text-primary transition-colors"
+                    className=" hover:text-primary transition-colors"
                     aria-label={social.name}
                   >
                     <IconComponent className="h-5 w-5" />
@@ -70,7 +70,7 @@ const Footer = () => {
                 <li key={item.name}>
                   <Link
                     to={item.path}
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="hover:text-primary transition-colors text-sm"
                   >
                     {item.name}
                   </Link>
@@ -87,7 +87,7 @@ const Footer = () => {
                 <li key={item.name}>
                   <Link
                     to={item.path}
-                    className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                    className="hover:text-primary transition-colors text-sm"
                   >
                     {item.name}
                   </Link>
@@ -98,8 +98,21 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary/20 mt-8 pt-8 text-center">
-          <p className="text-muted-foreground text-sm">
-            © {footerData.copyright.showYear ? new Date().getFullYear() : ''} {footerData.copyright.text}
+          <p className="text-sm flex flex-col items-center gap-2">
+            <span>
+              © {footerData.copyright.showYear ? new Date().getFullYear() : ''} {footerData.copyright.text}
+            </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/rkb16/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm hover:text-[#2b9e9c] transition-colors no-underline"
+                aria-label="Rakib Hussain LinkedIn"
+              >
+                Developed by Rakib Hussain
+              </a>
+            </span>
           </p>
         </div>
       </div>
