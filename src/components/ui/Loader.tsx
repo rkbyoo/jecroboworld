@@ -10,7 +10,7 @@ const Loader = () => {
   // This key will change on every refresh, remounting the SVG and restarting the animation
   const svgKey = useMemo(() => getRandomKey(), []);
   return (
-    <div className="loader-overlay">
+  <div className="loader-overlay" style={{ width: '100vw', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff' }}>
       <svg
         key={svgKey}
         fill="#000000"
@@ -20,8 +20,9 @@ const Loader = () => {
         xmlnsXlink="http://www.w3.org/1999/xlink"
         viewBox="0 0 512 512"
         xmlSpace="preserve"
-        width="256"
-        height="256"
+        width="120"
+        height="120"
+        style={{ maxWidth: '80vw', maxHeight: '80vh' }}
       >
         <g>
           <g>
