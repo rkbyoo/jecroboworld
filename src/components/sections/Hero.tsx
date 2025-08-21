@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BLUR_BG } from "./blurPlaceholder";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -27,22 +28,25 @@ const Hero = () => {
       style={{ position: "relative" }}
     >
       {/* Background image with filter */}
-      {bgLoaded && (
-        <div
-          aria-hidden
-          style={{
-            position: "absolute",
-            inset: 0,
-            zIndex: 0,
-            backgroundImage: "url('/assets/background.jpg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            filter: "contrast(1.5) brightness(0.4)",
-            pointerEvents: "none",
-          }}
-        />
-      )}
+      {/* Blurred placeholder always visible, real bg fades in */}
+      <div
+        aria-hidden
+        style={{
+          position: "absolute",
+          inset: 0,
+          zIndex: 0,
+          backgroundImage: bgLoaded
+            ? "url('/assets/background.jpg')"
+            : `url('${BLUR_BG}')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          filter: bgLoaded
+            ? "contrast(1.5) brightness(0.4)"
+            : "blur(8px) scale(1.05) brightness(0.7)",
+          transition: "background-image 0.3s ease, filter 0.3s ease"
+        }}
+      />
 
       {/* Centered Content Layout */}
       <div className="relative z-10 w-full h-screen flex items-center">

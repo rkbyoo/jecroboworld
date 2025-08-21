@@ -65,7 +65,7 @@ const App = () => {
         cleared = true;
         hideLoaderSequence();
       }
-    }, 4000);
+    }, 2000);
 
     return () => {
       window.removeEventListener("load", onLoad);
