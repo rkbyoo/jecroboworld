@@ -20,19 +20,19 @@ const AlumniCard = ({ name, phone, email, image, batch, currentPosition }: Alumn
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         </div>
-        <h3 className="text-xl font-bold text-card-foreground mb-2 group-hover:text-foreground transition-colors">
+        <h3 className="text-xl font-bold text-black mb-2 group-hover:text-black transition-colors">
           {name}
         </h3>
 
         {/* Batch */}
-        <div className="flex items-center justify-center text-muted-foreground mb-3">
+        <div className="flex items-center justify-center text-black/70 mb-3">
           <GraduationCap className="h-4 w-4 mr-2 flex-shrink-0" />
           <span className="text-sm font-medium">{batch}</span>
         </div>
 
         {/* Current Position */}
         {currentPosition && (
-          <div className="flex items-start justify-center text-muted-foreground mb-4">
+          <div className="flex items-start justify-center text-black/70 mb-4">
             <Briefcase className="h-4 w-4 mr-2 flex-shrink-0 mt-0.5" />
             <span className="text-sm text-center leading-relaxed">{currentPosition}</span>
           </div>
@@ -40,17 +40,17 @@ const AlumniCard = ({ name, phone, email, image, batch, currentPosition }: Alumn
 
         <div className="space-y-2">
           {phone && (
-            <div className="flex items-center text-muted-foreground group-hover:text-foreground/70 justify-center transition-colors">
+            <div className="flex items-center text-black/60 group-hover:text-black/80 justify-center transition-colors">
               <Phone className="h-4 w-4 mr-2 flex-shrink-0" />
-              <a href={`tel:${phone}`} className="text-sm hover:text-foreground transition-colors">
+              <a href={`tel:${phone}`} className="text-sm hover:text-black transition-colors">
                 {phone}
               </a>
             </div>
           )}
           {email && (
-            <div className="flex items-center text-muted-foreground group-hover:text-foreground/70 justify-center transition-colors">
+            <div className="flex items-center text-black/60 group-hover:text-black/80 justify-center transition-colors">
               <Mail className="h-4 w-4 mr-2 flex-shrink-0" />
-              <a href={`mailto:${email}`} className="text-sm hover:text-foreground transition-colors truncate">
+              <a href={`mailto:${email}`} className="text-sm hover:text-black transition-colors truncate">
                 {email}
               </a>
             </div>

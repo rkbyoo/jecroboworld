@@ -66,22 +66,22 @@ const TutorialsPage = () => {
                 key={tutorial.id}
                 className="group bg-card border border-border rounded-xl p-6 hover-glow transition-all duration-300"
               >
-                <h3 className="text-xl font-bold text-card-foreground mb-3 group-hover:text-foreground transition-colors">
+                <h3 className="text-xl font-bold text-black mb-3 group-hover:text-black transition-colors">
                   {tutorial.topic}
                 </h3>
-                <p className="text-muted-foreground group-hover:text-foreground/80 mb-4 leading-relaxed transition-colors">
+                <p className="text-black/60 group-hover:text-black/80 mb-4 leading-relaxed transition-colors">
                   {tutorial.description}
                 </p>
                 <div className="flex justify-start">
-                  <Button asChild variant="outline">
+                  <Button asChild variant="outline" className="group-hover:scale-105 transition-all duration-300 hover:bg-black hover:text-white hover:border-black">
                     <a
                       href={tutorial.readMoreLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center cursor-pointer"
+                      className="flex items-center justify-center cursor-pointer text-black hover:text-white transition-all duration-300"
                     >
                       Read More
-                      <ChevronRight className="ml-2 h-4 w-4" />
+                      <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1 duration-300" />
                     </a>
                   </Button>
                 </div>
@@ -110,22 +110,22 @@ const TutorialsPage = () => {
                 <div className="p-6">
                   <div className="flex items-start justify-between mb-4">
                     <div>
-                      <h3 className="text-xl font-bold text-card-foreground mb-1">
+                      <h3 className="text-xl font-bold text-black mb-1">
                         {channel.channelName}
                       </h3>
-                      <p className="text-muted-foreground">by {channel.ownerName}</p>
+                      <p className="text-black/60">by {channel.ownerName}</p>
                     </div>
                     <Youtube className="h-6 w-6 text-red-500" />
                   </div>
                   <div className="flex justify-start">
-                    <Button asChild>
+                    <Button asChild className="group-hover:scale-105 transition-transform duration-300 hover:bg-black hover:text-white">
                       <a
                         href={channel.channelLink}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center cursor-pointer"
                       >
-                        <ExternalLink className="mr-2 h-4 w-4" />
+                        <ExternalLink className="mr-2 h-4 w-4 transition-transform group-hover:translate-x-1 duration-300" />
                         Go to Channel
                       </a>
                     </Button>
@@ -146,16 +146,16 @@ const TutorialsPage = () => {
                   key={category}
                   className="bg-card border border-border rounded-xl p-6 hover-glow transition-all duration-300"
                 >
-                  <h3 className="text-xl font-bold text-card-foreground mb-4 capitalize">
+                  <h3 className="text-xl font-bold text-black mb-4 capitalize">
                     {category}
                   </h3>
                   <div className="space-y-4">
                     {softwareList.map((software, index) => (
                       <div key={index} className="border-b border-border/50 pb-3 last:border-b-0">
-                        <h4 className="font-semibold text-card-foreground mb-1">
+                        <h4 className="font-semibold text-black mb-1">
                           {software.name}
                         </h4>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-sm text-black/60">
                           {software.description}
                         </p>
                       </div>

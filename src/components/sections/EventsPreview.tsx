@@ -33,21 +33,15 @@ const EventsPreview = () => {
   }, []);
 
   return (
-    <section className="py-20 bg-secondary">
-      <div className="container mx-auto px-4">
+    <section className="min-h-screen flex flex-col justify-center py-20 bg-black text-white">
+      <div className="container mx-auto px-4 flex-1 flex flex-col justify-center">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-secondary-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Our Events
           </h2>
           <p className="text-xl text-secondary-foreground/80 max-w-2xl mx-auto mb-8">
             Experience the thrill of competitive robotics through our exciting events
           </p>
-          <Button asChild>
-            <Link to="/events" className="flex items-center cursor-pointer">
-              View All Events
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Link>
-          </Button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -62,6 +56,15 @@ const EventsPreview = () => {
               status={event.status}
             />
           ))}
+        </div>
+        
+        <div className="flex justify-center mt-14">
+          <Button asChild>
+            <Link to="/events" className="flex items-center cursor-pointer">
+              View All Events
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
         </div>
       </div>
     </section>

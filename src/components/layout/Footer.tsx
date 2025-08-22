@@ -11,11 +11,11 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-secondary text-secondary-foreground">
+    <footer className=" text-white bg-black">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           {/* Logo and Description */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-1 md:col-span-6">
             <div className="flex items-center space-x-2 mb-4">
               <div className="p-2 rounded-lg bg-background/10">
                 <img src={footerData.logo.image} alt={footerData.logo.alt} className="h-10 w-10" />
@@ -63,7 +63,7 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="col-span-1 md:col-span-3 md:ml-80">
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               {footerData.navigation.slice(0, 4).map((item) => (
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
 
           {/* More Links */}
-          <div>
+          <div className="col-span-1 md:col-span-3 md:ml-80">
             <h3 className="text-lg font-semibold mb-4">More</h3>
             <ul className="space-y-2">
               {footerData.navigation.slice(4).map((item) => (

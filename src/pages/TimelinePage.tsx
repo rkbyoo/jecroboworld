@@ -5,10 +5,10 @@ const TimelinePage = () => {
     <div className="pt-24 min-h-screen">
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            OUR TIMELINE
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+           Our Timeline
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             A chronological journey through our major milestones and achievements
           </p>
         </div>
@@ -16,7 +16,7 @@ const TimelinePage = () => {
       
       <TimelineSection 
         showTitle={false}
-        className="pb-20 bg-gray-50"
+        className="pb-20 bg-background"
       />
     </div>
   );

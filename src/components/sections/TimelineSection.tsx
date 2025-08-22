@@ -21,8 +21,8 @@ interface TimelineSectionProps {
 const TimelineSection = ({
   maxEvents,
   showTitle = true,
-  title = "OUR TIMELINE",
-  className = "py-20 bg-gray-50"
+  title = "Our Timeline",
+  className = "pt-20 bg-black text-white pb-40"
 }: TimelineSectionProps) => {
   const [events, setEvents] = useState<TimelineEvent[]>([]);
 
@@ -64,7 +64,7 @@ const TimelineSection = ({
       <div className="container mx-auto px-4">
         {showTitle && (
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
               {title}
             </h2>
           </div>
@@ -78,7 +78,7 @@ const TimelineSection = ({
             const CheckpointIcon = getCheckpointIcon(index);
             
             return (
-              <div key={event.id} className="relative -mb-8 hidden md:block">
+              <div key={event.id} className="relative mb-16 hidden md:block">
                 {/* Checkpoint icon on central timeline */}
                 <div className="absolute left-1/2 transform -translate-x-1/2 top-8 z-20 hidden md:block">
                   <div
@@ -228,7 +228,7 @@ const TimelineSection = ({
           <div className="text-center mt-14">
             <Link
               to="/timeline"
-              className="inline-flex items-center gap-3 bg-black/90 hover:bg-gray-800 text-white py-4 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+              className="inline-flex items-center gap-3 bg-white text-black py-4 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               <span className="text-md">View Full Timeline</span>
               <ArrowRight className="w-5 h-5" />

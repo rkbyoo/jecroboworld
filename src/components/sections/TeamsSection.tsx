@@ -19,13 +19,13 @@ const TeamsSection = () => {
   }, []);
 
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-4">
+    <section className="min-h-screen flex flex-col justify-center py-20 bg-black text-white">
+      <div className="container mx-auto px-4 flex-1 flex flex-col justify-center">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Our Robotics Teams
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl max-w-2xl mx-auto">
             Meet the innovative teams pushing the boundaries of robotics technology
           </p>
         </div>

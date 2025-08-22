@@ -87,7 +87,7 @@ const App = () => {
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/events" element={<EventsPage />} />
-                <Route path="/team" element={<TeamPage />} />
+                <Route path="/members" element={<TeamPage />} />
                 <Route path="/achievements" element={<AchievementsPage />} />
                 <Route path="/timeline" element={<TimelinePage />} />
                 <Route path="/gallery" element={<GalleryPage />} />
@@ -98,7 +98,6 @@ const App = () => {
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>
-            <Footer />
           </div>
         </BrowserRouter>
       </TooltipProvider>

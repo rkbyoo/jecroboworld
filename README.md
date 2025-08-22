@@ -107,7 +107,7 @@ src/
 
 - **Home** (`/`) - Landing page with hero section and overview
 - **Events** (`/events`) - Ongoing and past events
-- **Team** (`/team`) - Current and past team members
+- **Team** (`/members`) - Current and past team members
 - **Achievements** (`/achievements`) - Club accomplishments and awards
 - **Timeline** (`/timeline`) - Club history and milestones
 - **Gallery** (`/gallery`) - Photo gallery of activities

@@ -17,13 +17,13 @@ const SponsorsSection = () => {
   }, []);
 
   return (
-    <section className="py-20 bg-background overflow-hidden">
+    <section className="pb-40 bg-black text-white overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">
             Our Sponsors
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl max-w-2xl mx-auto">
             Proudly supported by industry leaders who believe in our vision
           </p>
         </div>
@@ -35,18 +35,17 @@ const SponsorsSection = () => {
             {[...sponsors, ...sponsors, ...sponsors].map((sponsor, index) => (
               <a
                 key={`${sponsor.id}-${index}`}
-                href={sponsor.website}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-shrink-0 group"
               >
-                <div className="relative p-8 rounded-xl bg-card border border-border hover-glow transition-all duration-300">
+                <div className="relative p-8 rounded-xl bg-card border border-border transition-all duration-300">
                   <img
                     src={sponsor.logo}
                     alt={sponsor.name}
-                    className="h-16 w-32 object-contain filter grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-300"
+                    className="h-16 w-32 object-contain filter grayscale group-hover:grayscale-0  transition-all duration-300"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
+                  <div className="from-primary/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl" />
                 </div>
               </a>
             ))}

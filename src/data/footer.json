@@ -13,7 +13,7 @@
   "navigation": [
     { "name": "About", "path": "/about" },
     { "name": "Events", "path": "/events" },
-    { "name": "Teams", "path": "/team" },
+    { "name": "members", "path": "/team" },
     { "name": "Achievements", "path": "/achievements" },
     { "name": "Gallery", "path": "/gallery" },
     { "name": "Alumni", "path": "/alumni" },

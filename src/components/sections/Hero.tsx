@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-hero"
-      style={{ position: "relative" }}
+      style={{ position: "relative", minHeight: '100vh' }}
     >
       {/* Background image with filter */}
       {/* Blurred placeholder always visible, real bg fades in */}
@@ -49,7 +49,7 @@ const Hero = () => {
       />
 
       {/* Centered Content Layout */}
-      <div className="relative z-10 w-full h-screen flex items-center">
+  <div className="relative z-10 w-full min-h-screen flex items-center">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center text-center space-y-8 max-w-4xl mx-auto">
             {/* Main Heading */}
@@ -76,8 +76,8 @@ const Hero = () => {
                 size="lg"
                 className="bg-white/90 hover:bg-white/100 text-black hover:scale-105 transition-all duration-300"
               >
-                <Link to="/events" className="flex items-center cursor-pointer">
-                  Explore Events
+                <Link to="/members" className="flex items-center cursor-pointer">
+                  Meet Our Team
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>

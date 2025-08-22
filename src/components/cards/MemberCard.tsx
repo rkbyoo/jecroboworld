@@ -10,7 +10,7 @@ const MemberCard = ({ name, role, photo, isCurrent = false }: MemberCardProps) =
     <div className={`group relative overflow-hidden rounded-xl transition-all duration-300 hover:shadow-lg ${
       isCurrent 
         ? 'bg-gradient-to-br from-orange-50 to-amber-50 dark:from-orange-950/30 dark:to-amber-950/30 hover:from-orange-100 hover:to-amber-100 dark:hover:from-orange-900/40 dark:hover:to-amber-900/40' 
-        : 'bg-card hover:bg-card/80'
+        : 'bg-card hover:bg-card/40'
     }`}>
       <div className="p-6 text-center">
         <div className={`w-24 h-24 mx-auto mb-4 overflow-hidden rounded-full transition-all duration-300 ${
@@ -26,16 +26,16 @@ const MemberCard = ({ name, role, photo, isCurrent = false }: MemberCardProps) =
         </div>
         <h3 className={`text-xl font-bold mb-2 transition-colors ${
           isCurrent 
-            ? 'text-orange-900 dark:text-orange-100 group-hover:text-orange-800 dark:group-hover:text-orange-50' 
+            ? 'text-orange-900 dark:text-orange-100 group-hover:text-black dark:group-hover:text-black' 
             : 'text-card-foreground group-hover:text-foreground'
         }`}>
           {name}
         </h3>
         {role && (
-          <p className={`font-medium ${
+          <p className={`font-medium transition-colors ${
             isCurrent 
-              ? 'text-orange-700 dark:text-orange-300' 
-              : 'text-foreground'
+              ? 'text-orange-700 dark:text-orange-300 group-hover:text-black dark:group-hover:text-black' 
+              : 'text-background group-hover:text-white'
           }`}>
             {role}
           </p>

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "eventName": "Best Controller",
-    "image": "/assets/event/upcoming.svg",
+    "image": "",
     "description": "A competition for hunting the best controller within 1st sem students with preliminary round of roborace followed by pick and place",
     "joiningUrl": "https://forms.google.com/bestcontroller2025",
     "date": "2025-09-01",
@@ -11,43 +11,52 @@
   {
     "id": 5,
     "eventName": "Club Induction Meeting",
-    "image": "/assets/event/upcoming.svg",
+    "image": "",
     "description": "Club Induction meeting is organized every year in month of August for new members.",
     "status": "completed"
   },
   {
     "id": 6,
     "eventName": "Technovus",
-    "image": "/assets/event/upcoming.svg",
+    "image": "",
     "description": "Organized Technovus in November, The technical fest of Jorhat Engineering College.",
     "status": "completed"
   },
   {
     "id": 7,
     "eventName": "Workshops during College Induction Programme",
-    "image": "/assets/event/upcoming.svg",
+    "image": "",
     "description": "Conducted a workshop on the basics of Arduino and motor controlling with it, both wired and wireless as a part of the Induction Program under AICTE/TEQIP.",
     "status": "completed"
   },
   {
     "id": 8,
     "eventName": "BYOT - Bring Your Own Technology",
-    "image": "/assets/event/upcoming.svg",
+    "image": "",
     "description": "Intra JEC competition for 1st year students in which they have to present their unique ideas, and winning projects are made under roboworld.",
     "status": "completed"
   },
   {
     "id": 9,
     "eventName": "Weekly Tutorial Programs",
-    "image": "/assets/event/upcoming.svg",
+    "image": "",
     "description": "Guidance to get acquainted with various robotic platforms from the senior members.",
     "status": "completed"
   },
   {
     "id": 10,
     "eventName": "Webinar Series on Engineers Day 2017",
-    "image": "/assets/event/upcoming.svg",
+    "image": "",
     "description": "On the occasion of Engineers' Day (2017), Webinar Series was organised in Jorhat Engineering College in association with Roboworld.",
     "status": "completed"
+  },
+   {
+    "id": 11,
+    "eventName": "Best Controller",
+    "image": "/assets/event/upcoming.svg",
+    "description": "A competition for hunting the best controller within 1st sem students with preliminary round of roborace followed by pick and place",
+    "joiningUrl": "https://forms.google.com/bestcontroller2025",
+    "date": "2025-09-01",
+    "status": "ongoing"
   }
 ]

@@ -25,23 +25,20 @@ const EventCard = ({ eventName, image, description, joiningUrl, date, status }: 
   };
 
   const statusConfig = getStatusConfig(status);
+  
+  // Check if we should show image section based purely on whether image src is provided
+  const shouldShowImage = image && image.trim() !== '';
 
   return (
-    <div className="group relative overflow-hidden rounded-xl bg-card border border-border hover:border-foreground/20 hover:shadow-lg transition-all duration-300">
-      {/* Only show image section for non-completed events */}
-      {status !== 'completed' && (
+    <div className="group relative overflow-hidden rounded-xl bg-card border border-border hover:border-foreground/20 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-all duration-300">
+      {/* Show image section only if image src is provided in JSON */}
+      {shouldShowImage && (
         <div className="aspect-video overflow-hidden relative">
-          {image ? (
-            <img
-              src={image}
-              alt={eventName}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            />
-          ) : (
-            <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-              <Bot className="h-16 w-16 text-primary/60" />
-            </div>
-          )}
+          <img
+            src={image}
+            alt={eventName}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
           {status && (
             <div className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-medium ${statusConfig.className}`}>
               {statusConfig.label}
@@ -50,23 +47,23 @@ const EventCard = ({ eventName, image, description, joiningUrl, date, status }: 
         </div>
       )}
       
-      {/* Content section with improved spacing for past events */}
-      <div className={status === 'completed' ? 'p-8' : 'p-6'}>
-        <div className={`flex items-start justify-between ${status === 'completed' ? 'mb-6' : 'mb-3'}`}>
-          <h3 className={`font-bold text-card-foreground group-hover:text-foreground transition-colors ${
-            status === 'completed' ? 'text-2xl leading-tight' : 'text-xl'
+      {/* Content section with improved spacing for events without images */}
+      <div className={!shouldShowImage ? 'p-8' : 'p-6'}>
+        <div className={`flex items-start justify-between ${!shouldShowImage ? 'mb-6' : 'mb-3'}`}>
+          <h3 className={`font-bold text-black group-hover:text-black transition-colors ${
+            !shouldShowImage ? 'text-2xl leading-tight' : 'text-xl'
           }`}>
             {eventName}
           </h3>
           <div className="flex items-center gap-2 flex-shrink-0 ml-4">
-            {/* Show status badge for completed events */}
-            {status === 'completed' && (
+            {/* Show status badge for events without images */}
+            {!shouldShowImage && status && (
               <div className={`px-3 py-1 rounded-full text-xs font-medium ${statusConfig.className}`}>
                 {statusConfig.label}
               </div>
             )}
             {date && (
-              <div className="flex items-center text-sm text-muted-foreground group-hover:text-foreground/70 transition-colors">
+              <div className="flex items-center text-sm text-black/70 group-hover:text-black/70 transition-colors">
                 <Calendar className="h-4 w-4 mr-1" />
                 {new Date(date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
               </div>
@@ -74,8 +71,8 @@ const EventCard = ({ eventName, image, description, joiningUrl, date, status }: 
           </div>
         </div>
         
-        <p className={`text-muted-foreground group-hover:text-foreground/80 transition-colors ${
-          status === 'completed' 
+        <p className={`text-black/60 group-hover:text-black/80 transition-colors ${
+          !shouldShowImage
             ? 'leading-relaxed text-base mb-0' 
             : 'leading-relaxed mb-4'
         }`}>
@@ -87,7 +84,7 @@ const EventCard = ({ eventName, image, description, joiningUrl, date, status }: 
             {status === 'upcoming' ? (
               <Button 
                 disabled
-                className="opacity-60 cursor-not-allowed"
+                className="opacity-60 cursor-not-allowed bg-black text-white"
               >
                 <ExternalLink className="h-4 w-4 mr-2" />
                 Registration Opens Soon
@@ -95,7 +92,7 @@ const EventCard = ({ eventName, image, description, joiningUrl, date, status }: 
             ) : (
               <Button 
                 asChild 
-                className="group-hover:scale-105 transition-transform duration-300"
+                className="group-hover:scale-105 transition-transform duration-300 bg-black text-white hover:text-white hover:bg-black"
               >
                 <a href={joiningUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center cursor-pointer">
                   <ExternalLink className="h-4 w-4 mr-2" />
