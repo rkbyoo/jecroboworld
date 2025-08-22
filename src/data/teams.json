@@ -3,14 +3,14 @@
     "id": 1,
     "teamName": "Team Arcelor",
     "logo": "/assets/logo/team logo/team arcelor logo.png",
-    "image": "/assets/teams/team arcelor.jpg",
-    "description": "Team Arcelor is a passionate robotics team competing in RoboSoccer, RoboRace, Amphibian Bots and more, driving innovation, creativity and excellence in every challenge. The team has won multiple tournaments and prizes across Assam and at the national level."
+    "image": "/assets/teams/team arcelor.jpg"
+    
   },
   {
     "id": 2,
     "teamName": "Team ZenNos",
     "logo": "/assets/logo/team logo/ZenNos logo.jpg",
-    "image": "/assets/teams/team ZenNos.jpg",
-    "description": "Striving for peak performance in robotics competitions and technological advancement."
+    "image": "/assets/teams/team ZenNos.jpg"
+    
   }
 ]

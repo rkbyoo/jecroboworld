@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "name": "TechCorp Industries",
-    "logo": "/assets/logo/logo_transparent_large.png",
-    "website": "https://techcorp.com"
+    "name": "SBI Life",
+    "logo": "/assets/sponsors/sbilife.png",
+    "website": ""
   },
   {
     "id": 2,
-    "name": "RoboTech Solutions",
-    "logo": "/assets/logo/text_logo_large.png",
-    "website": "https://robotech.com"
+    "name": "Olatus Solutions",
+    "logo": "/assets/sponsors/olatus.jpeg",
+    "website": ""
   },
   {
     "id": 3,
-    "name": "Innovation Labs",
-    "logo": "/assets/logo/phoneix_logo.png",
-    "website": "https://innovationlabs.com"
+    "name": "NERERL",
+    "logo": "/assets/sponsors/nererl.jpg",
+    "website": ""
   },
   {
     "id": 4,
-    "name": "Future Dynamics",
-    "logo": "/assets/logo/logo_mini_2.png",
-    "website": "https://futuredynamics.com"
+    "name": "ROBO AI",
+    "logo": "/assets/sponsors/robo ai.png",
+    "website": ""
   }
 ]

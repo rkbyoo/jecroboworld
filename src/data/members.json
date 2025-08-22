@@ -1,6 +1,140 @@
 [
   {
     "id": 1,
+    "name": "Bitopan Das",
+    "role": "Technical & Club Head",
+    "photo": "assets/members/Bitopan Das.jpg",
+    "status": "current"
+  },
+  {
+    "id": 2,
+    "name": "Bishal Baruah",
+    "role": "Treasurer And Finance Head",
+    "photo": "assets/members/Bishal Baruah.jpg",
+    "status": "current"
+  },
+  {
+    "id": 3,
+    "name": "Rakib Hussain",
+    "role": "Website Head",
+    "photo": "assets/members/Rakib Hussain.jpg",
+    "status": "current"
+  },
+  
+  {
+    "id": 4,
+    "name": "Bishal Dutta",
+    "role": "Website Head",
+    "photo": "assets/members/BISHAL DUTTA.jpg",
+    "status": "current"
+  },
+  {
+    "id": 5,
+    "name": "Partha Pratim Borah",
+    "role": "Website Coordinator",
+    "photo": "assets/members/Partha Pratim Borah.jpg",
+    "status": "current"
+  },
+  {
+    "id": 6,
+    "name": "Ruhil Chetia",
+    "role": "Research & Development Head",
+    "photo": "assets/members/Ruhil Chetia.jpeg",
+    "status": "current"
+  },
+  {
+    "id": 7,
+    "name": "Shobhitya Raj Borah",
+    "role": "Research & Development Head",
+    "photo": "assets/members/Shobhitya.jpg",
+    "status": "current"
+  },
+  {
+    "id": 8,
+    "name": "Sandeep Roy",
+    "role": "Research & Development Head",
+    "photo": "assets/members/Sandeep Roy.jpeg",
+    "status": "current"
+  },
+  {
+    "id": 9,
+    "name": "Shyamalima Saikia",
+    "role": "PR & Management Head",
+    "photo": "assets/members/Shyamalima Saikia.jpg",
+    "status": "current"
+  },
+  {
+    "id": 10,
+    "name": "Doly Barman",
+    "role": "PR & Management Head",
+    "photo": "assets/members/Doly Barman.jpg",
+    "status": "current"
+  },
+  {
+    "id": 11,
+    "name": "Arnab Jyoti Singha",
+    "role": "Creative Head",
+    "photo": "assets/members/Arnab Jyoti Singha.jpg",
+    "status": "current"
+  },
+  {
+    "id": 12,
+    "name": "Mousum Gogoi",
+    "role": "Creative Head",
+    "photo": "assets/members/Mousum Gogoi.jpg",
+    "status": "current"
+  },
+  {
+    "id": 13,
+    "name": "Deeptangshu Nath",
+    "role": "Event Manager",
+    "photo": "assets/members/Deeptangshu Nath.webp",
+    "status": "current"
+  },
+  {
+    "id": 14,
+    "name": "Kapinjal Chakravarty",
+    "role": "Event Manager",
+    "photo": "assets/members/KAPINJAL.jpg",
+    "status": "current"
+  },
+  {
+    "id": 15,
+    "name": "Jitul Kalita",
+    "role": "Workshop In-Charge",
+    "photo": "assets/members/Jitul Kalita.jpg",
+    "status": "current"
+  },
+  {
+    "id": 16,
+    "name": "Kaushik Bora",
+    "role": "Executive Member",
+    "photo": "assets/members/Kaushik Bora.jpg",
+    "status": "current"
+  },
+  {
+    "id": 17,
+    "name": "Mughaka Sema",
+    "role": "Executive Member",
+    "photo": "assets/members/Mughaka Sema.jpeg",
+    "status": "current"
+  },
+  {
+    "id": 18,
+    "name": "Richangkini Sonowal",
+    "role": "Representative",
+    "photo": "assets/members/Richangkini Sonowal.jpeg",
+    "status": "current"
+  },
+  
+  
+  
+  
+  
+  
+  
+  {
+    "id": 1,
     "name": "Bishal Das",
     "role": "Technical & Club Head",
     "photo": "assets/members/Bishal Das.JPG",
@@ -257,12 +391,5 @@
     "role": "Robotics & Automation Head",
     "photo": "assets/members/Tanmoy Sarma.jpg",
     "status": "alumni"
-  },
-  {
-    "id": 38,
-    "name": "Tanmoy Sarma",
-    "role": "Robotics & Automation Head",
-    "photo": "assets/members/Tanmoy Sarma.jpg",
-    "status": "current"
   }
 ]

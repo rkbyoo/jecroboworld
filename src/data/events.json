@@ -2,61 +2,175 @@
   {
     "id": 1,
     "eventName": "Best Controller",
-    "image": "",
+    "image": "/assets/event/upcoming.svg",
     "description": "A competition for hunting the best controller within 1st sem students with preliminary round of roborace followed by pick and place",
     "joiningUrl": "https://forms.google.com/bestcontroller2025",
     "date": "2025-09-01",
     "status": "upcoming"
   },
   {
+    "id": 1,
+    "eventName": "Robo Soccer 2025",
+    "image": "/assets/event/upcoming.svg",
+    "description": "As part of Technovus 2025, Roboworld organized the Robo Soccer event.",
+    "date": "2025-03-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Robo Race 2025",
+    "image": "/assets/event/upcoming.svg",
+    "description": "As part of Technovus 2025, Roboworld organized the Robo Race event.",
+    "date": "2025-03-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Pick n Place Challenge",
+    "image": "/assets/event/upcoming.svg",
+    "description": "As part of Technovus 2025, Roboworld organized the Pick n Place Challenge event.",
+    "date": "2025-03-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "RoboRace Workshop",
+    "image": "/assets/event/upcoming.svg",
+    "description": "Roboworld organised a 3 day RoboRace bot making workshop and competition and the top two teams was given free entry into the main Robo Race event in Phoenix 2025.",
+    "date": "2025-03-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Robotic Arm Making Workshop",
+    "image": "/assets/event/upcoming.svg",
+    "description": "As a part of the College Week 2024, Roboworld organised a 1 day workshop.",
+    "date": "2025-01-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Bottle Rocket Launch",
+    "image": "/assets/event/upcoming.svg",
+    "description": "As a part of the College Week 2024, Roboworld Organised the Bottle Rocket challenge.",
+    "date": "2025-01-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Bot Show 2024",
+    "image": "/assets/event/upcoming.svg",
+    "description": "During the Club Orientation of 2024, Roboworld organised the Bot Show event in association with Team Arcelor.",
+    "date": "2024-09-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Robo Soccer 2024",
+    "image": "/assets/event/upcoming.svg",
+    "description": "During Phoenix 2024 Eclectic Euphoria, Roboworld organised the Robo Soccer event.",
+    "date": "2024-03-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Robo Race 2024",
+    "image": "/assets/event/upcoming.svg",
+    "description": "During Phoenix 2024 Eclectic Euphoria, Roboworld organised the Robo Race event.",
+    "date": "2024-03-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Rowboat Race 2024",
+    "image": "/assets/event/upcoming.svg",
+    "description": "During Phoenix 2024 Eclectic Euphoria, Roboworld organised the Rowboat Race event.",
+    "date": "2024-03-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Robo Soccer 2023",
+    "image": "/assets/event/upcoming.svg",
+    "description": "During Phoenix 2023 Paradigm Shift, Roboworld organised the Robo Soccer event.",
+    "date": "2023-04-09",
+    "status": "completed"
+  },
+  {
+    "id": 1,
+    "eventName": "Robo War 2023",
+    "image": "/assets/event/upcoming.svg",
+    "description": "During Phoenix 2023 Paradigm Shift, Roboworld organised the Robo War event.",
+    "date": "2023-04-09",
+    "status": "completed"
+  },
+  {
+    "id": 2,
+    "eventName": "Aeromodelling Workshop",
+    "image": "/assets/event/upcoming.svg",
+    "description": "During Phoenix 2022 Renaissance, Roboworld organised a 2 day workshop on Aeromodelling.",
+    "date": "2022-05-09",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "eventName": "Arnab Kishor Bordoloi Young Technovator Competition 2021",
+    "image": "/assets/event/upcoming.svg",
+    "description": "Roboworld launches its most prestigious annual Event Arnab Kishor Bordoloi Young Technovator Competition on 9th of September in the loving memory of our beloved alumini Arnab Kishor Bordoloi on the ocassion of his death anniversary.",
+    "status": "completed"
+  },
+  {
+    "id": 4,
+    "eventName": "Technovus 2019",
+    "image": "/assets/event/upcoming.svg",
+    "description": "Organized Technovus in November, The technical fest of Jorhat Engineering College.",
+    "date": "2019-11-01",
+    "status": "completed"
+  },
+  {
     "id": 5,
-    "eventName": "Club Induction Meeting",
-    "image": "",
-    "description": "Club Induction meeting is organized every year in month of August for new members.",
+    "eventName": "BYOT 2.0 2019",
+    "image": "/assets/event/upcoming.svg",
+    "description": "Can you pitch an idea of a device or a strategy to tackle the growing problem of waste management or clogging of drains.",
+    "date": "2019-09-01",
     "status": "completed"
   },
   {
     "id": 6,
-    "eventName": "Technovus",
-    "image": "",
-    "description": "Organized Technovus in November, The technical fest of Jorhat Engineering College.",
+    "eventName": "Technosphere 2019",
+    "image": "/assets/event/upcoming.svg",
+    "description": "Fasten your seatbelts and get ready for the ride! Its show time!!",
+    "date": "2019-3-01",
     "status": "completed"
   },
   {
     "id": 7,
     "eventName": "Workshops during College Induction Programme",
-    "image": "",
+    "image": "/assets/event/upcoming.svg",
     "description": "Conducted a workshop on the basics of Arduino and motor controlling with it, both wired and wireless as a part of the Induction Program under AICTE/TEQIP.",
     "status": "completed"
   },
   {
     "id": 8,
-    "eventName": "BYOT - Bring Your Own Technology",
-    "image": "",
-    "description": "Intra JEC competition for 1st year students in which they have to present their unique ideas, and winning projects are made under roboworld.",
+    "eventName": "BYOT 2018",
+    "image": "/assets/event/techno.jpg",
+    "description": "Can you pitch an idea of a device which can help during floods? The tougher part of engineering starts here.",
+    "date": "2018-09-01",
     "status": "completed"
   },
   {
     "id": 9,
     "eventName": "Weekly Tutorial Programs",
-    "image": "",
+    "image": "/assets/event/upcoming.svg",
     "description": "Guidance to get acquainted with various robotic platforms from the senior members.",
     "status": "completed"
   },
   {
     "id": 10,
     "eventName": "Webinar Series on Engineers Day 2017",
-    "image": "",
-    "description": "On the occasion of Engineers' Day (2017), Webinar Series was organised in Jorhat Engineering College in association with Roboworld.",
-    "status": "completed"
-  },
-   {
-    "id": 11,
-    "eventName": "Best Controller",
     "image": "/assets/event/upcoming.svg",
-    "description": "A competition for hunting the best controller within 1st sem students with preliminary round of roborace followed by pick and place",
-    "joiningUrl": "https://forms.google.com/bestcontroller2025",
-    "date": "2025-09-01",
-    "status": "ongoing"
+    "description": "On the occasion of Engineers' Day (2017), Webinar Series was organised in Jorhat Engineering College in association with Roboworld.",
+    "date": "2017-09-01",
+    "status": "completed"
   }
 ]
