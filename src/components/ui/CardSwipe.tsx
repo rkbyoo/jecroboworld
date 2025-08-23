@@ -103,14 +103,6 @@ export const CardSwipe: React.FC<CarouselProps> = ({
                     />
                   </SwiperSlide>
                 ))}
-                {imageObjects.map((image, index) => (
-                  <SwiperSlide key={`duplicate-${index}`}>
-                    <img
-                      src={image.src}
-                      alt={image.alt}
-                    />
-                  </SwiperSlide>
-                ))}
               </Swiper>
             </div>
           </div>
