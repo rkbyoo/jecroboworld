@@ -4,7 +4,7 @@ import AchievementCard from '@/components/cards/AchievementCard';
 interface Achievement {
   id: number;
   eventName: string;
-  location: string;
+  location?: string;
   position: string;
   year: string;
   description?: string;
@@ -26,7 +26,7 @@ const AchievementsPage = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-black/5 via-transparent to-black/5"></div>
         <div className="container mx-auto px-4 py-16">
           <div className="text-center mb-12">
-            <h1 className="text-6xl md:text-7xl font-black text-white mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
               Our Achievements
             </h1>
             <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
