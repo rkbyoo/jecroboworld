@@ -6,7 +6,7 @@ interface Team {
   teamName: string;
   logo?: string;
   image: string;
-  description: string;
+  description?: string;
 }
 
 const TeamsSection = () => {
