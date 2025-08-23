@@ -3,11 +3,7 @@
     "id": 1,
     "eventName": "Best Controller",
     "image": "/assets/event/upcoming.svg",
-    "images": [
-      "/assets/projects/IMG_20191025_191403.jpg",
-      "/assets/timeline/foundation.jpg",
-      "/assets/projects/techkriti.png"
-    ],
+    "images": [],
     "description": "A competition for hunting the best controller within 1st sem students with preliminary round of roborace followed by pick and place",
     "joiningUrl": "https://forms.google.com/bestcontroller2025",
     "date": "2025-09-01",
