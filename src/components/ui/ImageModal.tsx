@@ -58,11 +58,11 @@ export const ImageModal: React.FC<ImageModalProps> = ({
 
   if (!isOpen) return null;
 
-  const handleBackdropClick = (e: React.MouseEvent) => {
-    if (e.target === e.currentTarget) {
-      onClose();
-    }
-  };
+  // const handleBackdropClick = (e: React.MouseEvent) => {
+  //   if (e.target === e.currentTarget) {
+  //     onClose();
+  //   }
+  // };
 
   const modalContent = (
     <>
@@ -89,7 +89,6 @@ export const ImageModal: React.FC<ImageModalProps> = ({
       `}</style>
       <div
         className="fixed inset-0 z-[9999] flex items-center justify-center bg-black backdrop-blur-sm p-4 sm:p-4 lg:p-8"
-        onClick={handleBackdropClick}
       >
         <div className="relative w-full max-w-none sm:max-w-4xl modal-container overflow-y-auto modal-scrollbar-hide">
           <button

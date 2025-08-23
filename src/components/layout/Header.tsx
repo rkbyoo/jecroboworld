@@ -60,7 +60,7 @@ const Header = () => {
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-400 ease-out ${isVisible ? 'translate-y-0' : 'md:translate-y-0 -translate-y-full'
         } ${isScrolled
-          ? 'py-2 shadow-lg backdrop-blur-md'
+          ? 'py-2 shadow-lg'
           : 'py-8 shadow-none'
         }`}
       style={{
