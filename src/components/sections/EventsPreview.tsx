@@ -3,11 +3,13 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import EventCard from '@/components/cards/EventCard';
+import { ImageModal } from '@/components/ui/ImageModal';
 
 interface Event {
   id: number;
   eventName: string;
   image?: string;
+  images?: string[];
   description: string;
   joiningUrl?: string;
   date?: string;
@@ -16,18 +18,30 @@ interface Event {
 
 const EventsPreview = () => {
   const [events, setEvents] = useState<Event[]>([]);
+  const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleEventClick = (event: Event) => {
+    setSelectedEvent(event);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedEvent(null);
+  };
 
   useEffect(() => {
     import('@/data/events.json').then((module) => {
       // Prioritize upcoming and ongoing events for preview
       const allEvents = module.default;
-      const upcomingAndOngoing = allEvents.filter(event => 
+      const upcomingAndOngoing = allEvents.filter(event =>
         event.status === 'upcoming' || event.status === 'ongoing'
       );
-      const displayEvents = upcomingAndOngoing.length >= 3 
+      const displayEvents = upcomingAndOngoing.length >= 3
         ? upcomingAndOngoing.slice(0, 3)
         : [...upcomingAndOngoing, ...allEvents.filter(event => event.status === 'completed')].slice(0, 3);
-      
+
       setEvents(displayEvents);
     });
   }, []);
@@ -50,14 +64,16 @@ const EventsPreview = () => {
               key={event.id}
               eventName={event.eventName}
               image={event.image}
+              images={event.images}
               description={event.description}
               joiningUrl={event.joiningUrl}
               date={event.date}
               status={event.status}
+              onCardClick={() => handleEventClick(event)}
             />
           ))}
         </div>
-        
+
         <div className="flex justify-center mt-14">
           <Button asChild>
             <Link to="/events" className="flex items-center cursor-pointer">
@@ -67,6 +83,15 @@ const EventsPreview = () => {
           </Button>
         </div>
       </div>
+
+      {/* Modal rendered at section level */}
+      <ImageModal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        images={selectedEvent?.images || []}
+        title={selectedEvent?.eventName || ''}
+        description={selectedEvent?.description}
+      />
     </section>
   );
 };

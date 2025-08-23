@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import EventCard from '@/components/cards/EventCard';
+import { ImageModal } from '@/components/ui/ImageModal';
 
 interface Event {
   id: number;
   eventName: string;
   image?: string;
+  images?: string[];
   description: string;
   joiningUrl?: string;
   date?: string;
@@ -13,6 +15,18 @@ interface Event {
 
 const EventsPage = () => {
   const [events, setEvents] = useState<Event[]>([]);
+  const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleEventClick = (event: Event) => {
+    setSelectedEvent(event);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedEvent(null);
+  };
 
   useEffect(() => {
     import('@/data/events.json').then((module) => {
@@ -46,10 +60,12 @@ const EventsPage = () => {
                   key={event.id}
                   eventName={event.eventName}
                   image={event.image}
+                  images={event.images}
                   description={event.description}
                   joiningUrl={event.joiningUrl}
                   date={event.date}
                   status={event.status}
+                  onCardClick={() => handleEventClick(event)}
                 />
               ))}
             </div>
@@ -66,10 +82,12 @@ const EventsPage = () => {
                   key={event.id}
                   eventName={event.eventName}
                   image={event.image}
+                  images={event.images}
                   description={event.description}
                   joiningUrl={event.joiningUrl}
                   date={event.date}
                   status={event.status}
+                  onCardClick={() => handleEventClick(event)}
                 />
               ))}
             </div>
@@ -86,16 +104,27 @@ const EventsPage = () => {
                   key={event.id}
                   eventName={event.eventName}
                   image={event.image}
+                  images={event.images}
                   description={event.description}
                   joiningUrl={event.joiningUrl}
                   date={event.date}
                   status={event.status}
+                  onCardClick={() => handleEventClick(event)}
                 />
               ))}
             </div>
           </div>
         )}
       </div>
+
+      {/* Modal rendered at page level */}
+      <ImageModal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        images={selectedEvent?.images || []}
+        title={selectedEvent?.eventName || ''}
+        description={selectedEvent?.description}
+      />
     </div>
   );
 };
