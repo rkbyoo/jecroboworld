@@ -223,18 +223,19 @@ const TimelineSection = ({
           })}
         </div>
 
-        {/* View Full Timeline Button - Only show when maxEvents is specified */}
-        {maxEvents && (
-          <div className="text-center mt-14">
-            <Link
-              to="/timeline"
-              className="inline-flex items-center gap-3 bg-white text-black py-4 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
-            >
-              <span className="text-md">View Full Timeline</span>
-              <ArrowRight className="w-5 h-5" />
-            </Link>
-          </div>
-        )}
+        
+{/* View Full Timeline Button - Only show when maxEvents is specified */}
+{maxEvents && (
+  <div className="text-center mt-14">
+    <Link
+      to="/timeline"
+      className="inline-flex items-center justify-center gap-2 bg-white text-black py-3 px-8 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 font-medium text-sm"
+    >
+      View Full Timeline
+      <ArrowRight className="h-4 w-4" />
+    </Link>
+  </div>
+)}
       </div>
     </section>
   );
