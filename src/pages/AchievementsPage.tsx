@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import AchievementCard from '@/components/cards/AchievementCard';
+import { ImageModal } from '@/components/ui/ImageModal';
 
 interface Achievement {
   id: number;
@@ -8,10 +9,23 @@ interface Achievement {
   position: string;
   year: string;
   description?: string;
+  images?: string[];
 }
 
 const AchievementsPage = () => {
   const [achievements, setAchievements] = useState<Achievement[]>([]);
+  const [selectedAchievement, setSelectedAchievement] = useState<Achievement | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleAchievementClick = (achievement: Achievement) => {
+    setSelectedAchievement(achievement);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedAchievement(null);
+  };
 
   useEffect(() => {
     import('@/data/achievements.json').then((module) => {
@@ -51,6 +65,8 @@ const AchievementsPage = () => {
                 position={achievement.position}
                 year={achievement.year}
                 description={achievement.description}
+                images={achievement.images}
+                onCardClick={() => handleAchievementClick(achievement)}
               />
             </div>
           ))}
@@ -64,6 +80,15 @@ const AchievementsPage = () => {
           </div>
         )}
       </div>
+
+      {/* Modal rendered at page level */}
+      <ImageModal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        images={selectedAchievement?.images || []}
+        title={selectedAchievement?.eventName || ''}
+        description={selectedAchievement?.description}
+      />
     </div>
   );
 };
