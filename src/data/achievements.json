@@ -5,14 +5,24 @@
     "location": "Jorhat Engineering College (JEC)",
     "position": "1st",
     "year": "2025",
+    "images": [
+      "/assets/event/techno.jpg",
+      "/assets/projects/techkriti.png",
+      "/assets/timeline/technovus.jpg"
+    ],
     "description": "Team Arcelor from JEC won 1st position in RoboRace, 2nd in RoboSoccer and 2nd in Pick n Place Challenge at Technovus 2025, the techno-management fest of JEC, held after a long hiatus of 6 years"
   },
   {
-    "id": 1,
+    "id": 2,
     "eventName": "Pyrokinesis 2025",
     "location": "Assam Engineering College (AEC), Guwahati",
     "position": "3rd",
     "year": "2025",
+    "images": [
+      "/assets/projects/rsz_techniche_18.jpg",
+      "/assets/timeline/automata.jpg",
+      "/assets/projects/supernerd.jpeg"
+    ],
     "description": "Team ZenNos from JEC won the 3rd prize in Robo Race at Pyrokinesis 2025"
   },
   {
@@ -21,6 +31,11 @@
     "location": "Tezpur University, Assam",
     "position": "2nd",
     "year": "2024",
+    "images": [
+      "/assets/projects/rsz_techniche_19.jpg",
+      "/assets/timeline/techfest.jpg",
+      "/assets/projects/IMG_20191025_191403.jpg"
+    ],
     "description": "Team Arcelor from JEC won the 2nd prize in Robo Soccer at Techxetra 2024"
   },
   {
@@ -53,6 +68,11 @@
     "location": "IIT Kharagpur, West Bengal",
     "position": "1st",
     "year": "2024",
+    "images": [
+      "/assets/projects/techkriti.png",
+      "/assets/projects/IMG_20190202_084048.jpg",
+      "/assets/timeline/foundation.jpg"
+    ],
     "description": "Team Arcelor from JEC won the 1st prizes in the Droid Blitz and Embetronix events also managing to reach the final round of the Sand Rover event at IIT Kharagpur."
   },
   {
@@ -64,11 +84,16 @@
     "description": "Team Arcelor from JEC won the 1st prize in Robo Race and 2nd prizes in the Robo Soccer and Robo War events at AEI"
   },
   {
-    "id": 1,
+    "id": 9,
     "eventName": "Technophilia 3.0 2023",
     "location": "Royal Global University, Guwahati",
     "position": "2nd",
     "year": "2023",
+    "images": [
+      "/assets/projects/technosphere_19.jpg",
+      "/assets/timeline/technosphere_19.jpg",
+      "/assets/projects/Robosepians.jpeg"
+    ],
     "description": "Team Arcelor from JEC won the 2nd prizes in the Robo Soccer and Robo Sumo events at RGU"
   },
   {
@@ -77,6 +102,11 @@
     "location": "Noida",
     "position": "Participant",
     "year": "2023",
+    "images": [
+      "/assets/projects/astu hackathon.jpg",
+      "/assets/timeline/drone_workshop.jpg",
+      "/assets/projects/IMG_20180317_175919.jpg"
+    ],
     "description": "Kaushik Bora, Simanta Samiran Deka and Bhairab Bharali participated in the WRC RC Craft Challenge at Technoxian World Robotics Championship 2023 held at Noida."
   },
   {
@@ -95,7 +125,6 @@
     "year": "2023",
     "description": "15+ students participated and represented JEC at the national level at Kshitij 2023 at IIT Kharagpur. The students participated in the events Sand Rover, Robowars and Laws of Motion"
   },
-
   {
     "id": 1,
     "eventName": "Tecnoesis 2022",
