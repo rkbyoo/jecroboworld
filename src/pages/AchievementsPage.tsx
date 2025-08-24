@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import AchievementCard from '@/components/cards/AchievementCard';
 import { ImageModal } from '@/components/ui/ImageModal';
+import achievementsData from '@/data/achievements.json';
 
 interface Achievement {
   id: number;
@@ -13,7 +14,7 @@ interface Achievement {
 }
 
 const AchievementsPage = () => {
-  const [achievements, setAchievements] = useState<Achievement[]>([]);
+  const achievements = achievementsData as Achievement[];
   const [selectedAchievement, setSelectedAchievement] = useState<Achievement | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -27,11 +28,7 @@ const AchievementsPage = () => {
     setSelectedAchievement(null);
   };
 
-  useEffect(() => {
-    import('@/data/achievements.json').then((module) => {
-      setAchievements(module.default);
-    });
-  }, []);
+
 
   return (
     <div className="pt-24 min-h-screen bg-background">
@@ -72,13 +69,7 @@ const AchievementsPage = () => {
           ))}
         </div>
 
-        {achievements.length === 0 && (
-          <div className="text-center py-16">
-            <div className="text-6xl mb-4">🔍</div>
-            <h3 className="text-2xl font-bold text-white mb-2">No achievements found</h3>
-            <p className="text-white/70">Loading achievements...</p>
-          </div>
-        )}
+
       </div>
 
       {/* Modal rendered at page level */}
