@@ -17,6 +17,27 @@ const ScrollToTop = () => {
         }
     }, [pathname]);
 
+    // Scroll to top on initial page load/refresh
+    useEffect(() => {
+        const handleLoad = () => {
+            const lenis = (window as any).lenis;
+            
+            if (lenis) {
+                lenis.scrollTo(0, { duration: 0 });
+            } else {
+                window.scrollTo(0, 0);
+            }
+        };
+
+        // If page is already loaded
+        if (document.readyState === 'complete') {
+            handleLoad();
+        } else {
+            window.addEventListener('load', handleLoad);
+            return () => window.removeEventListener('load', handleLoad);
+        }
+    }, []);
+
     return null;
 };
 

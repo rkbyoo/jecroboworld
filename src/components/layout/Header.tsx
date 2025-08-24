@@ -69,6 +69,19 @@ const Header = () => {
 
   const isActive = (path: string) => location.pathname === path;
 
+  // Function to scroll to top when clicking JEC ROBOWORLD
+  const scrollToTop = () => {
+    const lenis = (window as any).lenis;
+
+    if (lenis) {
+      // Use Lenis smooth scroll to top
+      lenis.scrollTo(0, { duration: 1.2 });
+    } else {
+      // Fallback to native scroll
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
+
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-400 ease-out ${isVisible ? 'translate-y-0' : 'md:translate-y-0 -translate-y-full'
@@ -96,6 +109,7 @@ const Header = () => {
                 className={`flex items-center space-x-2 hover-glow transition-all duration-300 ${!hasAnimated ? 'animate-fade-in-down' : ''
                   }`}
                 style={{ animationDuration: '1s' }}
+                onClick={scrollToTop}
               >
                 <div className="p-1">
                   <img
@@ -142,6 +156,7 @@ const Header = () => {
             className={`flex items-center space-x-2 hover-glow transition-all duration-300 ${!hasAnimated ? 'animate-fade-in' : ''
               }`}
             style={{ animationDuration: '2s' }}
+            onClick={scrollToTop}
           >
             <div className="p-2">
               <img
