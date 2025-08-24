@@ -27,11 +27,10 @@ const Header = () => {
       // Set scrolled state for styling
       setIsScrolled(currentScrollY > 60);
 
-      // Hide/show navbar on mobile only
-      if (isMobile && currentScrollY > lastScrollY && currentScrollY > 100) {
+      // Hide/show navbar on mobile only, but not when menu is open
+      if (isMobile && currentScrollY > lastScrollY && currentScrollY > 100 && !isMenuOpen) {
         setIsVisible(false);
-        setIsMenuOpen(false);
-      } else if (isMobile && currentScrollY < lastScrollY) {
+      } else if (isMobile && currentScrollY < lastScrollY && !isMenuOpen) {
         setIsVisible(true);
       }
 
@@ -40,7 +39,21 @@ const Header = () => {
 
     window.addEventListener('scroll', controlNavbar);
     return () => window.removeEventListener('scroll', controlNavbar);
-  }, [lastScrollY]);
+  }, [lastScrollY, isMenuOpen]);
+
+  // Prevent body scroll when menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    // Cleanup function to restore scroll when component unmounts
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMenuOpen]);
 
   const navItems = [
     { name: "Home", path: "/" },
