@@ -5,6 +5,7 @@ import { EffectCards } from "swiper/modules"
 import "swiper/css"
 import "swiper/css/effect-coverflow"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
+import OptimizedImage from '@/components/OptimizedImage'
 
 interface CarouselProps {
   images: string[] // Array of image URLs from JSON
@@ -97,9 +98,11 @@ export const CardSwipe: React.FC<CarouselProps> = ({
               >
                 {imageObjects.map((image, index) => (
                   <SwiperSlide key={index}>
-                    <img
+                    <OptimizedImage
                       src={image.src}
                       alt={image.alt}
+                      className="w-full h-full object-cover"
+                      loading={index < 3 ? 'eager' : 'lazy'}
                     />
                   </SwiperSlide>
                 ))}

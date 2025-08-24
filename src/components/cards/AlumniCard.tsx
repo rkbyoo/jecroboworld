@@ -1,4 +1,5 @@
 import { Phone, Mail, GraduationCap, Briefcase } from 'lucide-react';
+import OptimizedImage from '@/components/OptimizedImage';
 
 interface AlumniCardProps {
   name: string;
@@ -14,10 +15,11 @@ const AlumniCard = ({ name, phone, email, image, batch, currentPosition }: Alumn
     <div className="group relative overflow-hidden rounded-xl bg-card border border-border hover:border-foreground/20 hover:shadow-lg transition-all duration-300">
       <div className="p-6 text-center">
         <div className="w-24 h-24 mx-auto mb-4 overflow-hidden rounded-full border-2 border-foreground/20 group-hover:border-foreground/40 transition-colors">
-          <img
+          <OptimizedImage
             src={image}
             alt={name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
           />
         </div>
         <h3 className="text-xl font-bold text-black mb-2 group-hover:text-black transition-colors">

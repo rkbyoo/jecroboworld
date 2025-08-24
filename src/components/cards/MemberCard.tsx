@@ -1,3 +1,5 @@
+import OptimizedImage from '@/components/OptimizedImage';
+
 interface MemberCardProps {
   name: string;
   role?: string;
@@ -18,10 +20,11 @@ const MemberCard = ({ name, role, photo, isCurrent = false }: MemberCardProps) =
             ? 'border-3 border-orange-400 group-hover:border-orange-500 group-hover:shadow-lg group-hover:shadow-orange-200/50 dark:group-hover:shadow-orange-800/30' 
             : 'border-2 border-foreground/20 group-hover:border-foreground/40'
         }`}>
-          <img
+          <OptimizedImage
             src={photo}
             alt={name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
           />
         </div>
         <h3 className={`text-xl font-bold mb-2 transition-colors ${
