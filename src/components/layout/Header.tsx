@@ -27,11 +27,10 @@ const Header = () => {
       // Set scrolled state for styling
       setIsScrolled(currentScrollY > 60);
 
-      // Hide/show navbar on mobile only
-      if (isMobile && currentScrollY > lastScrollY && currentScrollY > 100) {
+      // Hide/show navbar on mobile only, but not when menu is open
+      if (isMobile && currentScrollY > lastScrollY && currentScrollY > 100 && !isMenuOpen) {
         setIsVisible(false);
-        setIsMenuOpen(false);
-      } else if (isMobile && currentScrollY < lastScrollY) {
+      } else if (isMobile && currentScrollY < lastScrollY && !isMenuOpen) {
         setIsVisible(true);
       }
 
@@ -40,7 +39,21 @@ const Header = () => {
 
     window.addEventListener('scroll', controlNavbar);
     return () => window.removeEventListener('scroll', controlNavbar);
-  }, [lastScrollY]);
+  }, [lastScrollY, isMenuOpen]);
+
+  // Prevent body scroll when menu is open
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+
+    // Cleanup function to restore scroll when component unmounts
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isMenuOpen]);
 
   const navItems = [
     { name: "Home", path: "/" },
@@ -55,6 +68,19 @@ const Header = () => {
   ];
 
   const isActive = (path: string) => location.pathname === path;
+
+  // Function to scroll to top when clicking JEC ROBOWORLD
+  const scrollToTop = () => {
+    const lenis = (window as any).lenis;
+
+    if (lenis) {
+      // Use Lenis smooth scroll to top
+      lenis.scrollTo(0, { duration: 1.2 });
+    } else {
+      // Fallback to native scroll
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  };
 
   return (
     <header
@@ -83,6 +109,7 @@ const Header = () => {
                 className={`flex items-center space-x-2 hover-glow transition-all duration-300 ${!hasAnimated ? 'animate-fade-in-down' : ''
                   }`}
                 style={{ animationDuration: '1s' }}
+                onClick={scrollToTop}
               >
                 <div className="p-1">
                   <img
@@ -129,6 +156,7 @@ const Header = () => {
             className={`flex items-center space-x-2 hover-glow transition-all duration-300 ${!hasAnimated ? 'animate-fade-in' : ''
               }`}
             style={{ animationDuration: '2s' }}
+            onClick={scrollToTop}
           >
             <div className="p-2">
               <img

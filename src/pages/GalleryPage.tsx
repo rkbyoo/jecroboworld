@@ -1,4 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
+import OptimizedImage from '@/components/OptimizedImage';
+import { useImagePreloader } from '@/hooks/useImagePreloader';
 
 interface GalleryImage {
   id: number;
@@ -20,6 +22,13 @@ const GalleryPage = () => {
       setImages(module.default);
     });
   }, []);
+
+  // Preload images for better performance
+  const imageUrls = images.map(item => item.image);
+  const { isImageLoaded } = useImagePreloader({ 
+    images: imageUrls, 
+    priority: 12 // Preload first 12 images
+  });
 
   const openModal = (index: number) => {
     setSelectedImageIndex(index);
@@ -113,10 +122,10 @@ const GalleryPage = () => {
                     aspectRatio: aspectRatios[index % aspectRatios.length]
                   }}
                 >
-                  <img
+                  <OptimizedImage
                     src={item.image}
                     alt={`Gallery image ${item.id}`}
-                    loading="lazy"
+                    loading={index < 12 ? 'eager' : 'lazy'}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -186,12 +195,11 @@ const GalleryPage = () => {
               </div>
 
               {/* Main Image */}
-              <img
+              <OptimizedImage
                 src={images[selectedImageIndex].image}
                 alt={`Gallery image ${images[selectedImageIndex].id}`}
                 className="max-w-full max-h-full object-contain rounded-lg select-none"
-                onClick={(e) => e.stopPropagation()}
-                draggable={false}
+                loading="eager"
               />
 
               {/* Swipe Indicator for Mobile */}

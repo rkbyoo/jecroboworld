@@ -118,14 +118,14 @@ const TutorialsPage = () => {
                     <Youtube className="h-6 w-6 text-red-500" />
                   </div>
                   <div className="flex justify-start">
-                    <Button asChild className="group-hover:scale-105 transition-transform duration-300 bg-black text-white">
+                    <Button asChild className="hover:scale-105 transition-transform duration-300 bg-black text-white hover:bg-gray-800 hover:text-white">
                       <a
                         href={channel.channelLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center justify-center cursor-pointer bg-black hover:bg-black/90"
+                        className="flex items-center justify-center cursor-pointer"
                       >
-                        <ExternalLink className="mr-2 h-4 w-4 transition-transform group-hover:translate-x-1 duration-300" />
+                        <ExternalLink className="mr-2 h-4 w-4 transition-transform hover:translate-x-1 duration-300" />
                         Go to Channel
                       </a>
                     </Button>

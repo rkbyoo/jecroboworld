@@ -1,5 +1,6 @@
 import { Calendar, ExternalLink, Images } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import OptimizedImage from '@/components/OptimizedImage';
 
 interface EventCardProps {
   eventName: string;
@@ -47,10 +48,11 @@ const EventCard = ({ eventName, image, images, description, joiningUrl, date, st
       {/* Show image section only if image src is provided in JSON */}
       {shouldShowImage && (
         <div className="aspect-video overflow-hidden relative">
-          <img
+          <OptimizedImage
             src={image}
             alt={eventName}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
           />
           <div className="absolute top-4 right-4 flex gap-2">
             {images && images.length > 0 && (
