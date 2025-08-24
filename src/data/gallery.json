@@ -1,145 +1,13 @@
 [
   {
-    "id": 1,
-    "image": "/assets/projects/IMG_20180317_175919.jpg",
-    "category": "projects",
-    "title": "Project Work"
-  },
-  {
-    "id": 2,
-    "image": "/assets/projects/IMG_20190202_084048.jpg",
-    "category": "projects",
-    "title": "Project Development"
-  },
-  {
-    "id": 3,
-    "image": "/assets/projects/IMG_20191025_191403.jpg",
-    "category": "projects",
-    "title": "Project Testing"
-  },
-  {
-    "id": 4,
-    "image": "/assets/projects/IMG_20191025_191403 (1).jpg",
-    "category": "projects",
-    "title": "Project Testing"
-  },
-  {
-    "id": 5,
-    "image": "/assets/projects/IMG_20200130_000124.jpg",
-    "category": "projects",
-    "title": "Project Work"
-  },
-  {
-    "id": 6,
-    "image": "/assets/projects/IMG-20191102-WA0009.jpg",
-    "category": "projects",
-    "title": "Team Work"
-  },
-  {
-    "id": 7,
-    "image": "/assets/projects/IMG-20191108-WA0002.jpg",
-    "category": "projects",
-    "title": "Team Work"
-  },
-  {
-    "id": 8,
-    "image": "/assets/projects/IMG20191102212234.jpg",
-    "category": "projects",
-    "title": "Project Development"
-  },
-  {
-    "id": 9,
-    "image": "/assets/projects/Robosepians.jpeg",
-    "category": "projects",
-    "title": "Robosepians"
-  },
-  {
-    "id": 10,
-    "image": "/assets/projects/Robospeians.jpeg",
-    "category": "projects",
-    "title": "Robospeians"
-  },
-  {
-    "id": 11,
-    "image": "/assets/projects/rsz_techfest.jpg",
-    "category": "projects",
-    "title": "Techfest"
-  },
-  {
-    "id": 12,
-    "image": "/assets/projects/rsz_techniche_18.jpg",
-    "category": "projects",
-    "title": "Techniche 2018"
-  },
-  {
-    "id": 13,
-    "image": "/assets/projects/rsz_techniche_19.jpg",
-    "category": "projects",
-    "title": "Techniche 2019"
-  },
-  {
-    "id": 14,
-    "image": "/assets/projects/sih.jpg",
-    "category": "projects",
-    "title": "Smart India Hackathon"
-  },
-  {
-    "id": 15,
-    "image": "/assets/projects/sih - Copy.jpg",
-    "category": "projects",
-    "title": "Smart India Hackathon"
-  },
-  {
-    "id": 16,
-    "image": "/assets/projects/supernerd.jpeg",
-    "category": "projects",
-    "title": "Supernerd"
-  },
-  {
-    "id": 17,
-    "image": "/assets/projects/techkriti.png",
-    "category": "projects",
-    "title": "Techkriti"
-  },
-  {
-    "id": 18,
-    "image": "/assets/projects/hacking.jpeg",
-    "category": "projects",
-    "title": "Hacking Workshop"
-  },
-  {
-    "id": 19,
-    "image": "/assets/projects/HACKINGWRKSHP02.JPG",
-    "category": "projects",
-    "title": "Hacking Workshop"
-  },
-  {
-    "id": 20,
-    "image": "/assets/projects/astu hackathon.jpg",
-    "category": "projects",
-    "title": "ASTU Hackathon"
-  },
-  {
-    "id": 21,
-    "image": "/assets/teams/team arcelor.jpg",
-    "category": "teams",
-    "title": "Team Arcelor"
-  },
-  {
-    "id": 22,
-    "image": "/assets/teams/team ZenNos.jpg",
-    "category": "teams",
-    "title": "Team ZenNos"
-  },
-  {
     "id": 23,
-    "image": "https://i.postimg.cc/GhQX1Swz/IMG-20250329-WA0057.jpg",
+    "image": "https://i.postimg.cc/DwwBfd7h/IMG-20250330-WA0054.jpg",
     "category": "achievements",
     "title": "Technovus 2025"
   },
   {
     "id": 24,
-    "image": "https://i.postimg.cc/DwwBfd7h/IMG-20250330-WA0054.jpg",
+    "image": "https://i.postimg.cc/GhQX1Swz/IMG-20250329-WA0057.jpg",
     "category": "achievements",
     "title": "Technovus 2025"
   },
@@ -560,12 +428,6 @@
   {
     "id": 94,
     "image": "https://i.postimg.cc/0jB8JNRy/technoesis.jpg",
-    "category": "achievements",
-    "title": "Tecnoesis 2022"
-  },
-  {
-    "id": 95,
-    "image": "https://i.postimg.cc/HWZWN6c1/technoesis-2022.jpg",
     "category": "achievements",
     "title": "Tecnoesis 2022"
   },
