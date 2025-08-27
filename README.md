@@ -13,11 +13,15 @@ JEC RoboWorld is the robotics club at Jorhat Engineering College, dedicated to p
 - **Interactive Components**: Smooth animations and hover effects
 - **Multi-page Navigation**: Comprehensive navigation with dedicated pages for different sections
 - **Alumni Management**: Dedicated alumni section with contact information
-- **Event Showcase**: Dynamic events display with detailed information
+- **Event Showcase**: Dynamic events display with detailed information and image galleries
 - **Team Profiles**: Member profiles with rounded image frames
-- **Gallery**: Image gallery showcasing club activities and achievements
+- **Interactive Image Galleries**: 
+  - **Card Swipe Animation**: Skipper UI-powered shuffling cards for event and achievement images
+  - **Pinterest-style Gallery Grid**: Masonry layout for browsing multiple images
+  - **Modal Image Viewer**: Full-screen image viewing with navigation
 - **Timeline**: Interactive timeline of club milestones
 - **Tutorials**: Educational resources and tutorials
+- **Enhanced Media Support**: Multiple image support for events and achievements with optimized loading
 
 ## 🛠️ Tech Stack
 
@@ -32,6 +36,8 @@ JEC RoboWorld is the robotics club at Jorhat Engineering College, dedicated to p
 - **Form Handling**: React Hook Form 7.61.1
 - **Animations**: Tailwind CSS Animate
 - **Smooth Scrolling**: Lenis 1.3.8
+- **Image Carousel**: Swiper.js for card swipe animations
+- **Image Optimization**: Custom optimized image component with lazy loading
 
 
 ## 📁 Project Structure
@@ -47,9 +53,15 @@ src/
 │   └── timeline/     # Timeline images
 ├── components/       # Reusable React components
 │   ├── cards/        # Card components (AlumniCard, MemberCard, etc.)
+│   ├── demo/         # Demo components (CardSwipeDemo)
 │   ├── layout/       # Layout components (Header, Footer)
 │   ├── sections/     # Page sections (Hero, TeamsSection, etc.)
-│   └── ui/           # shadcn/ui components
+│   ├── ui/           # shadcn/ui components + custom UI components
+│   │   ├── CardSwipe.tsx      # Skipper UI card swipe component
+│   │   ├── ImageModal.tsx     # Full-screen image modal
+│   │   └── ...               # Other UI components
+│   ├── GalleryGrid.tsx       # Pinterest-style gallery component
+│   └── OptimizedImage.tsx    # Optimized image component with lazy loading
 ├── data/             # JSON data files
 │   ├── alumni.json   # Alumni information
 │   ├── events.json   # Events data
@@ -115,7 +127,7 @@ src/
 - **Tutorials** (`/tutorials`) - Educational resources
 - **About** (`/about`) - About the club and its mission
 
-## Design 
+## 🎨 Design & UI Components
 
 The website uses a consistent design system with:
 
@@ -124,6 +136,33 @@ The website uses a consistent design system with:
 - **Typography**: Clean, modern fonts
 - **Components**: Rounded corners, subtle shadows, smooth transitions
 - **Responsive Breakpoints**: Mobile-first approach
+
+### 🖼️ Interactive Gallery Features
+
+#### Card Swipe Animation (Skipper UI)
+- **Component**: `CardSwipe.tsx`
+- **Technology**: Swiper.js with card effect
+- **Features**:
+  - Automatic shuffling/rotation of images
+  - Touch/swipe gestures on mobile
+  - Smooth card stack animation
+  - Configurable autoplay delay
+  - Responsive design for all screen sizes
+
+#### Pinterest-style Gallery Grid
+- **Component**: `GalleryGrid.tsx`
+- **Features**:
+  - Masonry-style layout for optimal space usage
+  - Click to view full-size images in modal
+  - Category filtering support
+  - Lazy loading for performance
+  - Responsive grid columns
+
+#### Enhanced Event & Achievement Cards
+- **Image Count Badges**: Shows number of available images
+- **Click Interaction**: Cards with multiple images are clickable
+- **Modal Gallery**: Opens card swipe gallery when clicked
+- **Optimized Loading**: Priority loading for visible images
 
 ## Data Management & Sample Updates
 
@@ -137,12 +176,23 @@ The website uses JSON files in the `src/data/` directory for content management.
   "id": 99,
   "eventName": "Your Event Name",
   "image": "/assets/event/your-event-image.jpg",
+  "images": [
+    "/assets/event/gallery-image-1.jpg",
+    "/assets/event/gallery-image-2.jpg",
+    "/assets/event/gallery-image-3.jpg"
+  ],
   "description": "Event description here",
   "joiningUrl": "https://forms.google.com/your-form",
   "date": "2025-09-01",
   "status": "upcoming"  or "completed" or "ongoing"
 }
 ```
+
+**New Image Features:**
+- `image`: Main cover image for the event card
+- `images`: Array of additional images for the gallery (optional)
+- Cards with multiple images show an image count badge
+- Clicking on cards with images opens an interactive gallery with card swipe animation
 
 #### Adding New Members (`src/data/members.json`)
 ```json
@@ -187,9 +237,19 @@ The website uses JSON files in the `src/data/` directory for content management.
   "location": "Venue/Institution",
   "position": "1st/2nd/3rd/Winner",
   "year": "2025",
-  "description": "Achievement description"
+  "description": "Achievement description",
+  "images": [
+    "/assets/achievements/achievement-image-1.jpg",
+    "/assets/achievements/achievement-image-2.jpg",
+    "/assets/achievements/achievement-image-3.jpg"
+  ]
 }
 ```
+
+**New Image Features:**
+- `images`: Array of images showcasing the achievement (optional)
+- Achievement cards display image count when multiple images are available
+- Interactive gallery with card swipe animation for viewing all achievement photos
 
 ### Asset Management
 
@@ -197,6 +257,25 @@ The website uses JSON files in the `src/data/` directory for content management.
 2. **Use consistent naming** (lowercase, hyphens for spaces)
 3. **Optimize images** for web (compress before adding)
 4. **Update paths** in JSON files to match asset locations
+
+### 📸 Image Gallery Usage
+
+#### For Events with Multiple Images:
+1. Add main cover image to `image` field
+2. Add gallery images to `images` array
+3. Users can click the event card to open the interactive gallery
+4. Card swipe animation automatically cycles through images
+
+#### For Achievements with Photos:
+1. Add all achievement photos to `images` array
+2. Achievement cards show image count badge
+3. Click to view all photos in card swipe gallery
+
+#### Image Loading Optimization:
+- **Lazy Loading**: Images load as they come into view
+- **Priority Loading**: First few images load immediately
+- **Responsive Images**: Optimized for different screen sizes
+- **Preloading**: Gallery images preload for smooth experience
 
 ## Customization
 
@@ -303,6 +382,34 @@ For club members who want to quickly update content:
 2. **Edit the JSON** following the existing format
 3. **Add any required images** to the assets folder
 4. **Create a pull request** with your changes
+
+### 🎯 New Interactive Features Usage
+
+#### Adding Image Galleries to Events:
+```json
+{
+  "eventName": "Your Event",
+  "image": "main-cover-image.jpg",
+  "images": ["gallery-1.jpg", "gallery-2.jpg", "gallery-3.jpg"],
+  // ... other fields
+}
+```
+
+#### Adding Photos to Achievements:
+```json
+{
+  "eventName": "Competition Name",
+  "images": ["trophy-photo.jpg", "team-photo.jpg", "event-photo.jpg"],
+  // ... other fields
+}
+```
+
+#### Interactive Gallery Features:
+- **Card Swipe**: Automatic shuffling with smooth animations
+- **Touch Gestures**: Swipe on mobile devices
+- **Click Navigation**: Click cards to navigate
+- **Full Screen**: Modal view for detailed image viewing
+- **Responsive**: Works on all device sizes
 
 ##  Contact & Support
 
