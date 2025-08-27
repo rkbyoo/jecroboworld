@@ -201,12 +201,6 @@ const GalleryPage = () => {
                 className="max-w-full max-h-full object-contain rounded-lg select-none"
                 loading="eager"
               />
-
-              {/* Swipe Indicator for Mobile */}
-              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm opacity-70 sm:hidden">
-                Swipe left or right to navigate
-              </div>
-
               {/* Dot Indicators */}
               <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex space-x-2 z-10">
                 {images.map((_, index) => (

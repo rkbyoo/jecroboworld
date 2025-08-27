@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { BLUR_BG } from "./blurPlaceholder";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   const [bgLoaded, setBgLoaded] = useState(false);
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     let mounted = true;
@@ -22,13 +23,22 @@ const Hero = () => {
     };
   }, []);
 
+  // Track mouse movement for spotlight effect
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      setMousePosition({ x: e.clientX, y: e.clientY });
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
   return (
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-hero"
       style={{ position: "relative", minHeight: '100vh' }}
     >
-      {/* Background image with filter */}
-      {/* Blurred placeholder always visible, real bg fades in */}
+      {/* Base background - bit dimmer */}
       <div
         aria-hidden
         style={{
@@ -42,14 +52,32 @@ const Hero = () => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           filter: bgLoaded
-            ? "contrast(1.5) brightness(0.4)"
-            : "blur(8px) scale(1.05) brightness(0.7)",
+            ? "contrast(1.1) brightness(0.25)"
+            : "blur(8px) scale(1.05) brightness(0.6)",
           transition: "background-image 0.3s ease, filter 0.3s ease"
         }}
       />
 
+      {/* Spotlight overlay - larger circle with gradual brightness decrease */}
+      <div
+        aria-hidden
+        style={{
+          position: "absolute",
+          inset: 0,
+          zIndex: 1,
+          backgroundImage: bgLoaded ? "url('/assets/background.jpg')" : `url('${BLUR_BG}')`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          filter: bgLoaded ? "contrast(1.4) brightness(0.85) saturate(1.1)" : "blur(8px) scale(1.05) brightness(0.7)",
+          maskImage: `radial-gradient(circle 320px at ${mousePosition.x}px ${mousePosition.y}px, rgba(0,0,0,1) 0%, rgba(0,0,0,0.95) 20%, rgba(0,0,0,0.85) 35%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.5) 65%, rgba(0,0,0,0.3) 80%, rgba(0,0,0,0.1) 90%, rgba(0,0,0,0) 100%)`,
+          WebkitMaskImage: `radial-gradient(circle 320px at ${mousePosition.x}px ${mousePosition.y}px, rgba(0,0,0,1) 0%, rgba(0,0,0,0.95) 20%, rgba(0,0,0,0.85) 35%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.5) 65%, rgba(0,0,0,0.3) 80%, rgba(0,0,0,0.1) 90%, rgba(0,0,0,0) 100%)`,
+          transition: "mask-image 0.1s ease-out, -webkit-mask-image 0.1s ease-out"
+        }}
+      />
+
       {/* Centered Content Layout */}
-  <div className="relative z-10 w-full min-h-screen flex items-center">
+      <div className="relative z-10 w-full min-h-screen flex items-center">
         <div className="container mx-auto px-4">
           <div className="flex flex-col items-center justify-center text-center space-y-8 max-w-4xl mx-auto">
             {/* Main Heading */}
