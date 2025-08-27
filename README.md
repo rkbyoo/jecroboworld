@@ -137,7 +137,7 @@ The website uses a consistent design system with:
 - **Components**: Rounded corners, subtle shadows, smooth transitions
 - **Responsive Breakpoints**: Mobile-first approach
 
-### 🖼️ Interactive Gallery Features
+###  Interactive Gallery Features
 
 #### Card Swipe Animation (Skipper UI)
 - **Component**: `CardSwipe.tsx`
@@ -168,7 +168,7 @@ The website uses a consistent design system with:
 
 The website uses JSON files in the `src/data/` directory for content management. This makes it easy to update content without modifying code.
 
-### 📝 How to Update Data for Upcoming Years
+###  How to Update Data for Upcoming Years
 
 #### Adding New Events (`src/data/events.json`)
 ```json
@@ -258,7 +258,7 @@ The website uses JSON files in the `src/data/` directory for content management.
 3. **Optimize images** for web (compress before adding)
 4. **Update paths** in JSON files to match asset locations
 
-### 📸 Image Gallery Usage
+###  Image Gallery Usage
 
 #### For Events with Multiple Images:
 1. Add main cover image to `image` field
@@ -383,7 +383,7 @@ For club members who want to quickly update content:
 3. **Add any required images** to the assets folder
 4. **Create a pull request** with your changes
 
-### 🎯 New Interactive Features Usage
+###  New Interactive Features Usage
 
 #### Adding Image Galleries to Events:
 ```json
