@@ -263,5 +263,14 @@
     "description": "On the occasion of Engineers' Day (2017), Webinar Series was organised in Jorhat Engineering College in association with Roboworld.",
     "date": "2017-09-01",
     "status": "completed"
+  },
+  {
+    "id": 10,
+    "eventName": "BYOT 3.0 2025",
+    "image": "../../assets/event/ongoing event/BYOT.png",
+    "description": "BYOT 3.0 is an ongoing event where students create innovative solutions for campus challenges, with winning teams to be funded by JEC Roboworld.",
+    "date": "2025-09-01",
+    "status": "ongoing",
+    "joiningUrl":"https://docs.google.com/forms/d/e/1FAIpQLSeWxd9afctH1JQDAmQJ_htgXdr1gPVcC_t8PDT9hc504l-wFw/viewform?usp=dialog"
   }
 ]
