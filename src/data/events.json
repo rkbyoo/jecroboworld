@@ -11,6 +11,19 @@
   },
   {
     "id": 2,
+    "eventName": "BYOT 3.0 2025",
+    "image": "https://i.postimg.cc/gJfr49Bb/Whats-App-Image-2025-09-06-at-19-15-52-7cc46fa7.jpg",
+    "images": [
+      "https://i.postimg.cc/Vk61SGDq/Whats-App-Image-2025-09-07-at-15-03-38-a0a89d98.jpg",
+      "https://i.postimg.cc/gJfr49Bb/Whats-App-Image-2025-09-06-at-19-15-52-7cc46fa7.jpg"
+    ],
+    "description": "BYOT 3.0 is an ongoing event where students create innovative solutions for campus challenges, with winning teams to be funded by JEC Roboworld.",
+    "date": "2025-09-01",
+    "status": "ongoing",
+    "joiningUrl": ""
+  },
+  {
+    "id": 3,
     "eventName": "Robo Soccer 2025",
     "image": "https://i.postimg.cc/SNvDsYRz/Whats-App-Image-2025-08-23-at-23-25-29-2671ac14.jpg",
     "images": [
@@ -30,7 +43,7 @@
     "status": "completed"
   },
   {
-    "id": 3,
+    "id": 4,
     "eventName": "Robo Race 2025",
     "image": "https://i.postimg.cc/T2mRQnMT/Whats-App-Image-2025-08-23-at-23-23-14-e8b76d55.jpg",
     "images": [
@@ -44,7 +57,7 @@
     "status": "completed"
   },
   {
-    "id": 4,
+    "id": 5,
     "eventName": "Pick n Place Challenge",
     "image": "https://i.postimg.cc/FzcsLLms/Whats-App-Image-2025-08-23-at-23-18-06-30c3dada.jpg",
     "images": [
@@ -60,7 +73,7 @@
     "status": "completed"
   },
   {
-    "id": 1,
+    "id": 6,
     "eventName": "RoboRace Workshop",
     "image": "https://i.postimg.cc/504tD0ws/IMG-20250820-WA0005.jpg",
     "images": [
@@ -75,7 +88,7 @@
     "status": "completed"
   },
   {
-    "id": 1,
+    "id": 7,
     "eventName": "Robotic Arm Making Workshop",
     "image": "https://i.postimg.cc/WbF1Bxkc/Whats-App-Image-2025-08-20-at-10-51-57-3caa0017.jpg",
     "images": [
@@ -91,10 +104,10 @@
     "status": "completed"
   },
   {
-    "id": 1,
+    "id": 8,
     "eventName": "Bottle Rocket Launch",
     "image": "https://i.postimg.cc/vBrWtcGX/Whats-App-Image-2025-08-23-at-23-02-47-98e513bf.jpg",
-    "images":[
+    "images": [
       "https://i.postimg.cc/tJDW8wZx/Whats-App-Image-2025-08-23-at-23-02-47-19d81d48.jpg",
       "https://i.postimg.cc/D071jnZh/Whats-App-Image-2025-08-23-at-23-02-47-3013627e.jpg",
       "https://i.postimg.cc/vBrWtcGX/Whats-App-Image-2025-08-23-at-23-02-47-98e513bf.jpg",
@@ -107,7 +120,7 @@
     "status": "completed"
   },
   {
-    "id": 1,
+    "id": 9,
     "eventName": "Bot Show 2024",
     "image": "https://i.postimg.cc/gjtgFn1d/Whats-App-Image-2025-02-21-at-22-45-46-38ef2a94.jpg",
     "images": [
@@ -122,7 +135,7 @@
     "status": "completed"
   },
   {
-    "id": 1,
+    "id": 10,
     "eventName": "Robo Soccer 2024",
     "image": "https://i.postimg.cc/N0KPg7BV/IMG-20240324-WA0005.jpg",
     "images": [
@@ -141,7 +154,7 @@
     "status": "completed"
   },
   {
-    "id": 1,
+    "id": 11,
     "eventName": "Robo Race 2024",
     "image": "https://i.postimg.cc/Tw4dKcDD/IMG-20240324-WA0028.jpg",
     "images": [
@@ -156,7 +169,7 @@
     "status": "completed"
   },
   {
-    "id": 1,
+    "id": 12,
     "eventName": "Rowboat Race 2024",
     "image": "https://i.postimg.cc/wTkrFjwW/IMG-20240323-WA0033.jpg",
     "images": [
@@ -169,7 +182,7 @@
     "status": "completed"
   },
   {
-    "id": 2,
+    "id": 13,
     "eventName": "Aeromodelling Workshop",
     "image": "https://i.postimg.cc/zXCtBcn9/Aero-work-1.jpg",
     "description": "During Phoenix 2022 Renaissance, Roboworld organised a 2 day workshop on Aeromodelling.",
@@ -177,7 +190,7 @@
     "status": "completed"
   },
   {
-    "id": 3,
+    "id": 14,
     "eventName": "Arnab Kishor Bordoloi Young Technovator Competition 2021",
     "image": "https://i.postimg.cc/K8VZYj7q/aytc2.jpg",
     "images": [
@@ -192,9 +205,8 @@
     "description": "Roboworld launches its most prestigious annual Event Arnab Kishor Bordoloi Young Technovator Competition on 9th of September in the loving memory of our beloved alumini Arnab Kishor Bordoloi on the ocassion of his death anniversary.",
     "status": "completed"
   },
-  
   {
-    "id": 5,
+    "id": 15,
     "eventName": "BYOT 2.0 2019",
     "image": "https://i.postimg.cc/j5t4nxtN/byot.jpg",
     "description": "Can you pitch an idea of a device or a strategy to tackle the growing problem of waste management or clogging of drains.",
@@ -202,7 +214,7 @@
     "status": "completed"
   },
   {
-    "id": 6,
+    "id": 16,
     "eventName": "Technosphere 2019",
     "image": "https://i.postimg.cc/HkmngV2Q/technos10.jpg",
     "images": [
@@ -225,7 +237,7 @@
     "status": "completed"
   },
   {
-    "id": 7,
+    "id": 17,
     "eventName": "Workshops during College Induction Programme",
     "image": "https://i.postimg.cc/7YsYJmMZ/tech.jpg",
     "description": "Conducted a workshop on the basics of Arduino and motor controlling with it, both wired and wireless as a part of the Induction Program under AICTE/TEQIP.",
@@ -233,7 +245,7 @@
     "status": "completed"
   },
   {
-    "id": 8,
+    "id": 18,
     "eventName": "BYOT 2018",
     "image": "https://i.postimg.cc/QdKs9sdf/byot-2018.jpg",
     "images": [
@@ -250,7 +262,7 @@
     "status": "completed"
   },
   {
-    "id": 9,
+    "id": 19,
     "eventName": "Webinar Series on Engineers Day 2017",
     "image": "https://i.postimg.cc/YqfQcKHy/webinar6.jpg",
     "images": [
@@ -263,14 +275,5 @@
     "description": "On the occasion of Engineers' Day (2017), Webinar Series was organised in Jorhat Engineering College in association with Roboworld.",
     "date": "2017-09-01",
     "status": "completed"
-  },
-  {
-    "id": 10,
-    "eventName": "BYOT 3.0 2025",
-    "image": "../../assets/event/ongoing event/BYOT.png",
-    "description": "BYOT 3.0 is an ongoing event where students create innovative solutions for campus challenges, with winning teams to be funded by JEC Roboworld.",
-    "date": "2025-09-01",
-    "status": "ongoing",
-    "joiningUrl":"https://docs.google.com/forms/d/e/1FAIpQLSeWxd9afctH1JQDAmQJ_htgXdr1gPVcC_t8PDT9hc504l-wFw/viewform?usp=dialog"
   }
 ]
