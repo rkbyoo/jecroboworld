@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "eventName": "Best Controller",
+    "eventName": "Line Following Bot Workshop",
     "image": "/assets/event/upcoming.svg",
     "images": [],
     "description": "A competition for hunting the best controller within 1st sem students with preliminary round of roborace followed by pick and place",
@@ -12,10 +12,9 @@
   {
     "id": 2,
     "eventName": "BYOT 3.0 2025",
-    "image": "https://i.postimg.cc/gJfr49Bb/Whats-App-Image-2025-09-06-at-19-15-52-7cc46fa7.jpg",
+    "image": "/assets/event/ongoing%20event/BYOT.png",
     "images": [
-      "https://i.postimg.cc/Vk61SGDq/Whats-App-Image-2025-09-07-at-15-03-38-a0a89d98.jpg",
-      "https://i.postimg.cc/gJfr49Bb/Whats-App-Image-2025-09-06-at-19-15-52-7cc46fa7.jpg"
+      "/assets/event/ongoing%20event/BYOT.png"
     ],
     "description": "BYOT 3.0 is an ongoing event where students create innovative solutions for campus challenges, with winning teams to be funded by JEC Roboworld.",
     "date": "2025-09-01",
@@ -25,18 +24,18 @@
   {
     "id": 3,
     "eventName": "Robo Soccer 2025",
-    "image": "https://i.postimg.cc/SNvDsYRz/Whats-App-Image-2025-08-23-at-23-25-29-2671ac14.jpg",
+    "image": "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.29_2671ac14.jpg",
     "images": [
-      "https://i.postimg.cc/SNvDsYRz/Whats-App-Image-2025-08-23-at-23-25-29-2671ac14.jpg",
-      "https://i.postimg.cc/FKtpbtjr/Whats-App-Image-2025-08-23-at-23-25-30-22c8b8ee.jpg",
-      "https://i.postimg.cc/BnPN1ZP7/Whats-App-Image-2025-08-23-at-23-25-30-f03628bd.jpg",
-      "https://i.postimg.cc/KYnNJ9Nn/Whats-App-Image-2025-08-23-at-23-25-31-1ee3a5b2.jpg",
-      "https://i.postimg.cc/ZRHLhCXn/Whats-App-Image-2025-08-23-at-23-25-32-e02b9838.jpg",
-      "https://i.postimg.cc/1XYcfbmZ/Whats-App-Image-2025-08-23-at-23-25-33-81dc6478.jpg",
-      "https://i.postimg.cc/gj0HcGPD/Whats-App-Image-2025-08-23-at-23-25-33-ccebc1a9.jpg",
-      "https://i.postimg.cc/L4yVCgz0/Whats-App-Image-2025-08-23-at-23-25-34-00b4a0ac.jpg",
-      "https://i.postimg.cc/BQkBsW7T/Whats-App-Image-2025-08-23-at-23-25-34-270cbbc2.jpg",
-      "https://i.postimg.cc/gknHfcsc/Whats-App-Image-2025-08-23-at-23-26-46-78e1edd7.jpg"
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.29_2671ac14.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.30_22c8b8ee.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.30_f03628bd.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.31_1ee3a5b2.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.32_e02b9838.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.33_81dc6478.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.33_ccebc1a9.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.34_00b4a0ac.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.25.34_270cbbc2.jpg",
+      "/assets/event/robosoccer%202025/WhatsApp%20Image%202025-08-23%20at%2023.26.46_78e1edd7.jpg"
     ],
     "description": "As part of Technovus 2025, Roboworld organized the Robo Soccer event.",
     "date": "2025-03-09",
@@ -45,12 +44,12 @@
   {
     "id": 4,
     "eventName": "Robo Race 2025",
-    "image": "https://i.postimg.cc/T2mRQnMT/Whats-App-Image-2025-08-23-at-23-23-14-e8b76d55.jpg",
+    "image": "/assets/event/roborace%202025/WhatsApp%20Image%202025-08-23%20at%2023.23.14_e8b76d55.jpg",
     "images": [
-      "https://i.postimg.cc/T2mRQnMT/Whats-App-Image-2025-08-23-at-23-23-14-e8b76d55.jpg",
-      "https://i.postimg.cc/VLWzP1kT/Whats-App-Image-2025-08-23-at-23-23-15-34594ec9.jpg",
-      "https://i.postimg.cc/3xrYK6yw/Whats-App-Image-2025-08-23-at-23-23-16-4c4fdafc.jpg",
-      "https://i.postimg.cc/YqHtPjMY/Whats-App-Image-2025-08-23-at-23-23-16-5a789b7c.jpg"
+      "/assets/event/roborace%202025/WhatsApp%20Image%202025-08-23%20at%2023.23.14_e8b76d55.jpg",
+      "/assets/event/roborace%202025/WhatsApp%20Image%202025-08-23%20at%2023.23.15_34594ec9.jpg",
+      "/assets/event/roborace%202025/WhatsApp%20Image%202025-08-23%20at%2023.23.16_4c4fdafc.jpg",
+      "/assets/event/roborace%202025/WhatsApp%20Image%202025-08-23%20at%2023.23.16_5a789b7c.jpg"
     ],
     "description": "As part of Technovus 2025, Roboworld organized the Robo Race event.",
     "date": "2025-03-09",
@@ -59,14 +58,14 @@
   {
     "id": 5,
     "eventName": "Pick n Place Challenge",
-    "image": "https://i.postimg.cc/FzcsLLms/Whats-App-Image-2025-08-23-at-23-18-06-30c3dada.jpg",
+    "image": "/assets/event/pick%20n%20place%202025/WhatsApp%20Image%202025-08-23%20at%2023.18.06_30c3dada.jpg",
     "images": [
-      "https://i.postimg.cc/3Rkw3qcG/Whats-App-Image-2025-08-23-at-23-18-00-2c2523c4.jpg",
-      "https://i.postimg.cc/SsHxRGBv/Whats-App-Image-2025-08-23-at-23-18-02-497d448f.jpg",
-      "https://i.postimg.cc/Zq7RtmVZ/Whats-App-Image-2025-08-23-at-23-18-04-7bcc9653.jpg",
-      "https://i.postimg.cc/FzcsLLms/Whats-App-Image-2025-08-23-at-23-18-06-30c3dada.jpg",
-      "https://i.postimg.cc/66GQSDRJ/Whats-App-Image-2025-08-23-at-23-18-08-34d041ce.jpg",
-      "https://i.postimg.cc/28R5f2Fq/Whats-App-Image-2025-08-23-at-23-18-08-f26ff048.jpg"
+      "/assets/event/pick%20n%20place%202025/WhatsApp%20Image%202025-08-23%20at%2023.18.00_2c2523c4.jpg",
+      "/assets/event/pick%20n%20place%202025/WhatsApp%20Image%202025-08-23%20at%2023.18.02_497d448f.jpg",
+      "/assets/event/pick%20n%20place%202025/WhatsApp%20Image%202025-08-23%20at%2023.18.04_7bcc9653.jpg",
+      "/assets/event/pick%20n%20place%202025/WhatsApp%20Image%202025-08-23%20at%2023.18.06_30c3dada.jpg",
+      "/assets/event/pick%20n%20place%202025/WhatsApp%20Image%202025-08-23%20at%2023.18.08_34d041ce.jpg",
+      "/assets/event/pick%20n%20place%202025/WhatsApp%20Image%202025-08-23%20at%2023.18.08_f26ff048.jpg"
     ],
     "description": "As part of Technovus 2025, Roboworld organized the Pick n Place Challenge event.",
     "date": "2025-03-09",
@@ -75,13 +74,13 @@
   {
     "id": 6,
     "eventName": "RoboRace Workshop",
-    "image": "https://i.postimg.cc/504tD0ws/IMG-20250820-WA0005.jpg",
+    "image": "/assets/event/roborace%20workshop/IMG-20250820-WA0005.jpg",
     "images": [
-      "https://i.postimg.cc/xdS8ygqD/IMG-20250820-WA0003.jpg",
-      "https://i.postimg.cc/TPqwkmWy/IMG-20250820-WA0004.jpg",
-      "https://i.postimg.cc/504tD0ws/IMG-20250820-WA0005.jpg",
-      "https://i.postimg.cc/RZtqH2SL/IMG-20250820-WA0006.jpg",
-      "https://i.postimg.cc/J0tz42YJ/IMG-20250820-WA0007.jpg"
+      "/assets/event/roborace%20workshop/IMG-20250820-WA0003.jpg",
+      "/assets/event/roborace%20workshop/IMG-20250820-WA0004.jpg",
+      "/assets/event/roborace%20workshop/IMG-20250820-WA0005.jpg",
+      "/assets/event/roborace%20workshop/IMG-20250820-WA0006.jpg",
+      "/assets/event/roborace%20workshop/IMG-20250820-WA0007.jpg"
     ],
     "description": "Roboworld organised a 3 day RoboRace bot making workshop and competition and the top two teams was given free entry into the main Robo Race event in Phoenix 2025.",
     "date": "2025-03-09",
@@ -90,14 +89,14 @@
   {
     "id": 7,
     "eventName": "Robotic Arm Making Workshop",
-    "image": "https://i.postimg.cc/WbF1Bxkc/Whats-App-Image-2025-08-20-at-10-51-57-3caa0017.jpg",
+    "image": "/assets/event/robotic%20arm%20making%20workshop%202025/WhatsApp%20Image%202025-08-20%20at%2010.51.57_3caa0017.jpg",
     "images": [
-      "https://i.postimg.cc/Tw6b1fnb/Whats-App-Image-2025-02-21-at-22-40-58-4134b255.jpg",
-      "https://i.postimg.cc/LX31ZwVb/Whats-App-Image-2025-02-21-at-22-40-58-c71744b3.jpg",
-      "https://i.postimg.cc/6q6GVcj5/Whats-App-Image-2025-02-21-at-22-40-59-432df006.jpg",
-      "https://i.postimg.cc/R0ffvNJ9/Whats-App-Image-2025-02-21-at-22-40-59-59da65c8.jpg",
-      "https://i.postimg.cc/D0C4xGHQ/Whats-App-Image-2025-02-21-at-22-40-59-a05e55b6.jpg",
-      "https://i.postimg.cc/WbF1Bxkc/Whats-App-Image-2025-08-20-at-10-51-57-3caa0017.jpg"
+      "/assets/event/robotic%20arm%20making%20workshop%202025/WhatsApp%20Image%202025-02-21%20at%2022.40.58_4134b255.jpg",
+      "/assets/event/robotic%20arm%20making%20workshop%202025/WhatsApp%20Image%202025-02-21%20at%2022.40.58_c71744b3.jpg",
+      "/assets/event/robotic%20arm%20making%20workshop%202025/WhatsApp%20Image%202025-02-21%20at%2022.40.59_432df006.jpg",
+      "/assets/event/robotic%20arm%20making%20workshop%202025/WhatsApp%20Image%202025-02-21%20at%2022.40.59_59da65c8.jpg",
+      "/assets/event/robotic%20arm%20making%20workshop%202025/WhatsApp%20Image%202025-02-21%20at%2022.40.59_a05e55b6.jpg",
+      "/assets/event/robotic%20arm%20making%20workshop%202025/WhatsApp%20Image%202025-08-20%20at%2010.51.57_3caa0017.jpg"
     ],
     "description": "As a part of the College Week 2024, Roboworld organised a 1 day workshop.",
     "date": "2025-01-09",
@@ -106,14 +105,14 @@
   {
     "id": 8,
     "eventName": "Bottle Rocket Launch",
-    "image": "https://i.postimg.cc/vBrWtcGX/Whats-App-Image-2025-08-23-at-23-02-47-98e513bf.jpg",
+    "image": "/assets/event/bottle%20rocket%202024/WhatsApp%20Image%202025-08-23%20at%2023.02.47_98e513bf.jpg",
     "images": [
-      "https://i.postimg.cc/tJDW8wZx/Whats-App-Image-2025-08-23-at-23-02-47-19d81d48.jpg",
-      "https://i.postimg.cc/D071jnZh/Whats-App-Image-2025-08-23-at-23-02-47-3013627e.jpg",
-      "https://i.postimg.cc/vBrWtcGX/Whats-App-Image-2025-08-23-at-23-02-47-98e513bf.jpg",
-      "https://i.postimg.cc/Yqq1QrZf/Whats-App-Image-2025-08-23-at-23-02-48-376563e2.jpg",
-      "https://i.postimg.cc/2jxQqbcS/Whats-App-Image-2025-08-23-at-23-02-48-479c8580.jpg",
-      "https://i.postimg.cc/m2X7jxGx/Whats-App-Image-2025-08-23-at-23-02-49-85fc1925.jpg"
+      "/assets/event/bottle%20rocket%202024/WhatsApp%20Image%202025-08-23%20at%2023.02.47_19d81d48.jpg",
+      "/assets/event/bottle%20rocket%202024/WhatsApp%20Image%202025-08-23%20at%2023.02.47_3013627e.jpg",
+      "/assets/event/bottle%20rocket%202024/WhatsApp%20Image%202025-08-23%20at%2023.02.47_98e513bf.jpg",
+      "/assets/event/bottle%20rocket%202024/WhatsApp%20Image%202025-08-23%20at%2023.02.48_376563e2.jpg",
+      "/assets/event/bottle%20rocket%202024/WhatsApp%20Image%202025-08-23%20at%2023.02.48_479c8580.jpg",
+      "/assets/event/bottle%20rocket%202024/WhatsApp%20Image%202025-08-23%20at%2023.02.49_85fc1925.jpg"
     ],
     "description": "As a part of the College Week 2024, Roboworld Organised the Bottle Rocket challenge.",
     "date": "2025-01-09",
@@ -122,13 +121,13 @@
   {
     "id": 9,
     "eventName": "Bot Show 2024",
-    "image": "https://i.postimg.cc/gjtgFn1d/Whats-App-Image-2025-02-21-at-22-45-46-38ef2a94.jpg",
+    "image": "/assets/event/bot%20show%202024/WhatsApp%20Image%202025-02-21%20at%2022.45.46_38ef2a94.jpg",
     "images": [
-      "https://i.postimg.cc/3R7SgMgM/Whats-App-Image-2025-02-21-at-22-44-50-18722080.jpg",
-      "https://i.postimg.cc/YC5yCL0C/Whats-App-Image-2025-02-21-at-22-45-13-b19e71d1.jpg",
-      "https://i.postimg.cc/TPnNL25q/Whats-App-Image-2025-02-21-at-22-45-45-cde42645.jpg",
-      "https://i.postimg.cc/gjtgFn1d/Whats-App-Image-2025-02-21-at-22-45-46-38ef2a94.jpg",
-      "https://i.postimg.cc/VvvFRzvh/Whats-App-Image-2025-02-21-at-22-45-49-e2b5e098.jpg"
+      "/assets/event/bot%20show%202024/WhatsApp%20Image%202025-02-21%20at%2022.44.50_18722080.jpg",
+      "/assets/event/bot%20show%202024/WhatsApp%20Image%202025-02-21%20at%2022.45.13_b19e71d1.jpg",
+      "/assets/event/bot%20show%202024/WhatsApp%20Image%202025-02-21%20at%2022.45.45_cde42645.jpg",
+      "/assets/event/bot%20show%202024/WhatsApp%20Image%202025-02-21%20at%2022.45.46_38ef2a94.jpg",
+      "/assets/event/bot%20show%202024/WhatsApp%20Image%202025-02-21%20at%2022.45.49_e2b5e098.jpg"
     ],
     "description": "During the Club Orientation of 2024, Roboworld organised the Bot Show event in association with Team Arcelor.",
     "date": "2024-09-09",
@@ -137,17 +136,9 @@
   {
     "id": 10,
     "eventName": "Robo Soccer 2024",
-    "image": "https://i.postimg.cc/N0KPg7BV/IMG-20240324-WA0005.jpg",
+    "image": "/assets/event/robosoccer%202024/IMG-20240324-WA0023.jpg",
     "images": [
-      "https://i.postimg.cc/J0N2frMz/IMG-20240323-WA0025.jpg",
-      "https://i.postimg.cc/XYHzSDSd/IMG-20240324-WA0003.jpg",
-      "https://i.postimg.cc/N0KPg7BV/IMG-20240324-WA0005.jpg",
-      "https://i.postimg.cc/wMQwWwQt/IMG-20240324-WA0007.jpg",
-      "https://i.postimg.cc/7hkBMF08/IMG-20240324-WA0022.jpg",
-      "https://i.postimg.cc/mZYp2rWb/IMG20240323143958.jpg",
-      "https://i.postimg.cc/8PwyMnC9/IMG20240323144546.jpg",
-      "https://i.postimg.cc/Yqtn4wtQ/IMG20240323144550.jpg",
-      "https://i.postimg.cc/FsQR3D6y/IMG-20240324-WA0023.jpg"
+      "/assets/event/robosoccer%202024/IMG-20240324-WA0023.jpg"
     ],
     "description": "During Phoenix 2024 Eclectic Euphoria, Roboworld organised the Robo Soccer event.",
     "date": "2024-03-09",
@@ -156,13 +147,10 @@
   {
     "id": 11,
     "eventName": "Robo Race 2024",
-    "image": "https://i.postimg.cc/Tw4dKcDD/IMG-20240324-WA0028.jpg",
+    "image": "/assets/event/roborace%202024/IMG-20240324-WA0028.jpg",
     "images": [
-      "https://i.postimg.cc/d1dHCs7j/IMG-20240325-WA0045.jpg",
-      "https://i.postimg.cc/NGmS94mv/IMG-9446.jpg",
-      "https://i.postimg.cc/15STpqrn/IMG-9456.jpg",
-      "https://i.postimg.cc/Tw4dKcDD/IMG-20240324-WA0028.jpg",
-      "https://i.postimg.cc/nr9HBQ4w/IMG-9441.jpg"
+      "/assets/event/roborace%202024/IMG-20240324-WA0028.jpg",
+      "/assets/event/roborace%202024/IMG_9441.jpg"
     ],
     "description": "During Phoenix 2024 Eclectic Euphoria, Roboworld organised the Robo Race event.",
     "date": "2024-03-09",
@@ -171,11 +159,9 @@
   {
     "id": 12,
     "eventName": "Rowboat Race 2024",
-    "image": "https://i.postimg.cc/wTkrFjwW/IMG-20240323-WA0033.jpg",
+    "image": "/assets/event/rowboatrace%202024/IMG-20240323-WA0017.jpg",
     "images": [
-      "https://i.postimg.cc/WzLyYFRy/IMG-20240323-WA0013.jpg",
-      "https://i.postimg.cc/wTkrFjwW/IMG-20240323-WA0033.jpg",
-      "https://i.postimg.cc/QttNNzHD/IMG-20240323-WA0017.jpg"
+      "/assets/event/rowboatrace%202024/IMG-20240323-WA0017.jpg"
     ],
     "description": "During Phoenix 2024 Eclectic Euphoria, Roboworld organised the Rowboat Race event.",
     "date": "2024-03-09",
@@ -184,7 +170,7 @@
   {
     "id": 13,
     "eventName": "Aeromodelling Workshop",
-    "image": "https://i.postimg.cc/zXCtBcn9/Aero-work-1.jpg",
+    "image": "/assets/event/aeromodelling%202022/Aero%20work%20(1).jpg",
     "description": "During Phoenix 2022 Renaissance, Roboworld organised a 2 day workshop on Aeromodelling.",
     "date": "2022-05-09",
     "status": "completed"
@@ -192,14 +178,14 @@
   {
     "id": 14,
     "eventName": "Arnab Kishor Bordoloi Young Technovator Competition 2021",
-    "image": "https://i.postimg.cc/K8VZYj7q/aytc2.jpg",
+    "image": "/assets/event/aytc%202021/aytc2.jpg",
     "images": [
-      "https://i.postimg.cc/vB7MXvJk/aytc1.jpg",
-      "https://i.postimg.cc/K8VZYj7q/aytc2.jpg",
-      "https://i.postimg.cc/1t1spdjD/aytc3.jpg",
-      "https://i.postimg.cc/XvCnBWQV/aytc4.jpg",
-      "https://i.postimg.cc/SRy4PMqs/aytc5.jpg",
-      "https://i.postimg.cc/90J2HQFB/aytc6.jpg"
+      "/assets/event/aytc%202021/aytc1.jpg",
+      "/assets/event/aytc%202021/aytc2.jpg",
+      "/assets/event/aytc%202021/aytc3.jpg",
+      "/assets/event/aytc%202021/aytc4.jpg",
+      "/assets/event/aytc%202021/aytc5.jpg",
+      "/assets/event/aytc%202021/aytc6.jpg"
     ],
     "date": "2021-09-09",
     "description": "Roboworld launches its most prestigious annual Event Arnab Kishor Bordoloi Young Technovator Competition on 9th of September in the loving memory of our beloved alumini Arnab Kishor Bordoloi on the ocassion of his death anniversary.",
@@ -208,7 +194,7 @@
   {
     "id": 15,
     "eventName": "BYOT 2.0 2019",
-    "image": "https://i.postimg.cc/j5t4nxtN/byot.jpg",
+    "image": "/assets/event/byot%202019/byot.jpg",
     "description": "Can you pitch an idea of a device or a strategy to tackle the growing problem of waste management or clogging of drains.",
     "date": "2019-09-01",
     "status": "completed"
@@ -216,21 +202,21 @@
   {
     "id": 16,
     "eventName": "Technosphere 2019",
-    "image": "https://i.postimg.cc/HkmngV2Q/technos10.jpg",
+    "image": "/assets/event/technosphere%202019/technos10.jpg",
     "images": [
-      "https://i.postimg.cc/5ytyDGqD/technosphere1.jpg",
-      "https://i.postimg.cc/XvVb25gz/technos1.jpg",
-      "https://i.postimg.cc/HkmngV2Q/technos10.jpg",
-      "https://i.postimg.cc/Jz38cxjX/technos2.jpg",
-      "https://i.postimg.cc/FKDQwKWs/technos3.jpg",
-      "https://i.postimg.cc/pTrtvt4Q/technos4.jpg",
-      "https://i.postimg.cc/52W1CTQ1/technos4-1.jpg",
-      "https://i.postimg.cc/zBQYXcYs/technos5.jpg",
-      "https://i.postimg.cc/6qGJ7f9y/technos6.jpg",
-      "https://i.postimg.cc/t7Q0FnTD/technos7.jpg",
-      "https://i.postimg.cc/BZ8XcWb1/technos8.jpg",
-      "https://i.postimg.cc/X7dqmwwj/technos9.jpg",
-      "https://i.postimg.cc/9XvzLxwg/technos9-1.jpg"
+      "/assets/event/technosphere%202019/technosphere1.jpg",
+      "/assets/event/technosphere%202019/technos1.jpg",
+      "/assets/event/technosphere%202019/technos10.jpg",
+      "/assets/event/technosphere%202019/technos2.jpg",
+      "/assets/event/technosphere%202019/technos3.jpg",
+      "/assets/event/technosphere%202019/technos4.jpg",
+      "/assets/event/technosphere%202019/technos4%20(1).jpg",
+      "/assets/event/technosphere%202019/technos5.jpg",
+      "/assets/event/technosphere%202019/technos6.jpg",
+      "/assets/event/technosphere%202019/technos7.jpg",
+      "/assets/event/technosphere%202019/technos8.jpg",
+      "/assets/event/technosphere%202019/technos9.jpg",
+      "/assets/event/technosphere%202019/technos9%20(1).jpg"
     ],
     "description": "As a part of Phoenix 2019, Roboworld organized Technosphere 2019. Fasten your seatbelts and get ready for the ride! Its show time!!",
     "date": "2019-3-01",
@@ -239,7 +225,7 @@
   {
     "id": 17,
     "eventName": "Workshops during College Induction Programme",
-    "image": "https://i.postimg.cc/7YsYJmMZ/tech.jpg",
+    "image": "/assets/event/technical%20workshop%202018/tech.jpg",
     "description": "Conducted a workshop on the basics of Arduino and motor controlling with it, both wired and wireless as a part of the Induction Program under AICTE/TEQIP.",
     "date": "2018-01-01",
     "status": "completed"
@@ -247,15 +233,15 @@
   {
     "id": 18,
     "eventName": "BYOT 2018",
-    "image": "https://i.postimg.cc/QdKs9sdf/byot-2018.jpg",
+    "image": "/assets/event/byot%202018/byot%202018.jpg",
     "images": [
-      "https://i.postimg.cc/8zM9gC5g/byot1.jpg",
-      "https://i.postimg.cc/R0m8Sz66/byot2.jpg",
-      "https://i.postimg.cc/0NC4rHDt/byot3.jpg",
-      "https://i.postimg.cc/cH4b3Mcd/byot4.jpg",
-      "https://i.postimg.cc/d3gHzMc0/byot5.jpg",
-      "https://i.postimg.cc/3RSbF4Lm/byot6.jpg",
-      "https://i.postimg.cc/mkPpXLqq/byot7.jpg"
+      "/assets/event/byot%202018/byot1.jpg",
+      "/assets/event/byot%202018/byot2.jpg",
+      "/assets/event/byot%202018/byot3.jpg",
+      "/assets/event/byot%202018/byot4.jpg",
+      "/assets/event/byot%202018/byot5.jpg",
+      "/assets/event/byot%202018/byot6.jpg",
+      "/assets/event/byot%202018/byot7.jpg"
     ],
     "description": "Can you pitch an idea of a device which can help during floods? The tougher part of engineering starts here.",
     "date": "2018-09-01",
@@ -264,13 +250,13 @@
   {
     "id": 19,
     "eventName": "Webinar Series on Engineers Day 2017",
-    "image": "https://i.postimg.cc/YqfQcKHy/webinar6.jpg",
+    "image": "/assets/event/webinar%202017/webinar1.jpg",
     "images": [
-      "https://i.postimg.cc/nc70CPtv/webinar1.jpg",
-      "https://i.postimg.cc/fRfCvSyy/webinar2.jpg",
-      "https://i.postimg.cc/Hkg359pF/webinar3.jpg",
-      "https://i.postimg.cc/qBW1BdWJ/webinar4.jpg",
-      "https://i.postimg.cc/Dzfgpf4g/webinar5.jpg"
+      "/assets/event/webinar%202017/webinar1.jpg",
+      "/assets/event/webinar%202017/webinar2.jpg",
+      "/assets/event/webinar%202017/webinar3.jpg",
+      "/assets/event/webinar%202017/webinar4.jpg",
+      "/assets/event/webinar%202017/webinar5.jpg"
     ],
     "description": "On the occasion of Engineers' Day (2017), Webinar Series was organised in Jorhat Engineering College in association with Roboworld.",
     "date": "2017-09-01",
