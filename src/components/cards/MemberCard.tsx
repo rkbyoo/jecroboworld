@@ -5,9 +5,10 @@ interface MemberCardProps {
   role?: string;
   photo: string;
   isCurrent?: boolean;
+  priority?: boolean;
 }
 
-const MemberCard = ({ name, role, photo, isCurrent = false }: MemberCardProps) => {
+const MemberCard = ({ name, role, photo, isCurrent = false, priority = false }: MemberCardProps) => {
   return (
     <div className={`group relative overflow-hidden rounded-xl transition-all duration-300 hover:shadow-lg ${
       isCurrent 
@@ -24,7 +25,8 @@ const MemberCard = ({ name, role, photo, isCurrent = false }: MemberCardProps) =
             src={photo}
             alt={name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            loading="lazy"
+            loading={priority ? 'eager' : 'lazy'}
+            priority={priority}
           />
         </div>
         <h3 className={`text-xl font-bold mb-2 transition-colors ${

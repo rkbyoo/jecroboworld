@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import MemberCard from '@/components/cards/MemberCard';
 
 interface Member {
@@ -20,8 +20,11 @@ const TeamPage = () => {
     });
   }, []);
 
-  const currentMembers = members.filter(member => member.status === 'current');
-  const pastMembers = members.filter(member => member.status === 'alumni');
+  // Memoize filtered members to avoid recalculation
+  const { currentMembers, pastMembers } = useMemo(() => ({
+    currentMembers: members.filter(member => member.status === 'current'),
+    pastMembers: members.filter(member => member.status === 'alumni')
+  }), [members]);
 
   return (
     <div className="pt-24 min-h-screen bg-background">
@@ -40,13 +43,14 @@ const TeamPage = () => {
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-foreground mb-8">Current Members</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-              {currentMembers.map((member) => (
+              {currentMembers.map((member, index) => (
                 <MemberCard
-                  key={member.id}
+                  key={`current-${member.id}`}
                   name={member.name}
                   role={member.role}
                   photo={member.photo}
                   isCurrent={true}
+                  priority={index < 8} // Prioritize first 8 images
                 />
               ))}
             </div>
@@ -60,7 +64,7 @@ const TeamPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               {pastMembers.map((member) => (
                 <MemberCard
-                  key={member.id}
+                  key={`past-${member.id}`}
                   name={member.name}
                   role={member.role}
                   photo={member.photo}

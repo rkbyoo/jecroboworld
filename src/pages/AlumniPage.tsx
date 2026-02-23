@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import AlumniCard from '@/components/cards/AlumniCard';
 import MemorialCard from '@/components/cards/MemorialCard';
 
@@ -20,6 +20,9 @@ const AlumniPage = () => {
       setAlumni(module.default);
     });
   }, []);
+
+  // Memoize alumni to avoid recalculation
+  const memoizedAlumni = useMemo(() => alumni, [alumni]);
 
   return (
     <div className="pt-24 min-h-screen bg-background">
@@ -43,7 +46,7 @@ const AlumniPage = () => {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {alumni.map((person) => (
+          {memoizedAlumni.map((person, index) => (
             <AlumniCard
               key={person.id}
               name={person.name}
@@ -52,6 +55,7 @@ const AlumniPage = () => {
               image={person.image}
               batch={person.batch}
               currentPosition={person.currentPosition}
+              priority={index < 8} // Prioritize first 8 images
             />
           ))}
         </div>

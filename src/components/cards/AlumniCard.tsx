@@ -8,9 +8,10 @@ interface AlumniCardProps {
   image: string;
   batch: string;
   currentPosition: string;
+  priority?: boolean;
 }
 
-const AlumniCard = ({ name, phone, email, image, batch, currentPosition }: AlumniCardProps) => {
+const AlumniCard = ({ name, phone, email, image, batch, currentPosition, priority = false }: AlumniCardProps) => {
   return (
     <div className="group relative overflow-hidden rounded-xl bg-card border border-border hover:border-foreground/20 hover:shadow-lg transition-all duration-300">
       <div className="p-6 text-center">
@@ -19,7 +20,8 @@ const AlumniCard = ({ name, phone, email, image, batch, currentPosition }: Alumn
             src={image}
             alt={name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            loading="lazy"
+            loading={priority ? 'eager' : 'lazy'}
+            priority={priority}
           />
         </div>
         <h3 className="text-xl font-bold text-black mb-2 group-hover:text-black transition-colors">

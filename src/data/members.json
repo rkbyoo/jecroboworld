@@ -3,21 +3,21 @@
     "id": 1,
     "name": "Bitopan Das",
     "role": "Technical & Club Head",
-    "photo": "https://i.postimg.cc/KYb1PF8D/Bitopan-Das.jpg",
+    "photo": "/assets/members/Bitopan%20Das.jpg",
     "status": "current"
   },
   {
     "id": 2,
     "name": "Bishal Baruah",
     "role": "Treasurer And Finance Head",
-    "photo": "https://i.postimg.cc/J4yHmPFZ/Bishal-Baruah.jpg",
+    "photo": "/assets/members/Bishal%20Baruah.jpg",
     "status": "current"
   },
   {
     "id": 3,
     "name": "Rakib Hussain",
     "role": "Website Head",
-    "photo": "https://i.postimg.cc/4Nz7mmJx/Rakib-Hussain.jpg",
+    "photo": "/assets/members/Rakib%20Hussain.jpg",
     "status": "current"
   },
   
@@ -25,105 +25,112 @@
     "id": 4,
     "name": "Bishal Dutta",
     "role": "Website Head",
-    "photo": "https://i.postimg.cc/05XKLLV9/BISHAL-DUTTA.jpg",
+    "photo": "/assets/members/BISHAL%20DUTTA.jpg",
     "status": "current"
   },
   {
     "id": 5,
     "name": "Partha Pratim Borah",
     "role": "Website Coordinator",
-    "photo": "https://i.postimg.cc/Qtw9W79H/Partha-Pratim-Borah.jpg",
+    "photo": "/assets/members/Partha%20Pratim%20Borah.jpg",
     "status": "current"
   },
   {
     "id": 6,
     "name": "Ruhil Chetia",
     "role": "Research & Development Head",
-    "photo": "https://i.postimg.cc/xTSqDnKD/Ruhil-Chetia.jpg",
+    "photo": "/assets/members/Ruhil%20Chetia.jpeg",
     "status": "current"
   },
   {
     "id": 7,
     "name": "Shobhitya Raj Borah",
     "role": "Research & Development Head",
-    "photo": "https://i.postimg.cc/FFS1B7kV/Shobhitya.jpg",
+    "photo": "/assets/members/Shobhitya.jpg",
     "status": "current"
   },
   {
     "id": 8,
     "name": "Sandeep Roy",
     "role": "Research & Development Head",
-    "photo": "https://i.postimg.cc/PxgJqk9D/Sandeep-Roy.jpg",
+    "photo": "/assets/members/Sandeep%20Roy.jpeg",
     "status": "current"
   },
   {
     "id": 9,
-    "name": "Shyamalima Saikia",
-    "role": "PR & Management Head",
-    "photo": "https://i.postimg.cc/nzjMZLRZ/Shyamalima-Saikia.jpg",
+    "name": "Mrinmoy Dutta",
+    "role": "Organizing Committee Member",
+    "photo": "/assets/members/Sandeep%20Roy.jpeg",
     "status": "current"
   },
   {
-    "id": 10,
-    "name": "Doly Barman",
+    "id":10,
+    "name": "Shyamalima Saikia",
     "role": "PR & Management Head",
-    "photo": "https://i.postimg.cc/wj8MzHLY/Doly-Barman.jpg",
+    "photo": "/assets/members/Shyamalima%20Saikia.jpg",
     "status": "current"
   },
   {
     "id": 11,
-    "name": "Arnab Jyoti Singha",
-    "role": "Creative Head",
-    "photo": "https://i.postimg.cc/2yyb1wSp/Arnab-Jyoti-Singha.jpg",
+    "name": "Doly Barman",
+    "role": "PR & Management Head",
+    "photo": "/assets/members/Doly%20Barman.jpg",
     "status": "current"
   },
   {
     "id": 12,
-    "name": "Mousum Gogoi",
+    "name": "Arnab Jyoti Singha",
     "role": "Creative Head",
-    "photo": "https://i.postimg.cc/SQncNS2n/Mousum-Gogoi.jpg",
+    "photo": "/assets/members/Arnab%20Jyoti%20Singha.jpg",
     "status": "current"
   },
   {
     "id": 13,
-    "name": "Deeptangshu Nath",
-    "role": "Event Manager",
-    "photo": "https://i.postimg.cc/k41DPbFT/Deeptangshu-Nath.webp",
+    "name": "Mousum Gogoi",
+    "role": "Creative Head",
+    "photo": "/assets/members/Mousum%20Gogoi.jpg",
     "status": "current"
   },
   {
     "id": 14,
-    "name": "Kapinjal Chakravarty",
+    "name": "Deeptangshu Nath",
     "role": "Event Manager",
-    "photo": "https://i.postimg.cc/MHfZkrGG/KAPINJAL.jpg",
+    "photo": "/assets/members/Deeptangshu%20Nath.webp",
     "status": "current"
   },
   {
     "id": 15,
-    "name": "Jitul Kalita",
-    "role": "Workshop In-Charge",
-    "photo": "https://i.postimg.cc/tg9g15Br/Jitul-Kalita.jpg",
+    "name": "Kapinjal Chakravarty",
+    "role": "Event Manager",
+    "photo": "/assets/members/KAPINJAL.jpg",
     "status": "current"
   },
   {
     "id": 16,
-    "name": "Kaushik Bora",
-    "role": "Executive Member",
-    "photo": "https://i.postimg.cc/5tp28CGf/Kaushik-Bora.jpg",
+    "name": "Jitul Kalita",
+    "role": "Workshop In-Charge",
+    "photo": "/assets/members/Jitul%20Kalita.jpg",
     "status": "current"
   },
   {
     "id": 17,
-    "name": "Mughaka Sema",
+    "name": "Kaushik Bora",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/zBVHB7fs/Mughaka-Sema.jpg",
+    "photo": "/assets/members/Kaushik%20Bora.jpg",
     "status": "current"
   },
   {
     "id": 18,
+    "name": "Mughaka Sema",
+    "role": "Executive Member",
+    "photo": "/assets/members/Mughaka%20Sema.jpeg",
+    "status": "current"
+  },
+  {
+    "id": 19,
     "name": "Richangkini Sonowal",
     "role": "Representative",
-    "photo": "https://i.postimg.cc/q77zbw2N/Richangkini-Sonowal.jpg",
+    "photo": "/assets/members/Richangkini%20Sonowal.jpeg",
     "status": "current"
   },
   
@@ -136,259 +143,259 @@
     "id": 1,
     "name": "Bishal Das",
     "role": "Technical & Club Head",
-    "photo": "https://i.postimg.cc/C52ZkqRR/Bishal-Das.jpg",
+    "photo": "/assets/members/Bishal%20Das.JPG",
     "status": "alumni"
   },
   {
     "id": 2,
     "name": "Ariyan Ali",
     "role": "Robotics & Automation Head",
-    "photo": "https://i.postimg.cc/y8ZRhvXs/Ariyan-Ali.jpg",
+    "photo": "/assets/members/Ariyan%20Ali.jpeg",
     "status": "alumni"
   },
   {
     "id": 3,
     "name": "Sourabh Pran Borah",
     "role": "Robotics & Automation Head",
-    "photo": "https://i.postimg.cc/Bvtnc6GD/Sourabh_Pran_Borah.jpg",
+    "photo": "/assets/members/Sourabh%20Pran%20Borah.jpeg",
     "status": "alumni"
   },
   {
     "id": 4,
     "name": "Sreeya Dutta",
     "role": "Research & Development Head",
-    "photo": "https://i.postimg.cc/C1qMXQ5x/Sreeya_Dutta.jpg",
+    "photo": "/assets/members/Sreeya%20Dutta.jpg",
     "status": "alumni"
   },
   {
     "id": 5,
     "name": "Aditya Prakash Singh",
     "role": "Treasurer And Finance Head",
-    "photo": "https://i.postimg.cc/t4Kh8LCs/ADITYA-PRAKASH-SINGH.jpg",
+    "photo": "/assets/members/ADITYA%20PRAKASH%20SINGH.jpg",
     "status": "alumni"
   },
   {
     "id": 6,
     "name": "Parishmita Das",
     "role": "Website head",
-    "photo": "https://i.postimg.cc/BvZKW4fQ/Parishmita-Das.jpg",
+    "photo": "/assets/members/Parishmita%20Das.jpg",
     "status": "alumni"
   },
   {
     "id": 7,
     "name": "Priyanka Banik",
     "role": "Website head",
-    "photo": "https://i.postimg.cc/rF6RVS2H/Priyanka-Banik.jpg",
+    "photo": "/assets/members/Priyanka%20Banik.jpg",
     "status": "alumni"
   },
   {
     "id": 8,
     "name": "Priyanka Nandy",
     "role": "Website head",
-    "photo": "https://i.postimg.cc/CxSZDS1H/priyanka-nandy.jpg",
+    "photo": "/assets/members/priyanka%20nandy.jpg",
     "status": "alumni"
   },
   {
     "id": 9,
     "name": "Himashree Hazarika",
     "role": "Website head",
-    "photo": "https://i.postimg.cc/y6GWf0Nd/Himashree-Hazarika.jpg",
+    "photo": "/assets/members/Himashree_Hazarika.jpg",
     "status": "alumni"
   },
   {
     "id": 10,
     "name": "Yeasin Ahmed",
     "role": "PR & Management Head",
-    "photo": "https://i.postimg.cc/BQgSrDSH/Yeasin_Ahmed.jpg",
+    "photo": "/assets/members/Yeasin%20Ahmed.jpg",
     "status": "alumni"
   },
   {
     "id": 11,
     "name": "Bivob Bhuyan",
     "role": "Creative head",
-    "photo": "https://i.postimg.cc/t4W1n7pg/bivob-bhuyan.jpg",
+    "photo": "/assets/members/bivob%20bhuyan.jpeg",
     "status": "alumni"
   },
   {
     "id": 12,
     "name": "Arabinda Borah",
     "role": "Creative head",
-    "photo": "https://i.postimg.cc/9XLyc4Q5/Arabinda-Borah.jpg",
+    "photo": "/assets/members/Arabinda%20Borah.jpg",
     "status": "alumni"
   },
   {
     "id": 13,
     "name": "Bilton Narzary",
     "role": "Advisor",
-    "photo": "https://i.postimg.cc/rm8tkc6w/Bilton-N.jpg",
+    "photo": "/assets/members/Bilton%20N.jpg",
     "status": "alumni"
   },
   {
     "id": 14,
     "name": "Abinashi Dutta",
     "role": "Media & Publicity Head",
-    "photo": "https://i.postimg.cc/prcjCS6X/Abinashi-Dutta.jpg",
+    "photo": "/assets/members/Abinashi%20Dutta.jpeg",
     "status": "alumni"
   },
   {
     "id": 15,
     "name": "Tithi Choudhuri",
     "role": "Media & Publicity Head",
-    "photo": "https://i.postimg.cc/vHM82XsG/Tithi_Choudhuri.jpg",
+    "photo": "/assets/members/Tithi%20Choudhuri.jpeg",
     "status": "alumni"
   },
   {
     "id": 16,
     "name": "Sourabh Jyoti Borah",
     "role": "Equipment In-Charge",
-    "photo": "https://i.postimg.cc/DzDyCT2N/SOURABH_JYOTI_BORAH.jpg",
+    "photo": "/assets/members/SOURABH%20JYOTI%20BORAH.jpg",
     "status": "alumni"
   },
   {
     "id": 17,
     "name": "Ripunjay Kalita",
     "role": "Workshop In-Charge",
-    "photo": "https://i.postimg.cc/Dw6SPH4V/Ripunjay-Kalita.jpg",
+    "photo": "/assets/members/Ripunjay%20Kalita.jpg",
     "status": "alumni"
   },
   {
     "id": 18,
     "name": "Kritartha Gautam",
     "role": "Robotics & Automation Head",
-    "photo": "https://i.postimg.cc/yWq17XJy/Kritartha-Gautam.jpg",
+    "photo": "/assets/members/Kritartha%20Gautam.jpg",
     "status": "alumni"
   },
   {
     "id": 19,
     "name": "Tejas Arandhara",
     "role": "Technical & Club Head",
-    "photo": "https://i.postimg.cc/ry5F937h/Tejas_Arandhara.jpg",
+    "photo": "/assets/members/Tejas%20Arandhara.jpg",
     "status": "alumni"
   },
   {
     "id": 20,
     "name": "Arantara Choudhury",
     "role": "PR & Management Head",
-    "photo": "https://i.postimg.cc/MG0jNHFL/Arantara-Choudhury.jpg",
+    "photo": "/assets/members/Arantara%20Choudhury.jpg",
     "status": "alumni"
   },
   {
     "id": 21,
     "name": "Arindam Hazarika",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/ZqzdwpV3/Arindam-Hazarika.jpg",
+    "photo": "/assets/members/Arindam%20Hazarika.jpg",
     "status": "alumni"
   },
   {
     "id": 22,
     "name": "Bidisha Baruah",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/4Nr73pCM/Bidisha-Baruah.jpg",
+    "photo": "/assets/members/Bidisha%20Baruah.jpg",
     "status": "alumni"
   },
   {
     "id": 23,
     "name": "Lakshmishree Saikia",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/L4GLJcLN/Lakshmishree-Saikia.jpg",
+    "photo": "/assets/members/Lakshmishree%20Saikia.jpg",
     "status": "alumni"
   },
   {
     "id": 24,
     "name": "Prachurjya Dutta",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/BbF85vHN/PRACHURJYA-DUTTA.jpg",
+    "photo": "/assets/members/PRACHURJYA%20DUTTA.jpg",
     "status": "alumni"
   },
   {
     "id": 25,
     "name": "Prasanta Jyoti Malakar",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/sfGZCTqS/Prasanta-jyoti-malakar.jpg",
+    "photo": "/assets/members/Prasanta%20jyoti%20malakar.jpg",
     "status": "alumni"
   },
   {
     "id": 26,
     "name": "Ankita Kumari",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/3R72xmG7/Ankita-Kumari.jpg",
+    "photo": "/assets/members/Ankita%20Kumari.jpg",
     "status": "alumni"
   },
   {
     "id": 27,
     "name": "Jitu Boruah",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/K8PzvVDk/jitu-boruah.jpg",
+    "photo": "/assets/members/jitu%20boruah.jpg",
     "status": "alumni"
   },
   {
     "id": 28,
     "name": "Anish Chamuah",
     "role": "Senior member",
-    "photo": "https://i.postimg.cc/wBDhz070/Anish-Chamuah.jpg",
+    "photo": "/assets/members/Anish%20Chamuah.jpg",
     "status": "alumni"
   },
   {
     "id": 29,
     "name": "Ankit Nath",
     "role": "Research & Development Head",
-    "photo": "https://i.postimg.cc/HkcwZpHG/Ankit-Ankit-Nath.jpg",
+    "photo": "/assets/members/Ankit%20-%20Ankit%20Nath.jpg",
     "status": "alumni"
   },
   {
     "id": 30,
     "name": "Ankur Talukder",
     "role": "Research & Development Head",
-    "photo": "https://i.postimg.cc/tJ4PhbDM/Ankur-Talukder.jpg",
+    "photo": "/assets/members/Ankur%20Talukder.jpeg",
     "status": "alumni"
   },
   {
     "id": 31,
     "name": "Banchita Baruah",
     "role": "Executive Member",
-    "photo": "https://i.postimg.cc/d14ZQXvm/Banchita-Baruah.jpg",
+    "photo": "/assets/members/Banchita%20Baruah.jpg",
     "status": "alumni"
   },
   {
     "id": 32,
     "name": "Jahnabi Sarma",
     "role": "PR & Management Head",
-    "photo": "https://i.postimg.cc/sDZxb1BJ/Jahnabi-Sarma.jpg",
+    "photo": "/assets/members/Jahnabi%20Sarma.jpg",
     "status": "alumni"
   },
   {
     "id": 33,
     "name": "Kobal Dip Das",
     "role": "Workshop In-Charge",
-    "photo": "https://i.postimg.cc/rmmFjpXx/Kobal-Dip-Das.jpg",
+    "photo": "/assets/members/Kobal%20Dip%20Das.jpg",
     "status": "alumni"
   },
   {
     "id": 34,
     "name": "Manish Tapan Deka",
     "role": "Research & Development Head",
-    "photo": "https://i.postimg.cc/yY99cLTB/Manish-Tapan-Deka.png",
+    "photo": "/assets/members/Manish%20Tapan%20Deka.png",
     "status": "alumni"
   },
   {
     "id": 35,
     "name": "Rupam Jyoti Das",
     "role": "Senior member",
-    "photo": "https://i.postimg.cc/SKZzk3mL/my-passport-photo-Rupam-Jyoti-Das.jpg",
+    "photo": "/assets/members/my-passport-photo%20-%20Rupam%20Jyoti%20Das.jpg",
     "status": "alumni"
   },
   {
     "id": 36,
     "name": "Siddhart Sonowal",
     "role": "Treasurer And Finance Head",
-    "photo": "https://i.postimg.cc/fyYLtrQr/Siddhart-Sonowal.jpg",
+    "photo": "/assets/members/Siddhart%20Sonowal.jpg",
     "status": "alumni"
   },
   {
     "id": 37,
     "name": "Tanmoy Sarma",
     "role": "Robotics & Automation Head",
-    "photo": "https://i.postimg.cc/j2Yqb4nQ/Tanmoy_Sarma.jpg",
+    "photo": "/assets/members/Tanmoy%20Sarma.jpg",
     "status": "alumni"
   }
 ]
